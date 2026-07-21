@@ -1,0 +1,491 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:vm="clr-namespace:PetManage.ViewModels"
+             xmlns:lg="clr-namespace:PetManage.Services"
+             x:Class="PetManage.View.SettingsPage"
+             Title="{Binding [Settings], Source={StaticResource Loc}}">
+
+    <Grid RowDefinitions="7*, 86*, 7*">
+
+        <!--#region Профиль -->
+        <Grid Grid.Row="0"
+              Padding="10"
+              ColumnDefinitions="*,*,*,Auto"
+              ColumnSpacing="10">
+
+            <Label Grid.Column="0"
+                   Text="Аврора"
+                   HorizontalTextAlignment="Center"
+                   VerticalOptions="Center"/>
+
+            <Label Grid.Column="1"
+                   Text="Кошка"
+                   HorizontalTextAlignment="Center"
+                   VerticalOptions="Center"/>
+
+            <Label Grid.Column="2"
+                   Text="Метис"
+                   HorizontalTextAlignment="Center"
+                   VerticalOptions="Center"/>
+
+            <Button Grid.Column="3"
+                    ImageSource="iconupdown.png"
+                    WidthRequest="40"
+                    HeightRequest="40"
+                    CornerRadius="20"
+                    VerticalOptions="Center"/>
+        </Grid>
+        <!--#endregion-->
+
+        <!--#region Основная часть -->
+        <ScrollView Grid.Row="1">
+
+            <VerticalStackLayout
+        Padding="15"
+        Spacing="20">
+
+                <!-- ===================== -->
+                <!-- Внешний вид -->
+                <!-- ===================== -->
+
+                <Label Text="Внешний вид"
+               FontSize="20"
+               FontAttributes="Bold"/>
+
+                <Grid ColumnDefinitions="Auto,*"
+              ColumnSpacing="15">
+
+                    <Label
+                Text="{Binding [Theme], Source={StaticResource Loc}}"
+                VerticalOptions="Center"/>
+
+                    <Picker
+                Grid.Column="1"
+                ItemsSource="{Binding ThemesPicker}"
+                SelectedItem="{Binding SelectedTheme}"/>
+
+                </Grid>
+
+                <Grid ColumnDefinitions="Auto,*"
+              ColumnSpacing="15">
+
+                    <Label
+                Text="{Binding [Language], Source={StaticResource Loc}}"
+                VerticalOptions="Center"/>
+
+                    <Picker
+                Grid.Column="1"
+                ItemsSource="{Binding Languages}"
+                SelectedItem="{Binding SelectedLanguage}"
+                ItemDisplayBinding="{Binding DisplayName}"/>
+
+                </Grid>
+
+                <!-- ===================== -->
+                <!-- Уведомления -->
+                <!-- ===================== -->
+
+                <Label Text="Уведомления"
+               FontSize="20"
+               FontAttributes="Bold"/>
+
+                <!-- ===================== -->
+                <!-- Напоминание о кормлении -->
+                <!-- ===================== -->
+
+                <Frame
+            CornerRadius="12"
+            Padding="15"
+            Margin="0,5"
+            HasShadow="False"
+            BorderColor="{AppThemeBinding Light=#D0D0D0, Dark=#404040}">
+
+                    <VerticalStackLayout Spacing="12">
+
+                        <Grid ColumnDefinitions="*,Auto">
+
+                            <Label
+                        Text="Напоминание о кормлении"
+                        FontAttributes="Bold"
+                        VerticalOptions="Center"/>
+
+                            <Switch
+                        Grid.Column="1"
+                        OffColor="Red"
+                        OnColor="Lime"/>
+
+                        </Grid>
+
+                        <Grid ColumnDefinitions="Auto,*,Auto,*"
+                      ColumnSpacing="10">
+
+                            <Label
+                        Text="От"
+                        VerticalOptions="Center"/>
+
+                            <TimePicker
+                        Grid.Column="1"
+                        Time="08:00"/>
+
+                            <Label
+                        Grid.Column="2"
+                        Text="До"
+                        VerticalOptions="Center"/>
+
+                            <TimePicker
+                        Grid.Column="3"
+                        Time="20:00"/>
+
+                        </Grid>
+
+                        <Grid ColumnDefinitions="Auto,*"
+                      ColumnSpacing="10">
+
+                            <Label
+                        Text="Шаг"
+                        VerticalOptions="Center"/>
+
+                            <TimePicker
+                        Grid.Column="1"
+                        Time="04:00"/>
+
+                        </Grid>
+
+                    </VerticalStackLayout>
+
+                </Frame>
+                <!--#endregion-->
+
+                <!-- ===================== -->
+                <!-- Напоминание о прогулках -->
+                <!-- ===================== -->
+
+                <Frame
+            CornerRadius="12"
+            Padding="15"
+            Margin="0,5"
+            HasShadow="False"
+            BorderColor="{AppThemeBinding Light=#D0D0D0, Dark=#404040}">
+
+                    <VerticalStackLayout Spacing="12">
+
+                        <Grid ColumnDefinitions="*,Auto">
+
+                            <Label
+                        Text="Напоминание о прогулках"
+                        FontAttributes="Bold"
+                        VerticalOptions="Center"/>
+
+                            <Switch
+                        Grid.Column="1"
+                        OffColor="Red"
+                        OnColor="Lime"/>
+
+                        </Grid>
+
+                        <Grid ColumnDefinitions="Auto,*,Auto,*"
+                      ColumnSpacing="10">
+
+                            <Label Text="От"
+                           VerticalOptions="Center"/>
+
+                            <TimePicker
+                        Grid.Column="1"
+                        Time="08:00"/>
+
+                            <Label
+                        Grid.Column="2"
+                        Text="До"
+                        VerticalOptions="Center"/>
+
+                            <TimePicker
+                        Grid.Column="3"
+                        Time="20:00"/>
+
+                        </Grid>
+
+                        <Grid ColumnDefinitions="Auto,*"
+                      ColumnSpacing="10">
+
+                            <Label
+                        Text="Шаг"
+                        VerticalOptions="Center"/>
+
+                            <TimePicker
+                        Grid.Column="1"
+                        Time="08:00"/>
+
+                        </Grid>
+
+                    </VerticalStackLayout>
+
+                </Frame>
+
+                <!-- ===================== -->
+                <!-- Напоминание о вакцинации -->
+                <!-- ===================== -->
+
+                <Frame
+            CornerRadius="12"
+            Padding="15"
+            Margin="0,5"
+            HasShadow="False"
+            BorderColor="{AppThemeBinding Light=#D0D0D0, Dark=#404040}">
+
+                    <VerticalStackLayout Spacing="12">
+
+                        <Grid ColumnDefinitions="*,Auto">
+
+                            <Label
+                        Text="Напоминание о вакцинации"
+                        FontAttributes="Bold"
+                        VerticalOptions="Center"/>
+
+                            <Switch
+                        Grid.Column="1"
+                        OffColor="Red"
+                        OnColor="Lime"/>
+
+                        </Grid>
+
+                        <Grid ColumnDefinitions="Auto,*"
+                      ColumnSpacing="10">
+
+                            <Label
+                        Text="Дата процедуры"
+                        VerticalOptions="Center"/>
+
+                            <DatePicker
+                        Grid.Column="1"/>
+
+                        </Grid>
+
+                    </VerticalStackLayout>
+
+                </Frame>
+
+                <!-- ===================== -->
+                <!-- Напоминание о приеме лекарств -->
+                <!-- ===================== -->
+
+                <Frame
+            CornerRadius="12"
+            Padding="15"
+            Margin="0,5"
+            HasShadow="False"
+            BorderColor="{AppThemeBinding Light=#D0D0D0, Dark=#404040}">
+
+                    <VerticalStackLayout Spacing="12">
+
+                        <Grid ColumnDefinitions="*,Auto">
+
+                            <Label
+                        Text="Напоминание о приеме лекарств"
+                        FontAttributes="Bold"
+                        VerticalOptions="Center"/>
+
+                            <Switch
+                        Grid.Column="1"
+                        OffColor="Red"
+                        OnColor="Lime"/>
+
+                        </Grid>
+
+                        <Grid ColumnDefinitions="Auto,*,Auto,*"
+                      ColumnSpacing="10">
+
+                            <Label
+                        Text="От"
+                        VerticalOptions="Center"/>
+
+                            <TimePicker
+                        Grid.Column="1"
+                        Time="08:00"/>
+
+                            <Label
+                        Grid.Column="2"
+                        Text="До"
+                        VerticalOptions="Center"/>
+
+                            <TimePicker
+                        Grid.Column="3"
+                        Time="20:00"/>
+
+                        </Grid>
+
+                        <Grid ColumnDefinitions="Auto,*"
+                      ColumnSpacing="10">
+
+                            <Label
+                        Text="Шаг"
+                        VerticalOptions="Center"/>
+
+                            <TimePicker
+                        Grid.Column="1"
+                        Time="02:00"/>
+
+                        </Grid>
+
+                    </VerticalStackLayout>
+
+                </Frame>
+
+                <!-- ===================== -->
+                <!-- Дополнительные уведомления -->
+                <!-- ===================== -->
+
+                <Frame
+            CornerRadius="12"
+            Padding="15"
+            Margin="0,5"
+            HasShadow="False"
+            >
+
+                    <Grid ColumnDefinitions="*,Auto">
+
+                        <Label
+                    Text="Вибрация при уведомлении"
+                    VerticalOptions="Center"/>
+
+                        <Switch
+                    Grid.Column="1"
+                    OffColor="Red"
+                    OnColor="Lime"/>
+
+                    </Grid>
+
+                </Frame>
+
+                <Frame
+            CornerRadius="12"
+            Padding="15"
+            Margin="0,5"
+            HasShadow="False"
+            BackgroundColor="{AppThemeBinding Light=#FFFFFF, Dark=#2C2C2C}"      
+            BorderColor="{AppThemeBinding Light=#D0D0D0, Dark=#404040}">
+
+                    <VerticalStackLayout Spacing="12">
+
+                        <Grid ColumnDefinitions="*,Auto">
+
+                            <Label
+                        Text="Не беспокоить"
+                        FontAttributes="Bold"
+                        VerticalOptions="Center"/>
+
+                            <Switch
+                        Grid.Column="1"
+                        OffColor="Red"
+                        OnColor="Lime"/>
+
+                        </Grid>
+
+                        <Grid ColumnDefinitions="Auto,*,Auto,*"
+                      ColumnSpacing="10">
+
+                            <Label
+                        Text="От"
+                        VerticalOptions="Center"/>
+
+                            <TimePicker Grid.Column="1"/>
+
+                            <Label
+                        Grid.Column="2"
+                        Text="До"
+                        VerticalOptions="Center"/>
+
+                            <TimePicker Grid.Column="3"/>
+
+                        </Grid>
+
+                    </VerticalStackLayout>
+
+                </Frame>
+
+                <!-- ===================== -->
+                <!-- Функциональные настройки -->
+                <!-- ===================== -->
+
+                <Label
+            Text="Функциональные настройки"
+            FontSize="20"
+            FontAttributes="Bold"/>
+
+                <Grid ColumnDefinitions="Auto,*"
+              ColumnSpacing="15">
+
+                    <Label
+                Text="Валюта"
+                VerticalOptions="Center"/>
+
+                    <Picker
+                Grid.Column="1"
+                ItemsSource="{Binding CurrencyTypes}"/>
+
+                </Grid>
+
+                <!-- ===================== -->
+                <!-- О приложении -->
+                <!-- ===================== -->
+
+                <Label
+            Text="О приложении"
+            FontSize="20"
+            FontAttributes="Bold"/>
+
+                <Grid ColumnDefinitions="Auto,*"
+              ColumnSpacing="15">
+
+                    <Label
+                Text="Версия приложения"
+                VerticalOptions="Center"/>
+
+                    <Label
+                Grid.Column="1"
+                Text="1.0"
+                HorizontalOptions="End"
+                VerticalOptions="Center"/>
+
+                </Grid>
+
+            </VerticalStackLayout>
+
+        </ScrollView>
+
+        <!--#region Кнопки S/C -->
+        <Grid Grid.Row="2"
+              ColumnDefinitions="4.5*, 1*, 4.5*">
+
+            <Button ImageSource="iconfloppydisk.png"
+                    BackgroundColor="SpringGreen"
+                    FontSize="17"
+                    Text="Сохранить"
+                    Grid.Column="0"
+                    HorizontalOptions="Center"
+                    BorderColor="Black"
+                    BorderWidth="1"
+                    WidthRequest="175"
+                    HeightRequest="50"
+                    CornerRadius="25"
+                    Command="{Binding SaveCommand}"/>
+
+            <Button ImageSource="iconcancelbutton.png"
+                    BackgroundColor="LightSalmon"
+                    FontSize="17"
+                    Text="Отмена"
+                    Grid.Column="2"
+                    HorizontalOptions="Center"
+                    BorderColor="Black"
+                    BorderWidth="1"
+                    WidthRequest="175"
+                    HeightRequest="50"
+                    CornerRadius="25"
+                    Command="{Binding CancelCommand}"/>
+
+        </Grid>
+        <!--#endregion-->
+
+    </Grid>
+    
+</ContentPage>

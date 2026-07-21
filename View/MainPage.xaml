@@ -1,0 +1,143 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:vm="clr-namespace:PetManage.ViewModels"
+             xmlns:lg="clr-namespace:PetManage.Services"
+             x:Class="PetManage.MainPage"
+             xmlns:views="clr-namespace:PetManage.View">
+    
+    <ContentPage.BindingContext>
+        <vm:MainVM/>
+    </ContentPage.BindingContext>
+    
+    <Grid RowDefinitions="7*, 83*, 7*, 3*">
+
+        <Grid Grid.Row="0"
+              ColumnDefinitions="2*,2*,2*,1*">
+              
+            <Label Grid.Column="0"
+                   Text="Аврора"
+                   HorizontalTextAlignment="Center"
+                   Padding="14"/>
+
+            <Label Grid.Column="1"
+                   Text="Кошка"
+                   HorizontalTextAlignment="Center"
+                   Padding="14"/>
+
+            <Label Grid.Column="2"
+                   Text="Метис"
+                   HorizontalTextAlignment="Center"
+                   Padding="14"/>
+
+            <Button Grid.Column="3"
+                    ImageSource="iconupdown.png"
+                    BorderColor="Black"
+                    BorderWidth="1"
+                    WidthRequest="32"
+                    HeightRequest="32"
+                    CornerRadius="16"
+                    Command="{Binding #}"/>
+
+        </Grid>
+
+        <Grid Grid.Row="1">
+
+
+            
+        </Grid>
+        
+        <Grid Grid.Row="2"
+              ColumnDefinitions="2*,2*,2*,2*,2*">
+
+            <Button Grid.Column="0"
+                    ImageSource="iconpetfood.png"
+                    HorizontalOptions="Center"
+                    BorderColor="Black"
+                    BorderWidth="1"
+                    WidthRequest="50"
+                    HeightRequest="50"
+                    CornerRadius="25"
+                    Command="{Binding OpenFoodCommand}"/>
+
+            <Button Grid.Column="1"
+                    ImageSource="icontoy.png"
+                    HorizontalOptions="Center"
+                    BorderColor="Black"
+                    BorderWidth="1"
+                    WidthRequest="50"
+                    HeightRequest="50"
+                    CornerRadius="25"
+                    Command="{Binding OpenGamesCommand}"/>
+
+            <Button Grid.Column="2"
+                    ImageSource="iconhealth.png"
+                    HorizontalOptions="Center"
+                    BorderColor="Black"
+                    BorderWidth="1"
+                    WidthRequest="50"
+                    HeightRequest="50"
+                    CornerRadius="25"
+                    Command="{Binding OpenHealthCommand}"/>
+
+            <Button Grid.Column="3"
+                    ImageSource="iconcalculator.png"
+                    HorizontalOptions="Center"
+                    BorderColor="Black"
+                    BorderWidth="1"
+                    WidthRequest="50"
+                    HeightRequest="50"
+                    CornerRadius="25"
+                    Command="{Binding OpenFinanceCommand}"/>
+
+            <Button Grid.Column="4"
+                    ImageSource="iconsettings.png"
+                    HorizontalOptions="Center"
+                    BorderColor="Black"
+                    BorderWidth="1"
+                    WidthRequest="50"
+                    HeightRequest="50"
+                    CornerRadius="25"
+                    Command="{Binding OpenSettingsCommand}"/>
+
+        </Grid>
+
+        <Grid Grid.Row="3"
+              ColumnDefinitions="2*,2*,2*,2*,2*">
+
+            <Label Grid.Column="0"
+                   Text="Еда"
+                   HorizontalTextAlignment="Center">
+                
+            </Label>
+
+            <Label Grid.Column="1"
+                   Text="Игры"
+                   HorizontalTextAlignment="Center">
+                
+            </Label>
+
+            <Label Grid.Column="2"
+                   Text="Здоровье"
+                   HorizontalTextAlignment="Center">
+                
+            </Label>
+
+            <Label Grid.Column="3"
+                   Text="Финансы"
+                   HorizontalTextAlignment="Center">
+                
+            </Label>
+
+            <Label Grid.Column="4"
+                   Text="{Binding [Settings], Source={StaticResource Loc}}"
+                   HorizontalTextAlignment="Center">
+                
+            </Label>
+
+        </Grid>
+
+
+    </Grid>
+
+</ContentPage>
