@@ -1,17 +1,19 @@
 ﻿using PetManage.Resources.Languages;
+using Plugin.LocalNotification;
+using Plugin.LocalNotification.Core.Models;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
 namespace PetManage.Services
 {
-    public static class MessageHelper
+    public class MessageHelper
     {
         public static async Task ShowError(
             string messageKey,
             string titleKey)
         {
-            await Shell.Current.DisplayAlert(
+            await Shell.Current.DisplayAlertAsync(
                 AppResources.ResourceManager.GetString(titleKey),
                 AppResources.ResourceManager.GetString(messageKey),
                 "OK");
@@ -21,7 +23,7 @@ namespace PetManage.Services
             string messageKey,
             string titleKey)
         {
-            await Shell.Current.DisplayAlert(
+            await Shell.Current.DisplayAlertAsync(
                 AppResources.ResourceManager.GetString(titleKey),
                 AppResources.ResourceManager.GetString(messageKey),
                 "OK");
@@ -31,7 +33,7 @@ namespace PetManage.Services
             string messageKey,
             string titleKey)
         {
-            await Shell.Current.DisplayAlert(
+            await Shell.Current.DisplayAlertAsync(
                 AppResources.ResourceManager.GetString(titleKey),
                 AppResources.ResourceManager.GetString(messageKey),
                 "OK");
@@ -41,11 +43,23 @@ namespace PetManage.Services
             string messageKey,
             string titleKey)
         {
-            return await Shell.Current.DisplayAlert(
+            return await Shell.Current.DisplayAlertAsync(
                 AppResources.ResourceManager.GetString(titleKey),
                 AppResources.ResourceManager.GetString(messageKey),
                 AppResources.Yes,
                 AppResources.No);
+        }
+
+        public static async Task ShowMessageFood()
+        {
+            var request = new NotificationRequest
+            {
+                NotificationId = 1,
+                Title = "PetManage",
+                Description = "Покорми котейку епта"
+            };
+
+            await LocalNotificationCenter.Current.Show(request);
         }
     }
 }

@@ -2,6 +2,7 @@
 using PetManage.ViewModels;
 using PetManage.Services;
 using PetManage.View;
+using Plugin.LocalNotification;
 
 namespace PetManage
 {
@@ -12,7 +13,7 @@ namespace PetManage
             var builder = MauiApp.CreateBuilder();
             builder
                 .UseMauiApp<App>()
-               
+                .UseLocalNotification()
                 .ConfigureFonts(fonts =>
                 {
                     fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");

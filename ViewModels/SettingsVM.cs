@@ -78,10 +78,24 @@ namespace PetManage.ViewModels
             SelectedTheme = Settings.Theme;
         }
 
+        partial void OnIsEventFoodEnabledChanged(bool value)
+        {
+            if (value)
+            {
+                _ = ToogleEventFood();
+            }
+        }
+
         [RelayCommand]
         private async Task Cancel()
         {
             await Shell.Current.GoToAsync("..");
+        }
+
+        [RelayCommand]
+        private async Task ToogleEventFood()
+        {
+            await MessageHelper.ShowMessageFood();
         }
 
         [RelayCommand]
@@ -114,16 +128,6 @@ namespace PetManage.ViewModels
             };
         }
 
-        [RelayCommand]
-
-        private async Task EventFood()
-        {
-           if (IsEventFoodEnabled == true) 
-           {
-               
-           }
-        }
-
         public SettingsVM(DatabaseService database)
         {
             _database = database;
@@ -137,6 +141,8 @@ namespace PetManage.ViewModels
                 CreateLanguage("fr"),
                 CreateLanguage("de")
             };
+
+
 
             ThemesPicker = new ObservableCollection<Themes>(Enum.GetValues<Themes>());
 
