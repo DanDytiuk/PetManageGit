@@ -118,14 +118,14 @@
                                    VerticalOptions="Center"/>
 
                             <TimePicker Grid.Column="1"
-                                        Time="08:00"/>
+                                        Time="{Binding FromTimeEat}"/>
 
                             <Label Grid.Column="2"
                                    Text="До"
                                    VerticalOptions="Center"/>
 
                             <TimePicker Grid.Column="3"
-                                        Time="20:00"/>
+                                        Time="{Binding ToTimeEat}"/>
 
                         </Grid>
 

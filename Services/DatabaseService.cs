@@ -1,8 +1,6 @@
 ﻿using PetManage.Models;
 using SQLite;
-using System;
-using System.Collections.Generic;
-using System.Text;
+using System.Diagnostics;
 
 namespace PetManage.Services
 {
@@ -22,7 +20,8 @@ namespace PetManage.Services
             _database = new SQLiteAsyncConnection(path);
 
             await _database.CreateTableAsync<SettingsModel>();
-        }
+            await _database.CreateTableAsync<ProfileModel>();
+}
 
         public async Task<SettingsModel> GetSettingsAsync()
         {

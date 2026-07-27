@@ -14,40 +14,97 @@ namespace PetManage.ViewModels
         private readonly DatabaseService _database;
 
         #region Observable Property
+
         [ObservableProperty]
         private LanguageModel selectedLanguage;
 
         [ObservableProperty]
         private Themes selectedTheme;
 
-        #region Bool
+        #region Food
 
         [ObservableProperty]
         private bool isEventFoodEnabled;
 
         [ObservableProperty]
+        private DateTime fromTimeEat;
+
+        [ObservableProperty]
+        private DateTime toTimeEat;
+
+        [ObservableProperty]
+        private DateTime stepTimeEat;
+        
+        #endregion
+
+        #region Walk
+
+        [ObservableProperty]
         private bool isEventWalkEnabled;
+
+        [ObservableProperty]
+        private DateTime fromTimeWalk;
+
+        [ObservableProperty]
+        private DateTime toTimeWalk;
+
+        [ObservableProperty]
+        private DateTime stepTimeWalk;
+
+        #endregion
+
+        #region Vaccination
 
         [ObservableProperty]
         private bool isEventVacEnabled;
 
         [ObservableProperty]
+        private DateTime dateVaccination;
+
+        #endregion
+
+        #region Pill
+        [ObservableProperty]
         private bool isEventHealthCareEnabled;
+
+        [ObservableProperty]
+        private DateTime fromTimePill;
+
+        [ObservableProperty]
+        private DateTime toTimePill;
+
+        [ObservableProperty]
+        private DateTime stepTimePill; 
+        #endregion
 
         [ObservableProperty]
         private bool isVibroEnabled;
 
+        #region DonutDisturb
         [ObservableProperty]
-        private bool isDisturbEnabled; 
+        private bool isDisturbEnabled;
 
+        [ObservableProperty]
+        private DateTime fromDonutDisturb;
+
+        [ObservableProperty]
+        private DateTime toDonutDisturb;
         #endregion
+
+        [ObservableProperty]
+        private string valueOfCurrency;
+
+        [ObservableProperty]
+        private string valueOfVersion;
 
         #endregion
 
         #region Observable Collection
+
         public ObservableCollection<LanguageModel> Languages { get; }
         public ObservableCollection<Themes> ThemesPicker { get; }
         public ObservableCollection<TypesOfCurrency> CurrencyTypes { get; } 
+
         #endregion
 
         private SettingsModel Settings;
@@ -62,20 +119,74 @@ namespace PetManage.ViewModels
                 LanguageCode = code
             };
         }
-
         private async Task LoadAsync()
         {
             Settings = await _database.GetSettingsAsync() ?? new SettingsModel
             {
                 // Подставьте реальные значения по умолчанию для вашей модели
                 Language = Languages.First().LanguageCode,
-                Theme = ThemesPicker.FirstOrDefault()
+                Theme = ThemesPicker.FirstOrDefault(),
+
+                PushEat = false,
+                FromTimeEat = DateTime.Now,
+                ToTimeEat = DateTime.Now.AddHours(1),
+                StepTimeEat = DateTime.Now.AddMinutes(30),
+
+                PushWalk = false,
+                FromTimeWalk = DateTime.Now,
+                ToTimeWalk = DateTime.Now.AddHours(1),
+                StepTimeWalk = DateTime.Now.AddMinutes(30),
+
+                PushVaccination = false,
+                DateVaccination = DateTime.Now,
+
+                DonutDisturb = false,
+                FromDonutDisturb = DateTime.Now,
+                ToDonutDisturb = DateTime.Now.AddHours(1),
+
+                PushGivePill = false,
+                FromTimeGivePill = DateTime.Now,
+                ToTimeGivePill = DateTime.Now.AddHours(1),
+                StepTimeGivePill = DateTime.Now.AddMinutes(30),
+
+                Vibration = false,
+
+                ValueOfCurrency = CurrencyTypes.FirstOrDefault().ToString() ?? "USD",
+                VersionOfApp = 1.0
             };
 
             SelectedLanguage =
                 Languages.FirstOrDefault(l => l.LanguageCode == Settings.Language) ?? Languages.First();
 
             SelectedTheme = Settings.Theme;
+
+            IsEventFoodEnabled = Settings.PushEat;
+            FromTimeEat = Settings.FromTimeEat;
+            ToTimeEat = Settings.ToTimeEat;
+            StepTimeEat = Settings.StepTimeEat;
+
+            IsEventWalkEnabled = Settings.PushWalk;
+            FromTimeWalk = Settings.FromTimeWalk;
+            ToTimeWalk = Settings.ToTimeWalk;
+            StepTimeWalk = Settings.StepTimeWalk;
+
+            IsEventVacEnabled = Settings.PushVaccination;
+            DateVaccination = Settings.DateVaccination;
+
+            IsDisturbEnabled = Settings.DonutDisturb;
+            FromDonutDisturb = Settings.FromDonutDisturb;
+            ToDonutDisturb = Settings.ToDonutDisturb;
+
+            IsEventHealthCareEnabled = Settings.PushGivePill;
+            FromTimePill = Settings.FromTimeGivePill;
+            ToTimePill = Settings.ToTimeGivePill;
+            StepTimePill = Settings.StepTimeGivePill;
+
+            IsVibroEnabled = Settings.Vibration;
+
+            ValueOfCurrency = Settings.ValueOfCurrency;
+            ValueOfVersion = Settings.VersionOfApp.ToString();
+
         }
 
         partial void OnIsEventFoodEnabledChanged(bool value)
@@ -83,6 +194,7 @@ namespace PetManage.ViewModels
             if (value)
             {
                 _ = ToogleEventFood();
+                Settings.PushEat = true;
             }
         }
 
@@ -108,11 +220,36 @@ namespace PetManage.ViewModels
 
             Settings.Theme = SelectedTheme;
 
+            Settings.PushEat = IsEventFoodEnabled;
+            Settings.FromTimeEat = FromTimeEat;
+            Settings.ToTimeEat = ToTimeEat;
+            Settings.StepTimeEat = StepTimeEat;
+
+            Settings.PushWalk = IsEventWalkEnabled;
+            Settings.FromTimeWalk = FromTimeWalk;
+            Settings.ToTimeWalk = ToTimeWalk;
+            Settings.StepTimeWalk = StepTimeWalk;
+
+            Settings.PushVaccination = IsEventVacEnabled;
+            Settings.DateVaccination = DateVaccination;
+
+            Settings.DonutDisturb = IsDisturbEnabled;
+            Settings.FromDonutDisturb = FromDonutDisturb;
+            Settings.ToDonutDisturb = ToDonutDisturb;
+
+            Settings.PushGivePill = IsEventHealthCareEnabled;
+            Settings.FromTimeGivePill = FromTimePill;
+            Settings.ToTimeGivePill = ToTimePill;
+            Settings.StepTimeGivePill = StepTimePill;
+
+            Settings.Vibration = IsVibroEnabled;
+
             await _database.SaveSettingsAsync(Settings);
 
-            // безопасное получение локализатора из ресурсов
-            LocalizationManager loc = null;
+            LocalizationManager? loc = null;
+
             var resources = Application.Current?.Resources;
+
             if (resources != null && resources.TryGetValue("Loc", out var locObj))
             {
                 loc = locObj as LocalizationManager;

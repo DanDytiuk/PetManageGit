@@ -7,3 +7,4 @@ using System.Diagnostics.CodeAnalysis;
 
 [assembly: SuppressMessage("CommunityToolkit.Mvvm.SourceGenerators.ObservablePropertyGenerator", "MVVMTK0042:Prefer using [ObservableProperty] on partial properties", Justification = "<Ожидание>", Scope = "member", Target = "~F:PetManage.ViewModels.SettingsVM.IsEventFoodAvailable")]
 [assembly: SuppressMessage("CommunityToolkit.Mvvm.SourceGenerators.ObservablePropertyGenerator", "MVVMTK0042:Prefer using [ObservableProperty] on partial properties", Justification = "<Ожидание>", Scope = "member", Target = "~F:PetManage.ViewModels.SettingsVM.isDisturbEnabled")]
+[assembly: SuppressMessage("CommunityToolkit.Mvvm.SourceGenerators.ObservablePropertyGenerator", "MVVMTK0042:Prefer using [ObservableProperty] on partial properties", Justification = "<Ожидание>", Scope = "member", Target = "~F:PetManage.ViewModels.SettingsVM.isEventFoodEnabled")]
