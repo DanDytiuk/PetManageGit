@@ -118,7 +118,8 @@
                                    VerticalOptions="Center"/>
 
                             <TimePicker Grid.Column="1"
-                                        Time="{Binding FromTimeEat}"/>
+                                        Time="{Binding FromTimeEat}"
+                                        />
 
                             <Label Grid.Column="2"
                                    Text="До"
@@ -136,7 +137,7 @@
                                    VerticalOptions="Center"/>
 
                             <TimePicker Grid.Column="1"
-                                        Time="04:00"/>
+                                        Time="{Binding StepTimeEat}"/>
 
                         </Grid>
 
@@ -166,7 +167,8 @@
 
                             <Switch Grid.Column="1"
                                     OffColor="Red"
-                                    OnColor="Lime"/>
+                                    OnColor="Lime"
+                                    IsToggled="{Binding IsEventWalkEnabled}"/>
 
                         </Grid>
 
@@ -177,27 +179,25 @@
                                    VerticalOptions="Center"/>
 
                             <TimePicker Grid.Column="1"
-                                        Time="08:00"/>
+                                        Time="{Binding FromTimeWalk}"/>
 
                             <Label Grid.Column="2"
                                    Text="До"
                                    VerticalOptions="Center"/>
 
                             <TimePicker Grid.Column="3"
-                                        Time="20:00"/>
+                                        Time="{Binding ToTimeWalk}"/>
 
                         </Grid>
 
                         <Grid ColumnDefinitions="Auto,*"
                               ColumnSpacing="10">
 
-                            <Label
-                        Text="Шаг"
-                        VerticalOptions="Center"/>
+                            <Label Text="Шаг"
+                                   VerticalOptions="Center"/>
 
-                            <TimePicker
-                        Grid.Column="1"
-                        Time="08:00"/>
+                            <TimePicker Grid.Column="1"
+                                        Time="{Binding StepTimeWalk}"/>
 
                         </Grid>
 
@@ -221,27 +221,27 @@
 
                         <Grid ColumnDefinitions="*,Auto">
 
-                            <Label
-                        Text="Напоминание о вакцинации"
-                        FontAttributes="Bold"
-                        VerticalOptions="Center"/>
+                            <Label Text="Напоминание о вакцинации"
+                                   FontAttributes="Bold"
+                                   VerticalOptions="Center"/>
 
-                            <Switch
-                        Grid.Column="1"
-                        OffColor="Red"
-                        OnColor="Lime"/>
+                            <Switch Grid.Column="1"
+                                    OffColor="Red"
+                                    OnColor="Lime"
+                                    IsToggled="{Binding IsEventVacEnabled}"/>
 
                         </Grid>
 
                         <Grid ColumnDefinitions="Auto,*"
-                      ColumnSpacing="10">
+                              ColumnSpacing="10">
 
-                            <Label
-                        Text="Дата процедуры"
-                        VerticalOptions="Center"/>
+                            <Label Text="Дата процедуры"
+                                   VerticalOptions="Center"/>
 
-                            <DatePicker
-                        Grid.Column="1"/>
+                            <DatePicker Grid.Column="1"
+                                        MinimumDate="{Binding MinDate}"
+                                        MaximumDate="{Binding MaxDate}"
+                                        Date="{Binding DateVaccination}"/>
 
                         </Grid>
 
@@ -265,50 +265,43 @@
 
                         <Grid ColumnDefinitions="*,Auto">
 
-                            <Label
-                        Text="Напоминание о приеме лекарств"
-                        FontAttributes="Bold"
-                        VerticalOptions="Center"/>
+                            <Label Text="Напоминание о приеме лекарств"
+                                   FontAttributes="Bold"
+                                   VerticalOptions="Center"/>
 
-                            <Switch
-                        Grid.Column="1"
-                        OffColor="Red"
-                        OnColor="Lime"/>
+                            <Switch Grid.Column="1"
+                                    OffColor="Red"
+                                    OnColor="Lime"
+                                    IsToggled="{Binding IsEventHealthCareEnabled}"/>
 
                         </Grid>
 
                         <Grid ColumnDefinitions="Auto,*,Auto,*"
-                      ColumnSpacing="10">
+                              ColumnSpacing="10">
 
-                            <Label
-                        Text="От"
-                        VerticalOptions="Center"/>
+                            <Label Text="От"
+                                   VerticalOptions="Center"/>
 
-                            <TimePicker
-                        Grid.Column="1"
-                        Time="08:00"/>
+                            <TimePicker Grid.Column="1"
+                                        Time="{Binding FromTimePill}"/>
 
-                            <Label
-                        Grid.Column="2"
-                        Text="До"
-                        VerticalOptions="Center"/>
+                            <Label Grid.Column="2"
+                                   Text="До"
+                                   VerticalOptions="Center"/>
 
-                            <TimePicker
-                        Grid.Column="3"
-                        Time="20:00"/>
+                            <TimePicker Grid.Column="3"
+                                        Time="{Binding ToTimePill}"/>
 
                         </Grid>
 
                         <Grid ColumnDefinitions="Auto,*"
-                      ColumnSpacing="10">
+                              ColumnSpacing="10">
 
-                            <Label
-                        Text="Шаг"
-                        VerticalOptions="Center"/>
+                            <Label Text="Шаг"
+                                   VerticalOptions="Center"/>
 
-                            <TimePicker
-                        Grid.Column="1"
-                        Time="02:00"/>
+                            <TimePicker Grid.Column="1"
+                                        Time="{Binding StepTimePill}"/>
 
                         </Grid>
 
@@ -333,7 +326,8 @@
 
                         <Switch Grid.Column="1"
                                 OffColor="Red"
-                                OnColor="Lime"/>
+                                OnColor="Lime"
+                                IsToggled="{Binding IsVibroEnabled}"/>
 
                     </Grid>
 
@@ -356,7 +350,8 @@
 
                             <Switch Grid.Column="1"
                                     OffColor="Red"
-                                    OnColor="Lime"/>
+                                    OnColor="Lime"
+                                    IsToggled="{Binding IsDisturbEnabled}"/>
 
                         </Grid>
 
@@ -366,13 +361,15 @@
                             <Label Text="От"
                                    VerticalOptions="Center"/>
 
-                            <TimePicker Grid.Column="1"/>
+                            <TimePicker Grid.Column="1"
+                                        Time="{Binding FromTimeDisturb}"/>
 
                             <Label Grid.Column="2"
                                    Text="До"
                                    VerticalOptions="Center"/>
 
-                            <TimePicker Grid.Column="3"/>
+                            <TimePicker Grid.Column="3"
+                                        Time="{Binding ToTimeDisturb}"/>
 
                         </Grid>
 
@@ -384,21 +381,19 @@
                 <!-- Функциональные настройки -->
                 <!-- ===================== -->
 
-                <Label
-            Text="Функциональные настройки"
-            FontSize="20"
-            FontAttributes="Bold"/>
+                <Label Text="Функциональные настройки"
+                       FontSize="20"
+                       FontAttributes="Bold"/>
 
                 <Grid ColumnDefinitions="Auto,*"
-              ColumnSpacing="15">
+                      ColumnSpacing="15">
 
-                    <Label
-                Text="Валюта"
-                VerticalOptions="Center"/>
+                    <Label Text="Валюта"
+                           VerticalOptions="Center"/>
 
-                    <Picker
-                Grid.Column="1"
-                ItemsSource="{Binding CurrencyTypes}"/>
+                    <Picker Grid.Column="1"
+                            ItemsSource="{Binding CurrencyTypes}"
+                            SelectedItem="{Binding ValueOfCurrency}"/>
 
                 </Grid>
 
@@ -406,23 +401,20 @@
                 <!-- О приложении -->
                 <!-- ===================== -->
 
-                <Label
-            Text="О приложении"
-            FontSize="20"
-            FontAttributes="Bold"/>
+                <Label Text="О приложении"
+                       FontSize="20"
+                       FontAttributes="Bold"/>
 
                 <Grid ColumnDefinitions="Auto,*"
-              ColumnSpacing="15">
+                      ColumnSpacing="15">
 
-                    <Label
-                Text="Версия приложения"
-                VerticalOptions="Center"/>
+                    <Label Text="Версия приложения"
+                           VerticalOptions="Center"/>
 
-                    <Label
-                Grid.Column="1"
-                Text="1.0"
-                HorizontalOptions="End"
-                VerticalOptions="Center"/>
+                    <Label Grid.Column="1"
+                           Text="{Binding ValueOfVersion}"
+                           HorizontalOptions="End"
+                           VerticalOptions="Center"/>
 
                 </Grid>
 

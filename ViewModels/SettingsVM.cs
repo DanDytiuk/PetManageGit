@@ -27,13 +27,13 @@ namespace PetManage.ViewModels
         private bool isEventFoodEnabled;
 
         [ObservableProperty]
-        private DateTime fromTimeEat;
+        private TimeSpan fromTimeEat;
 
         [ObservableProperty]
-        private DateTime toTimeEat;
+        private TimeSpan toTimeEat;
 
         [ObservableProperty]
-        private DateTime stepTimeEat;
+        private TimeSpan stepTimeEat;
         
         #endregion
 
@@ -43,13 +43,13 @@ namespace PetManage.ViewModels
         private bool isEventWalkEnabled;
 
         [ObservableProperty]
-        private DateTime fromTimeWalk;
+        private TimeSpan fromTimeWalk;
 
         [ObservableProperty]
-        private DateTime toTimeWalk;
+        private TimeSpan toTimeWalk;
 
         [ObservableProperty]
-        private DateTime stepTimeWalk;
+        private TimeSpan stepTimeWalk;
 
         #endregion
 
@@ -64,31 +64,35 @@ namespace PetManage.ViewModels
         #endregion
 
         #region Pill
+
         [ObservableProperty]
         private bool isEventHealthCareEnabled;
 
         [ObservableProperty]
-        private DateTime fromTimePill;
+        private TimeSpan fromTimePill;
 
         [ObservableProperty]
-        private DateTime toTimePill;
+        private TimeSpan toTimePill;
 
         [ObservableProperty]
-        private DateTime stepTimePill; 
+        private TimeSpan stepTimePill; 
+
         #endregion
 
         [ObservableProperty]
         private bool isVibroEnabled;
 
         #region DonutDisturb
+
         [ObservableProperty]
         private bool isDisturbEnabled;
 
         [ObservableProperty]
-        private DateTime fromDonutDisturb;
+        private TimeSpan fromDonutDisturb;
 
         [ObservableProperty]
-        private DateTime toDonutDisturb;
+        private TimeSpan toDonutDisturb;
+
         #endregion
 
         [ObservableProperty]
@@ -108,7 +112,10 @@ namespace PetManage.ViewModels
         #endregion
 
         private SettingsModel Settings;
-        
+
+        public DateTime MinDate { get; } = new DateTime(2020, 1, 1);
+        public DateTime MaxDate { get; } = new DateTime(2099, 12, 31);
+
         private LanguageModel CreateLanguage(string code)
         {
             var culture = new CultureInfo(code);
@@ -126,28 +133,6 @@ namespace PetManage.ViewModels
                 // Подставьте реальные значения по умолчанию для вашей модели
                 Language = Languages.First().LanguageCode,
                 Theme = ThemesPicker.FirstOrDefault(),
-
-                PushEat = false,
-                FromTimeEat = DateTime.Now,
-                ToTimeEat = DateTime.Now.AddHours(1),
-                StepTimeEat = DateTime.Now.AddMinutes(30),
-
-                PushWalk = false,
-                FromTimeWalk = DateTime.Now,
-                ToTimeWalk = DateTime.Now.AddHours(1),
-                StepTimeWalk = DateTime.Now.AddMinutes(30),
-
-                PushVaccination = false,
-                DateVaccination = DateTime.Now,
-
-                DonutDisturb = false,
-                FromDonutDisturb = DateTime.Now,
-                ToDonutDisturb = DateTime.Now.AddHours(1),
-
-                PushGivePill = false,
-                FromTimeGivePill = DateTime.Now,
-                ToTimeGivePill = DateTime.Now.AddHours(1),
-                StepTimeGivePill = DateTime.Now.AddMinutes(30),
 
                 Vibration = false,
 

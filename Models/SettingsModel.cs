@@ -14,18 +14,18 @@ namespace PetManage.Models
         #region Food
 
         public bool PushEat { get; set; } = false;
-        public DateTime FromTimeEat { get; set; }
-        public DateTime ToTimeEat { get; set; }
-        public DateTime StepTimeEat { get; set; }
+        public TimeSpan FromTimeEat { get; set; }
+        public TimeSpan ToTimeEat { get; set; }
+        public TimeSpan StepTimeEat { get; set; }
 
         #endregion
 
         #region Walk
 
         public bool PushWalk { get; set; } = false;
-        public DateTime FromTimeWalk { get; set; }
-        public DateTime ToTimeWalk { get; set; }
-        public DateTime StepTimeWalk { get; set; }
+        public TimeSpan FromTimeWalk { get; set; }
+        public TimeSpan ToTimeWalk { get; set; }
+        public TimeSpan StepTimeWalk { get; set; }
 
         #endregion
 
@@ -39,9 +39,9 @@ namespace PetManage.Models
         #region Pill
 
         public bool PushGivePill { get; set; } = false;
-        public DateTime FromTimeGivePill { get; set; }
-        public DateTime ToTimeGivePill { get; set; }
-        public DateTime StepTimeGivePill { get; set; }
+        public TimeSpan FromTimeGivePill { get; set; }
+        public TimeSpan ToTimeGivePill { get; set; }
+        public TimeSpan StepTimeGivePill { get; set; }
 
         #endregion
 
@@ -50,8 +50,8 @@ namespace PetManage.Models
         #region Disturb
 
         public bool DonutDisturb { get; set; }
-        public DateTime FromDonutDisturb { get; set; }
-        public DateTime ToDonutDisturb { get; set; }
+        public TimeSpan FromDonutDisturb { get; set; }
+        public TimeSpan ToDonutDisturb { get; set; }
 
         #endregion
 
