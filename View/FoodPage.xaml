@@ -2,11 +2,79 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="PetManage.View.FoodPage"
-             Title="FoodPage">
-    <VerticalStackLayout>
-        <Label 
-            Text="Welcome to .NET MAUI!"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" />
-    </VerticalStackLayout>
+             Title="Еда">
+    <Grid RowDefinitions="7*, 86*, 7*">
+
+        <!--#region Профиль -->
+        <Grid Grid.Row="0"
+              Padding="10"
+              ColumnDefinitions="*,*,*,Auto"
+              ColumnSpacing="10">
+
+            <Label Grid.Column="0"
+                   Text="Аврора"
+                   HorizontalTextAlignment="Center"
+                   VerticalOptions="Center"/>
+
+            <Label Grid.Column="1"
+                   Text="Кошка"
+                   HorizontalTextAlignment="Center"
+                   VerticalOptions="Center"/>
+
+            <Label Grid.Column="2"
+                   Text="Метис"
+                   HorizontalTextAlignment="Center"
+                   VerticalOptions="Center"/>
+
+            <Button Grid.Column="3"
+                    ImageSource="iconupdown.png"
+                    WidthRequest="40"
+                    HeightRequest="40"
+                    CornerRadius="20"
+                    VerticalOptions="Center"/>
+        </Grid>
+        <!--#endregion-->
+
+        <ScrollView Grid.Row="1">
+            <VerticalStackLayout Padding="15"
+                                 Spacing="20">
+
+                <Frame CornerRadius="12"
+                       Padding="15"
+                       Margin="0,5"
+                       HasShadow="False"
+                       BorderColor="{AppThemeBinding Light=#D0D0D0, Dark=#404040}"
+                       BackgroundColor="{AppThemeBinding Light=#FFFFFF, Dark=#2C2C2C}">
+
+                    <VerticalStackLayout Spacing="12">
+
+                        <Label Text="Информация про кормление"
+                               FontAttributes="Bold"
+                               VerticalOptions="Center"
+                               HorizontalTextAlignment="Center"/>
+
+                    </VerticalStackLayout>
+                    
+                </Frame>
+
+                <Frame CornerRadius="12"
+                       Padding="15"
+                       Margin="0,5"
+                       HasShadow="False"
+                       BackgroundColor="{AppThemeBinding Light=#FFFFFF, Dark=#2C2C2C}"
+                       BorderColor="{AppThemeBinding Light=#D0D0D0, Dark=#404040}">
+
+                    <CollectionView ItemsSource="">
+                        
+                        
+                        
+                    </CollectionView>
+                    
+                </Frame>
+                
+            </VerticalStackLayout>
+        </ScrollView>
+
+    </Grid>
+    
 </ContentPage>

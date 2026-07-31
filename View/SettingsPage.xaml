@@ -6,7 +6,7 @@
              x:Class="PetManage.View.SettingsPage"
              Title="{Binding [Settings], Source={StaticResource Loc}}">
 
-    <Grid RowDefinitions="7*, 86*, 7*">
+   <Grid RowDefinitions="7*, 86*, 7*">
 
         <!--#region Профиль -->
         <Grid Grid.Row="0"
