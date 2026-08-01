@@ -39,13 +39,16 @@
             <VerticalStackLayout Padding="15"
                                  Spacing="20">
 
-                <Frame CornerRadius="12"
-                       Padding="15"
-                       Margin="0,5"
-                       HasShadow="False"
-                       BorderColor="{AppThemeBinding Light=#D0D0D0, Dark=#404040}"
-                       BackgroundColor="{AppThemeBinding Light=#FFFFFF, Dark=#2C2C2C}">
+                <Border StrokeThickness="1"
+                        Padding="15"
+                        Margin="0,5"
+                        Stroke="{AppThemeBinding Light=#D0D0D0, Dark=#404040}"
+                        BackgroundColor="{AppThemeBinding Light=#FFFFFF, Dark=#2C2C2C}">
 
+                    <Border.StrokeShape>
+                        <RoundRectangle CornerRadius="12" />
+                    </Border.StrokeShape>
+                    
                     <VerticalStackLayout Spacing="12">
 
                         <Label Text="Информация про кормление"
@@ -55,26 +58,56 @@
 
                     </VerticalStackLayout>
                     
-                </Frame>
+                </Border>
 
-                <Frame CornerRadius="12"
-                       Padding="15"
-                       Margin="0,5"
-                       HasShadow="False"
-                       BackgroundColor="{AppThemeBinding Light=#FFFFFF, Dark=#2C2C2C}"
-                       BorderColor="{AppThemeBinding Light=#D0D0D0, Dark=#404040}">
+                <Border StrokeThickness="1"
+                        Padding="15"
+                        Margin="0,5"
+                        BackgroundColor="{AppThemeBinding Light=#FFFFFF, Dark=#2C2C2C}"
+                        Stroke="{AppThemeBinding Light=#D0D0D0, Dark=#404040}">
 
-                    <CollectionView ItemsSource="">
-                        
-                        
-                        
-                    </CollectionView>
+                    <Border.StrokeShape>
+                        <RoundRectangle CornerRadius="12" />
+                    </Border.StrokeShape>
+
                     
-                </Frame>
+                    
+                </Border>
                 
             </VerticalStackLayout>
         </ScrollView>
 
+        <Grid Grid.Row="2"
+              ColumnDefinitions="4.5*, 1*, 4.5*">
+
+            <Button ImageSource="add.png"
+                    BackgroundColor="SkyBlue"
+                    FontSize="17"
+                    Text="Добавить"
+                    Grid.Column="0"
+                    HorizontalOptions="Center"
+                    BorderColor="Black"
+                    BorderWidth="1"
+                    WidthRequest="175"
+                    HeightRequest="50"
+                    CornerRadius="25"
+                    />
+
+            <Button ImageSource="iconcancelbutton.png"
+                    BackgroundColor="LightSalmon"
+                    FontSize="17"
+                    Text="Отмена"
+                    Grid.Column="2"
+                    HorizontalOptions="Center"
+                    BorderColor="Black"
+                    BorderWidth="1"
+                    WidthRequest="175"
+                    HeightRequest="50"
+                    CornerRadius="25"
+                    Command="{Binding CancelCommand}"/>
+
+        </Grid>
+        
     </Grid>
     
 </ContentPage>

@@ -1,14 +1,11 @@
 ﻿using SQLite;
-using System;
-using System.Collections.Generic;
-using System.Security.Cryptography.X509Certificates;
-using System.Text;
 
 namespace PetManage.Models
 {
     [Table("Profile")]
     public class ProfileModel
     {
+        [PrimaryKey, AutoIncrement]
         public int Id { get; set; } = 1;
         public string Name { get; set; } = string.Empty;
         public string Breed { get; set; } = string.Empty;

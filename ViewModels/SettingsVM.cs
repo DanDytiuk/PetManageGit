@@ -3,7 +3,6 @@ using CommunityToolkit.Mvvm.Input;
 using PetManage.Infrastructure;
 using PetManage.Models;
 using PetManage.Services;
-using SQLite;
 using System.Collections.ObjectModel;
 using System.Globalization;
 
@@ -34,7 +33,7 @@ namespace PetManage.ViewModels
 
         [ObservableProperty]
         private TimeSpan stepTimeEat;
-        
+
         #endregion
 
         #region Walk
@@ -75,7 +74,7 @@ namespace PetManage.ViewModels
         private TimeSpan toTimePill;
 
         [ObservableProperty]
-        private TimeSpan stepTimePill; 
+        private TimeSpan stepTimePill;
 
         #endregion
 
@@ -107,7 +106,7 @@ namespace PetManage.ViewModels
 
         public ObservableCollection<LanguageModel> Languages { get; }
         public ObservableCollection<Themes> ThemesPicker { get; }
-        public ObservableCollection<TypesOfCurrency> CurrencyTypes { get; } 
+        public ObservableCollection<TypesOfCurrency> CurrencyTypes { get; }
 
         #endregion
 
