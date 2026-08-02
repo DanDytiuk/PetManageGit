@@ -1,9 +1,12 @@
+using PetManage.ViewModels;
+
 namespace PetManage.View;
 
 public partial class FoodPage : ContentPage
 {
-	public FoodPage()
+	public FoodPage(FoodVM VM)
 	{
 		InitializeComponent();
+		BindingContext = VM;
 	}
 }

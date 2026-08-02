@@ -13,6 +13,7 @@ namespace PetManage
             Routing.RegisterRoute(nameof(GamesPage), typeof(GamesPage));
             Routing.RegisterRoute(nameof(FinancePage), typeof(FinancePage));
             Routing.RegisterRoute(nameof(HealthPage), typeof(HealthPage));
+            Routing.RegisterRoute(nameof(AddInfoFoodPage), typeof(AddInfoFoodPage));
         }
     }
 }

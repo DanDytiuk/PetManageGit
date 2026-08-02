@@ -4,7 +4,8 @@ using System.Text;
 
 namespace PetManage.ViewModels
 {
-    internal class AddInfoFoodVM
+    public class AddInfoFoodVM
     {
+
     }
 }

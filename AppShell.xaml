@@ -37,4 +37,9 @@
         ContentTemplate="{DataTemplate views:HealthPage}"
         Route="HealthPage"/>
 
+    <ShellContent
+        Title="Информация о еде"
+        ContentTemplate="{DataTemplate views:AddInfoFoodPage}"
+        Route="AddInfoFoodPage"/>
+
 </Shell>

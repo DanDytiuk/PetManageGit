@@ -2,6 +2,7 @@
 using CommunityToolkit.Mvvm.Input;
 using PetManage.Models;
 using PetManage.Services;
+using PetManage.View;
 using System.Collections.ObjectModel;
 
 
@@ -22,6 +23,9 @@ namespace PetManage.ViewModels
         [ObservableProperty]
         private double weight;
 
+        [ObservableProperty]
+        private DateTime foodDate;
+
         #endregion
 
         #region ObservableCollection
@@ -38,7 +42,11 @@ namespace PetManage.ViewModels
             await Shell.Current.GoToAsync("..");
         }
 
-
+        [RelayCommand]
+        private async Task OpenAddInfoFoodPage()
+        {
+            await Shell.Current.GoToAsync(nameof(AddInfoFoodPage));
+        }
 
         #endregion
 

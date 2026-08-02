@@ -29,6 +29,10 @@ namespace PetManage
             builder.Services.AddSingleton<LocalizationManager>();
             builder.Services.AddTransient<MainPage>();
             builder.Services.AddTransient<MainVM>();
+            builder.Services.AddTransient<FoodVM>();
+            builder.Services.AddTransient<FoodPage>();
+            builder.Services.AddTransient<AddInfoFoodVM>();
+            builder.Services.AddTransient<AddInfoFoodPage>();
 
             return builder.Build();
         }
