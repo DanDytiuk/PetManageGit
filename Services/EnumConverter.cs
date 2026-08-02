@@ -1,26 +1,23 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using Microsoft.Maui.Controls;
 using System.Globalization;
-using System.Text;
 
 namespace PetManage.Services
 {
     public class EnumConverter : IValueConverter
     {
-        public object Convert(object value, object parameter, CultureInfo culture)
+        public object? Convert(object? value, Type targetType,object? parameter, CultureInfo culture)
         {
             if (value is Enum enumValue)
             {
                 return EnumLocalizationHelper.GetLocalized(enumValue);
-                
             }
 
-            return string.Empty;
+            return null;
         }
 
-        public object Convertback(object value, object parameter, CultureInfo culture)
+        public object? ConvertBack(object? value, Type targetType, object? parameter, CultureInfo culture)
         {
-            return null;
+            throw new NotImplementedException();
         }
     }
 }
