@@ -36,6 +36,15 @@ namespace PetManage.Infrastructure
         JPY
     }
 
+    public enum TypeOfAppetite
+    {
+        Beautiful,
+        Normal,
+        Good,
+        Bad,
+        VeryBad
+    }
+
     public enum NameOfCatFood
     {
         #region 1stChoice
