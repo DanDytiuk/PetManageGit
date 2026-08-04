@@ -21,18 +21,19 @@ namespace PetManage.Services
 
             await _database.CreateTableAsync<SettingsModel>();
             await _database.CreateTableAsync<ProfileModel>();
-}
+            await _database.CreateTableAsync<FoodModel>();
+        }
+
+        #region GetDataAsync
 
         public async Task<SettingsModel> GetSettingsAsync()
         {
             await InitializeAsync();
 
-            var settings =
-                await _database.Table<SettingsModel>()
+            var settings = await _database.Table<SettingsModel>()
                     .FirstOrDefaultAsync();
 
-            if (settings != null)
-                return settings;
+            if (settings != null) return settings;
 
             settings = new SettingsModel();
 
@@ -41,11 +42,30 @@ namespace PetManage.Services
             return settings;
         }
 
+        public async Task<List<FoodModel>> GetFoodAsync()
+        {
+            await InitializeAsync();
+
+            return await _database.Table<FoodModel>()
+                                  .OrderByDescending(x => x.DateOfEat)
+                                  .ToListAsync();
+        }
+
+        #endregion
+
+
+
         public async Task SaveSettingsAsync(SettingsModel settings)
         {
             await InitializeAsync();
 
             await _database.InsertOrReplaceAsync(settings);
+        }
+
+        public async Task<int> SaveFoodAsync(FoodModel food)
+        {
+            await InitializeAsync();
+            return await _database.InsertAsync(food);
         }
     }
 }

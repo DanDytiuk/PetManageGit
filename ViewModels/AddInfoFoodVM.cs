@@ -1,18 +1,21 @@
 ﻿using CommunityToolkit.Mvvm.ComponentModel;
+using CommunityToolkit.Mvvm.Input;
 using PetManage.Infrastructure;
+using PetManage.Models;
 using PetManage.Services;
-using System;
-using System.Collections.Generic;
 using System.Collections.ObjectModel;
-using System.Text;
 
 namespace PetManage.ViewModels
 {
     public partial class AddInfoFoodVM : ObservableObject
     {
         private readonly DatabaseService _database;
+        private FoodModel FoodModel;
 
         #region Observable Property
+
+        [ObservableProperty]
+        private NameOfCatFood selectedFood;
 
         [ObservableProperty]
         private double selectedWeight;
@@ -21,7 +24,7 @@ namespace PetManage.ViewModels
         private string selectedNotes;
 
         [ObservableProperty]
-        private string selectedAppetite;
+        private TypeOfAppetite selectedAppetite;
 
         #endregion
 
@@ -29,6 +32,32 @@ namespace PetManage.ViewModels
 
         public ObservableCollection<NameOfCatFood> CatFoodPicker { get; }
         public ObservableCollection<TypeOfAppetite> TypeOfAppetitePicker { get; }
+
+        #endregion
+
+        #region Commands
+
+        [RelayCommand]
+        private async Task Cancel()
+        {
+            await Shell.Current.GoToAsync("..");
+        }
+
+        [RelayCommand]
+        private async Task SaveInfoFood()
+        {
+            FoodModel food = new()
+            {
+                PetID = 0,
+                FoodName = SelectedFood.ToString(),
+                Weight = SelectedWeight,
+                Notes = SelectedNotes,
+                Appetite = SelectedAppetite.ToString(),
+                DateOfEat = DateTime.Now
+            };
+
+            await _database.SaveFoodAsync(food);
+        }
 
         #endregion
 

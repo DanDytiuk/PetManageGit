@@ -61,7 +61,8 @@
                         <Picker Grid.Column="1"
                                 ItemsSource="{Binding CatFoodPicker}"
                                 MinimumWidthRequest="150"
-                                MaximumWidthRequest="250"/>
+                                MaximumWidthRequest="200"
+                                SelectedItem="{Binding SelectedFood}"/>
 
                     </Grid>
                     
@@ -80,9 +81,9 @@
                     <Grid ColumnDefinitions="*, Auto">
 
                         <Label Grid.Column="0"
-                               Text="Вес корма"
+                               Text="Вес корма (г)"
                                VerticalOptions="Center"
-                               HorizontalTextAlignment="Start"
+                               VerticalTextAlignment="Start"
                                MinimumWidthRequest="100"
                                MaximumWidthRequest="250"/>
 
@@ -109,7 +110,7 @@
                     <Grid ColumnDefinitions="*, Auto">
 
                         <Label Grid.Column="0"
-                               Text="Заметки (не обязательно)"
+                               Text="Заметки"
                                VerticalOptions="Center"
                                HorizontalTextAlignment="Start"
                                MinimumWidthRequest="100"
@@ -118,8 +119,8 @@
                         <Entry Grid.Column="1"
                                MinimumWidthRequest="150"
                                MaximumWidthRequest="250"
-                               Text="{Binding SelectedWeight}"
-                               Keyboard="Numeric"/>
+                               Text="{Binding SelectedNotes}"
+                               Keyboard="Chat"/>
 
                     </Grid>
 
@@ -147,15 +148,49 @@
                         <Picker Grid.Column="1"
                                 MinimumWidthRequest="150"
                                 MaximumWidthRequest="250"
-                                ItemsSource="{Binding TypeOfAppetitePicker}"/>
+                                ItemsSource="{Binding TypeOfAppetitePicker}"
+                                SelectedItem="{Binding SelectedAppetite}"/>
 
                     </Grid>
 
                 </Border>
-
+                
             </VerticalStackLayout>
             
         </ScrollView>
+
+        <!--#region Кнопки S/C -->
+        <Grid Grid.Row="2"
+              ColumnDefinitions="4.5*, 1*, 4.5*">
+
+            <Button ImageSource="iconfloppydisk.png"
+                    BackgroundColor="SpringGreen"
+                    FontSize="17"
+                    Text="Сохранить"
+                    Grid.Column="0"
+                    HorizontalOptions="Center"
+                    BorderColor="Black"
+                    BorderWidth="1"
+                    WidthRequest="175"
+                    HeightRequest="50"
+                    CornerRadius="25"
+                    Command="{Binding SaveInfoFoodCommand}"/>
+
+            <Button ImageSource="iconcancelbutton.png"
+                    BackgroundColor="LightSalmon"
+                    FontSize="17"
+                    Text="Отмена"
+                    Grid.Column="2"
+                    HorizontalOptions="Center"
+                    BorderColor="Black"
+                    BorderWidth="1"
+                    WidthRequest="175"
+                    HeightRequest="50"
+                    CornerRadius="25"
+                    Command="{Binding CancelCommand}"/>
+
+        </Grid>
+        <!--#endregion-->
 
     </Grid>
 </ContentPage>

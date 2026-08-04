@@ -15,7 +15,7 @@ namespace PetManage.ViewModels
         #region ObservableProperty
 
         [ObservableProperty]
-        private string foodName;
+        private string foodName; 
 
         [ObservableProperty]
         private string typeOfFood;
@@ -30,7 +30,7 @@ namespace PetManage.ViewModels
 
         #region ObservableCollection
 
-        public ObservableCollection<FoodModel> FoodList { get; }
+        public ObservableCollection<FoodModel> FoodList { get; } = new();
 
         #endregion
 
@@ -46,6 +46,19 @@ namespace PetManage.ViewModels
         private async Task OpenAddInfoFoodPage()
         {
             await Shell.Current.GoToAsync(nameof(AddInfoFoodPage));
+        }
+
+        [RelayCommand]
+        public async Task LoadInfoFood()
+        {
+            FoodList.Clear();
+
+            var foodList = await _database.GetFoodAsync();
+
+            foreach (var food in foodList)
+            {
+                FoodList.Add(food);
+            }
         }
 
         #endregion

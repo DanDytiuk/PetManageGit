@@ -9,4 +9,10 @@ public partial class FoodPage : ContentPage
 		InitializeComponent();
 		BindingContext = VM;
 	}
+
+	protected override async void OnAppearing()
+	{
+		base.OnAppearing();
+		await ((FoodVM)BindingContext).LoadInfoFoodCommand.ExecuteAsync(null);
+	}
 }
