@@ -48,45 +48,44 @@
                     <Border.StrokeShape>
                         <RoundRectangle CornerRadius="12" />
                     </Border.StrokeShape>
-                    
-                    <VerticalStackLayout Spacing="12">
 
+                    <VerticalStackLayout Spacing="12">
+                        
                         <Label Text="Информация про кормление"
                                FontAttributes="Bold"
                                VerticalOptions="Center"
                                HorizontalTextAlignment="Center"/>
-
+                        
                     </VerticalStackLayout>
                     
                 </Border>
 
-                    <CollectionView ItemsSource="{Binding FoodList}">
-                        <CollectionView.ItemTemplate>
-                            <DataTemplate>
+                <CollectionView ItemsSource="{Binding FoodList}">
+                    <CollectionView.ItemTemplate>
+                        <DataTemplate>
 
-                                <Border Padding="15"
-                                        Margin="5">
+                           <Border Padding="15"
+                                   Margin="5">
 
-                                    <VerticalStackLayout>
+                               <VerticalStackLayout>
 
-                                        <Label Text="{Binding FoodName}"
-                                               FontSize="18"/>
+                                   <Label Text="{Binding FoodName, StringFormat='Название корма: {0}'}"/>
                                         
-                                        <Label Text="{Binding Weight, StringFormat='Вес: {0} г'}"/>
+                                   <Label Text="{Binding Weight, StringFormat='Вес: {0} г'}"/>
 
-                                        <Label Text="{Binding Appetite}"/>
+                                   <Label Text="{Binding Appetite, StringFormat='Тип аппетита: {0}'}"/>
 
-                                        <Label Text="{Binding Notes}"/>
+                                   <Label Text="{Binding Notes, StringFormat='Заметки: {0}'}"/>
 
-                                        <Label Text="{Binding DateOfEat, StringFormat='{0:dd.MM.yyyy HH:mm}'}"/>
+                                   <Label Text="{Binding DateOfEat, StringFormat='Дата кормления: {0:dd.MM.yyyy HH:mm}'}"/>
 
-                                    </VerticalStackLayout> 
+                               </VerticalStackLayout> 
                                     
-                                </Border>
+                           </Border>
                                 
-                            </DataTemplate>
-                        </CollectionView.ItemTemplate>
-                    </CollectionView>
+                        </DataTemplate>
+                    </CollectionView.ItemTemplate>
+                </CollectionView>
                     
             </VerticalStackLayout>
         </ScrollView>

@@ -41,5 +41,10 @@
         Title="Информация о еде"
         ContentTemplate="{DataTemplate views:AddInfoFoodPage}"
         Route="AddInfoFoodPage"/>
+    
+    <ShellContent
+        Title="Профиль"
+        ContentTemplate="{DataTemplate views:ProfilePage}"
+        Route="ProfilePage"/>
 
 </Shell>

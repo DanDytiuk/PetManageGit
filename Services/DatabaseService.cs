@@ -51,9 +51,11 @@ namespace PetManage.Services
                                   .ToListAsync();
         }
 
+        
+
         #endregion
 
-
+        #region SaveAsync
 
         public async Task SaveSettingsAsync(SettingsModel settings)
         {
@@ -66,6 +68,8 @@ namespace PetManage.Services
         {
             await InitializeAsync();
             return await _database.InsertAsync(food);
-        }
+        } 
+
+        #endregion
     }
 }

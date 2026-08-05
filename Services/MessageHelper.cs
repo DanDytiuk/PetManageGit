@@ -29,9 +29,8 @@ namespace PetManage.Services
                 "OK");
         }
 
-        public static async Task ShowAttention(
-            string messageKey,
-            string titleKey)
+        public static async Task ShowAttention(string messageKey, 
+                                               string titleKey)
         {
             await Shell.Current.DisplayAlertAsync(
                 AppResources.ResourceManager.GetString(titleKey),

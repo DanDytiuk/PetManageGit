@@ -33,6 +33,8 @@ namespace PetManage
             builder.Services.AddTransient<FoodPage>();
             builder.Services.AddTransient<AddInfoFoodVM>();
             builder.Services.AddTransient<AddInfoFoodPage>();
+            builder.Services.AddTransient<ProfileVM>();
+            builder.Services.AddTransient<ProfilePage>();
 
             return builder.Build();
         }

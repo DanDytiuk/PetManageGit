@@ -61,6 +61,8 @@ namespace PetManage.ViewModels
 
         #endregion
 
+        #region Constructor
+
         public AddInfoFoodVM(DatabaseService database)
         {
             _database = database;
@@ -69,5 +71,6 @@ namespace PetManage.ViewModels
             TypeOfAppetitePicker = new ObservableCollection<TypeOfAppetite>(Enum.GetValues<TypeOfAppetite>());
         }
 
+        #endregion
     }
 }

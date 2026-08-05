@@ -46,6 +46,12 @@ namespace PetManage.ViewModels
             await Shell.Current.GoToAsync(nameof(HealthPage));
         }
 
+        [RelayCommand]
+        private async Task OpenProfile()
+        {
+            await Shell.Current.GoToAsync(nameof(ProfilePage));
+        }
+
         #endregion
 
         #region Constructor
