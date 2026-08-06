@@ -17,7 +17,7 @@
 
             <Label Grid.Column="1"
                    Text="Аврора"
-                   HorizontalTextAlignment="Start"
+                   HorizontalTextAlignment="Center"
                    VerticalOptions="Center"/>
 
             <Button Grid.Column="2"
@@ -53,7 +53,7 @@
                                 MaximumWidthRequest="250"/>
 
                         <Label Grid.Column="1"
-                                Text="{Binding #}"
+                                Text="{Binding Name}"
                                 VerticalOptions="Center"
                                 HorizontalTextAlignment="Start"
                                 MinimumWidthRequest="100"
@@ -82,47 +82,215 @@
                                 MaximumWidthRequest="250"/>
 
                         <Label Grid.Column="1"
-                                Text="{Binding Age}"
+                               Text="{Binding Age}"
+                               VerticalOptions="Center"
+                               HorizontalTextAlignment="Start"
+                               MinimumWidthRequest="100"
+                               MaximumWidthRequest="250"/>
+
+                    </Grid>
+                    
+                </Border>
+
+                <Border StrokeThickness="1"
+                        Padding="15"
+                        Margin="0,5"
+                        Stroke="{AppThemeBinding Light=#D0D0D0, Dark=#404040}"
+                        BackgroundColor="{AppThemeBinding Light=#FFFFFF, Dark=#2C2C2C}">
+
+                    <Border.StrokeShape>
+                        <RoundRectangle CornerRadius="12"/>
+                    </Border.StrokeShape>
+
+                    <Grid ColumnDefinitions="*,*">
+
+                        <Label Grid.Column="0"
+                               Text="Порода"
+                               VerticalOptions="Center"
+                               HorizontalTextAlignment="Start"
+                               MinimumWidthRequest="100"
+                               MaximumWidthRequest="250"/>
+
+                        <Label Grid.Column="1"
+                               Text="{Binding Breed}"
+                               VerticalOptions="Center"
+                               HorizontalTextAlignment="Start"
+                               MinimumWidthRequest="100"
+                               MaximumWidthRequest="250"/>
+
+                    </Grid>
+
+                </Border>
+
+                <Border StrokeThickness="1"
+                        Padding="15"
+                        Margin="0,5"
+                        Stroke="{AppThemeBinding Light=#D0D0D0, Dark=#404040}"
+                        BackgroundColor="{AppThemeBinding Light=#FFFFFF, Dark=#2C2C2C}">
+
+                    <Border.StrokeShape>
+                        <RoundRectangle CornerRadius="12"/>
+                    </Border.StrokeShape>
+
+                    <Grid ColumnDefinitions="*,*">
+
+                        <Label Grid.Column="0"
+                               Text="Тип питомца"
+                               VerticalOptions="Center"
+                               HorizontalTextAlignment="Start"
+                               MinimumWidthRequest="100"
+                               MaximumWidthRequest="250"/>
+
+                        <Label Grid.Column="1"
+                               Text="{Binding TypeOfPet}"
+                               VerticalOptions="Center"
+                               HorizontalTextAlignment="Start"
+                               MinimumWidthRequest="100"
+                               MaximumWidthRequest="250"/>
+
+                    </Grid>
+
+                </Border>
+
+                <Border StrokeThickness="1"
+                        Padding="15"
+                        Margin="0,5"
+                        Stroke="{AppThemeBinding Light=#D0D0D0, Dark=#404040}"
+                        BackgroundColor="{AppThemeBinding Light=#FFFFFF, Dark=#2C2C2C}">
+
+                    <Border.StrokeShape>
+                        <RoundRectangle CornerRadius="12"/>
+                    </Border.StrokeShape>
+
+                    <Grid ColumnDefinitions="*,*">
+
+                        <Label Grid.Column="0"
+                               Text="Пол питомца:"
+                               VerticalOptions="Center"
+                               HorizontalTextAlignment="Start"
+                               MinimumWidthRequest="100"
+                               MaximumWidthRequest="250"/>
+
+                        <Label Grid.Column="1"
+                                Text="{Binding Gender}"
                                 VerticalOptions="Center"
                                 HorizontalTextAlignment="Start"
                                 MinimumWidthRequest="100"
                                 MaximumWidthRequest="250"/>
 
                     </Grid>
-                    
+
+                </Border>
+
+                <Border StrokeThickness="1"
+                        Padding="15"
+                        Margin="0,5"
+                        Stroke="{AppThemeBinding Light=#D0D0D0, Dark=#404040}"
+                        BackgroundColor="{AppThemeBinding Light=#FFFFFF, Dark=#2C2C2C}">
+
+                    <Border.StrokeShape>
+                        <RoundRectangle CornerRadius="12"/>
+                    </Border.StrokeShape>
+
+                    <Grid ColumnDefinitions="*,*">
+
+                        <Label Grid.Column="0"
+                               Text="Вес питомца:"
+                               VerticalOptions="Center"
+                               HorizontalTextAlignment="Start"
+                               MinimumWidthRequest="100"
+                               MaximumWidthRequest="250"/>
+
+                        <Label Grid.Column="1"
+                               Text="{Binding Weight}"
+                               VerticalOptions="Center"
+                               HorizontalTextAlignment="Start"
+                               MinimumWidthRequest="100"
+                               MaximumWidthRequest="250"/>
+
+                    </Grid>
+
+                </Border>
+
+                <Border StrokeThickness="1"
+                        Padding="15"
+                        Margin="0,5"
+                        Stroke="{AppThemeBinding Light=#D0D0D0, Dark=#404040}"
+                        BackgroundColor="{AppThemeBinding Light=#FFFFFF, Dark=#2C2C2C}">
+
+                    <Border.StrokeShape>
+                        <RoundRectangle CornerRadius="12"/>
+                    </Border.StrokeShape>
+
+                    <Grid ColumnDefinitions="*,*">
+
+                        <Label Grid.Column="0"
+                               Text="Заметки о питомце:"
+                               VerticalOptions="Center"
+                               HorizontalTextAlignment="Start"
+                               MinimumWidthRequest="100"
+                               MaximumWidthRequest="250"/>
+
+                        <Label Grid.Column="1"
+                               Text="{Binding Notes}"
+                               VerticalOptions="Center"
+                               HorizontalTextAlignment="Start"
+                               MinimumWidthRequest="100"
+                               MaximumWidthRequest="250"/>
+
+                    </Grid>
+
                 </Border>
 
             </VerticalStackLayout>
         </ScrollView>
 
         <Grid Grid.Row="2"
-              ColumnDefinitions="4.5*, 1*, 4.5*">
+              ColumnDefinitions="2.5*, 2.5*, 2.5*, 2.5*">
 
-            <Button ImageSource="iconupdown.png"
-                    BackgroundColor="SpringGreen"
-                    FontSize="16"
-                    Text="Сменить"
+            <Button ImageSource="add.png"
+                    BackgroundColor="DeepSkyBlue"
                     Grid.Column="0"
                     HorizontalOptions="Center"
                     BorderColor="Black"
                     BorderWidth="1"
-                    WidthRequest="175"
+                    WidthRequest="50"
                     HeightRequest="50"
                     CornerRadius="25"
                     Command="{Binding SaveInfoFoodCommand}"/>
 
-            <Button ImageSource="iconcancelbutton.png"
-                    BackgroundColor="LightSalmon"
-                    FontSize="16"
-                    Text="Удалить"
+            <Button ImageSource="iconbin.png"
+                    BackgroundColor="LightYellow"
+                    Grid.Column="1"
+                    HorizontalOptions="Center"
+                    BorderColor="Black"
+                    BorderWidth="1"
+                    WidthRequest="50"
+                    HeightRequest="50"
+                    CornerRadius="25"
+                    Command="{Binding CancelCommand}"/>
+
+            <Button ImageSource="iconavatar.png"
+                    BackgroundColor="SpringGreen"
                     Grid.Column="2"
                     HorizontalOptions="Center"
                     BorderColor="Black"
                     BorderWidth="1"
-                    WidthRequest="175"
+                    WidthRequest="50"
                     HeightRequest="50"
                     CornerRadius="25"
-                    Command="{Binding CancelCommand}"/>
+                    Command="{Binding SaveInfoFoodCommand}"/>
+
+            <Button ImageSource="iconturnback.png"
+                    BackgroundColor="PapayaWhip"
+                    Grid.Column="3"
+                    HorizontalOptions="Center"
+                    BorderColor="Black"
+                    BorderWidth="1"
+                    WidthRequest="50"
+                    HeightRequest="50"
+                    CornerRadius="25"
+                    Command="{Binding EditInfoCommand}"/>
 
         </Grid>
 
