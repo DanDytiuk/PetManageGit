@@ -1,6 +1,7 @@
 ﻿using CommunityToolkit.Mvvm.ComponentModel;
 using CommunityToolkit.Mvvm.Input;
 using PetManage.Services;
+using PetManage.View;
 
 namespace PetManage.ViewModels
 {
@@ -48,6 +49,18 @@ namespace PetManage.ViewModels
         private async Task Cancel()
         {
             await Shell.Current.GoToAsync("..");
+        }
+
+        [RelayCommand]
+        private async Task AddNewProfile()
+        {
+            await Shell.Current.GoToAsync(nameof(AddNewProfilePage));
+        }
+
+        [RelayCommand]
+        private async Task EditProfile()
+        {
+            await Shell.Current.GoToAsync(nameof(ChangeInfoProfilePage));
         }
 
         #endregion

@@ -36,6 +36,9 @@ namespace PetManage
             builder.Services.AddTransient<ProfileVM>();
             builder.Services.AddTransient<ProfilePage>();
 
+            builder.Services.AddTransient<AddNewProfilePage>();
+            builder.Services.AddTransient<ChangeInfoProfilePage>();
+
             return builder.Build();
         }
     }

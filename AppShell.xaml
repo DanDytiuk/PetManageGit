@@ -47,4 +47,14 @@
         ContentTemplate="{DataTemplate views:ProfilePage}"
         Route="ProfilePage"/>
 
+    <ShellContent
+        Title="Создание нового профиля"
+        ContentTemplate="{DataTemplate views:AddNewProfilePage}"
+        Route="AddNewProfilePage"/>
+
+    <ShellContent
+        Title="Изменение профиля"
+        ContentTemplate="{DataTemplate views:ChangeInfoProfilePage}"
+        Route="ChangeInfoProfilePage"/>
+
 </Shell>

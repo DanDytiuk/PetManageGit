@@ -45,6 +45,29 @@ namespace PetManage.Infrastructure
         VeryBad
     }
 
+    public enum TypeOfPet
+    {
+        Cat,
+        Dog,
+        Hamster,
+        Rabbit,
+        Parrot,
+        Turtle,
+        Fox,
+        Lizard,
+        Spyder,
+        Snake,
+        Other
+    }
+
+    public enum TypeOfGender
+    {
+        Male,
+        Female,
+        IDontKnow,
+        Other
+    }
+
     public enum NameOfCatFood
     {
         #region 1stChoice
