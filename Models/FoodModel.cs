@@ -15,6 +15,6 @@ namespace PetManage.Models
         public string FoodName { get; set; } = string.Empty;
         public double Weight { get; set; } = 0;
         public string Notes { get; set; } = string.Empty;
-        public string Appetite { get; set; }
+        public string Appetite { get; set; } = string.Empty;
     }
 }

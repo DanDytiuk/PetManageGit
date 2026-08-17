@@ -1,6 +1,8 @@
-﻿using PetManage.Models;
+﻿using Android.Net.Wifi.Aware;
+using PetManage.Models;
 using SQLite;
 using System.Diagnostics;
+using System.Net.WebSockets;
 
 namespace PetManage.Services
 {
@@ -22,6 +24,9 @@ namespace PetManage.Services
             await _database.CreateTableAsync<SettingsModel>();
             await _database.CreateTableAsync<ProfileModel>();
             await _database.CreateTableAsync<FoodModel>();
+            await _database.CreateTableAsync<AnimalTypeModel>();
+            await _database.CreateTableAsync<BreedModel>();
+            await _database.CreateTableAsync<AppetiteModel>();
         }
 
         #region GetDataAsync
@@ -51,7 +56,62 @@ namespace PetManage.Services
                                   .ToListAsync();
         }
 
-        
+        public async Task InitializeAnimalTypesAsync()
+        {
+            var count = await _database.Table<AnimalTypeModel>().CountAsync();
+
+            if (count > 0)
+                return;
+
+            var AnimalTypes = new List<AnimalTypeModel>
+            {
+                new() {LocalizationCode = "AnimalType_Cat"},
+                new() {LocalizationCode = "AnimalType_Dog"},
+                new() {LocalizationCode = "AnimalType_Hamster"},
+                new() {LocalizationCode = "AnimalType_Rabbit"},
+                new() {LocalizationCode = "AnimalType_Parrot"},
+                new() {LocalizationCode = "AnimalType_Turtle"},
+                new() {LocalizationCode = "AnimalType_Fox"},
+                new() {LocalizationCode = "AnimalType_Lizard" },
+                new() {LocalizationCode = "AnimalType_Spyder"},
+                new() {LocalizationCode = "AnimalType_Snake" },
+                new() {LocalizationCode = "AnimalType_Other" }
+            };
+
+            await _database.InsertAllAsync(AnimalTypes);
+        }
+
+        public async Task InitializeAppetiteTypesAsync()
+        {
+
+            var count = await _database.Table<AppetiteModel>().CountAsync();
+
+            if (count > 0)
+                return;
+
+            var appetiteTypes = new List<AppetiteModel>
+            {   
+                new() {LocalizationCode = "Appetite_Beautiful"},
+                new() {LocalizationCode = "Appetite_Normal"},
+                new() {LocalizationCode = "Appetite_Good"},
+                new() {LocalizationCode = "Appetite_Bad"},
+                new() {LocalizationCode = "Appetite_VeryBad"}
+            };
+
+            await _database.InsertAllAsync(appetiteTypes);
+        }
+
+        public async Task InitializeBreedsAsync()
+        {
+            var count = await _database.Table<BreedModel>().CountAsync();
+
+            if (count > 0) return;
+
+            var breeds = new List<BreedModel>
+            {
+                new() {AnimalID = 1, LocalizationCode = }
+            }
+        }
 
         #endregion
 
