@@ -1,8 +1,5 @@
-﻿using Android.Net.Wifi.Aware;
-using PetManage.Models;
+﻿using PetManage.Models;
 using SQLite;
-using System.Diagnostics;
-using System.Net.WebSockets;
 
 namespace PetManage.Services
 {
@@ -21,12 +18,12 @@ namespace PetManage.Services
 
             _database = new SQLiteAsyncConnection(path);
 
-            await _database.CreateTableAsync<SettingsModel>();
-            await _database.CreateTableAsync<ProfileModel>();
-            await _database.CreateTableAsync<FoodModel>();
-            await _database.CreateTableAsync<AnimalTypeModel>();
-            await _database.CreateTableAsync<BreedModel>();
-            await _database.CreateTableAsync<AppetiteModel>();
+            _ = await _database.CreateTableAsync<SettingsModel>();
+            _ = await _database.CreateTableAsync<ProfileModel>();
+            _ = await _database.CreateTableAsync<FoodModel>();
+            _ = await _database.CreateTableAsync<AnimalTypeModel>();
+            _ = await _database.CreateTableAsync<BreedModel>();
+            _ = await _database.CreateTableAsync<AppetiteModel>();
         }
 
         #region GetDataAsync
@@ -42,7 +39,7 @@ namespace PetManage.Services
 
             settings = new SettingsModel();
 
-            await _database.InsertAsync(settings);
+            _ = await _database.InsertAsync(settings);
 
             return settings;
         }
@@ -78,7 +75,7 @@ namespace PetManage.Services
                 new() {LocalizationCode = "AnimalType_Other" }
             };
 
-            await _database.InsertAllAsync(AnimalTypes);
+            _ = await _database.InsertAllAsync(AnimalTypes);
         }
 
         public async Task InitializeAppetiteTypesAsync()
@@ -90,7 +87,7 @@ namespace PetManage.Services
                 return;
 
             var appetiteTypes = new List<AppetiteModel>
-            {   
+            {
                 new() {LocalizationCode = "Appetite_Beautiful"},
                 new() {LocalizationCode = "Appetite_Normal"},
                 new() {LocalizationCode = "Appetite_Good"},
@@ -98,7 +95,7 @@ namespace PetManage.Services
                 new() {LocalizationCode = "Appetite_VeryBad"}
             };
 
-            await _database.InsertAllAsync(appetiteTypes);
+            _ = await _database.InsertAllAsync(appetiteTypes);
         }
 
         public async Task InitializeBreedsAsync()
@@ -106,8 +103,7 @@ namespace PetManage.Services
             var count = await _database.Table<BreedModel>().CountAsync();
 
             if (count > 0) return;
-
-            var breeds = new List<BreedModel>
+            _ = new List<BreedModel>
             {
                 new() {AnimalID = 1, LocalizationCode = "Breed_Abyssinan"},
                 new() {AnimalID = 1, LocalizationCode = "Breed_AustralianSmoke"},
@@ -193,7 +189,7 @@ namespace PetManage.Services
                 new() {AnimalID = 1, LocalizationCode = "Breed_ForeignWhite"},
                 new() {AnimalID = 1, LocalizationCode = "Breed_HighlandFold"},
                 new() {AnimalID = 1, LocalizationCode = "Breed_CeylonCat"},
-                new() {AnimalID = 1, LocalizationCode = "Breed_Chauzi"}, 
+                new() {AnimalID = 1, LocalizationCode = "Breed_Chauzi"},
                 new() {AnimalID = 1, LocalizationCode = "Breed_ChantillyTiffany"},
                 new() {AnimalID = 1, LocalizationCode = "Breed_Shartrez"},
                 new() {AnimalID = 1, LocalizationCode = "Breed_ScottishFoldCat"},
@@ -204,6 +200,229 @@ namespace PetManage.Services
                 new() {AnimalID = 1, LocalizationCode = "Breed_JavaneseCat"},
                 new() {AnimalID = 1, LocalizationCode = "Breed_JapaneseBobtail"},
                 new() {AnimalID = 1, LocalizationCode = "Breed_Dvornyaga"},
+
+                new() {AnimalID = 2, LocalizationCode = "Breed_AustralianShepherd"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_AustralianKelpie"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_AustralianTerrier"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_AustralianHeeler"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_Azawakh"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_AkitaInu"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_AlapahaBulldog"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_AlaskanMalamute"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_AmericanAkita"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_AmericanBandog"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_AmericanBulldog"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_AmericanWaterSpaniel"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_AmericanHairlessTerrier"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_AmericanCockerSpaniel"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_AmericanPitBullTerrier"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_AmericanStaffordshireTerrier"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_AmericanFoxhound"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_AmericanEskimoSpitz"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_AnatolianShepherd"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_EnglishBulldog"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_EnglishCockerSpaniel"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_EnglishPointer"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_EnglishSetter"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_EnglishSpringerSpaniel"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_EnglishToyTerrier"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_EnglishFoxhound"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_AppenzellerSennenhund"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_DogoArgentino"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_AfghanHound"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_Affenpinscher"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_Basenji"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_BassetHound"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_BedlingtonTerrier"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_WhiteSwissShepherd"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_BelgianShepherdGroenendael"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_BelgianShepherdLaekenois"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_BelgianMalinois"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_BelgianShepherdTervuren"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_BerneseMountainDog"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_BeaverYorkshireTerrier"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_Beagle"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_BichonFrize"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_Bloodhound"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_Bobtail"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_Boxer"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_Bolognese"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_GreaterSwissMountainDog"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_BorderCollie"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_BorderrTerrier"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_DogueDeBordeaux"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_BeardedCollie"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_Beauceron"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_BostonTerrier"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_BretonEpagnole"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_Briard"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_BrusselsGriffon"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_BullyKutta"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_Bullmastiff"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_BullTerrier"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_MiniatureBullTerrier"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_BuryatMongolianWolfhound"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_VendeenBassetGriffon"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_Weimaraner"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_WelshCorgiCardigan"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_PembrokeWelshCorgi"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_WelshSpringerSpaniel"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_WelshTerrier"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_HungarianGreyhound"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_HungarianVizsla"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_WestGighlandTerrier"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_WolfDog"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_EastEuropeanShepherd"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_EastSiberianLaika"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_HavaneseBichon"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_Gampr"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_SmoothFoxTerrier"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_Greyhound"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_GriffonKortalsa"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_Dalmatian"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_DandieDinmontTerrier"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_JackRussellTerrier"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_Doberman"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_Drathaar"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_Euraiser"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_WestSiberianLaika"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_GoldenRetriever"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_IrishWaterSpaniel"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_IrishWolfhound"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_IrishRedSetter"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_IrishSoftCoatedWheatenTerrier"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_IrishTerrier"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_irishGlenOfImaalTerrier"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_IcelandicDog"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_SpanishMastiff"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_YorkshireTerrier"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_Cadebo"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_CavalierKingCharlesSpaniel"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_CaucasianShepherd"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_DogoCanario"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_CaneCorso"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_KarelianBearDog"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_MiniaturePinscher"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_Keeshond"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_CairnTerrier"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_KerryBlueTerrier"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_ChineseCrestedDog"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_ClumberSpaniel"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_Collie"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_Commons"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_CotonDeTulear"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_Kuvasz"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_Kurzhaar"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_CurlyCoatedRetriever"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_LabradorRetriever"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_Labradoodle"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_Langhaar"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_Landseer"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_ItalianGreyhound"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_LakelandTerrier"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_Leonberger"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_Louchen"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_LhasaApso"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_Maltese"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_Maltipu"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_ManchesterTerrier"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_Mastiff"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_MexicanHairlessDog"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_MittelSchnauzer"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_Pug"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_MoscowWatchDog"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_NeapolitainMastiff"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_GermanShepherd"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_GreatDane"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_GermanPinscher"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_GriffonDeNivernaise"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_NovaScotiaDuckRetriever"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_NorwegianBuhund"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_NorwegianElkhound"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_NorwichTerrier"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_NorfolkTerrier"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_Newfoundland"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_Otterhound"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_Pig"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_Papillon"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_ParsonRussellTerrier"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_Pekingese"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_PeruvianHairlessDog"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_PyreneanShepherd"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_PyreneanMastiff"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_IbizanHound"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_PolishLowlandSheepDog"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_PolishPodgalianShepherdDog"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_PomeranianSpitz"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_PortugueseWaterDog"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_PragueKnight"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_Poodle"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_Puli"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_RafeiraDoAlentejo"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_Riesenschnauzer"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_RhodesianRidgeback"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_Rottweiler"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_RussianToy"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_BlackRussianTerrier"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_RussianEuropeanLaika"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_RatTerrier"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_Saluki"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_Samoyed"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_SussexSpaniel"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_SaintBernard"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_ShibaInu"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_SealyhamTerrier"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_SkyeTerrier"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_ScotchTerrier"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_SlovakWatchman"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_Slugi"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_CentralAsianShepherdDog"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_StaffordshireBullTerrier"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_Taigan"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_ThaiRidgeback"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_Fee"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_TibetanMastiff"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_TibetanSpaniel"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_TibetanTerrier"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_TosaInu"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_Whippet"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_PharaohHound"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_FilaBrasileiro"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_FinnishLaika"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_FlatRetriever"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_FrenchBulldog"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_Harrier"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_Husky"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_Hovawart"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_Zvergschnauzer"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_ChowChow"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_CzechoslovakianWolfdog"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_Chinook"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_CirnecoDelEtna"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_Chihuahua"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_Chongqing"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_Sharpey"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_Sheltie"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_ShihTzu"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_Schipperke"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_ScottishGreyhound"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_ScottishSetter"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_EntlebucherZennenhund"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_AiredaleTerrier"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_EstonianHound"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_SouthAfricanBoerboel"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_SouthRussianShepherd"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_Jagdterrier"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_JapaneseChin"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_JapaneseSpitz"},
+
+                new() {AnimalID = 3, LocalizationCode = "Breed_"},
+                new() {AnimalID = 3, LocalizationCode = "Breed_"},
+                new() {AnimalID = 3, LocalizationCode = "Breed_"},
+                new() {AnimalID = 3, LocalizationCode = "Breed_"},
+                new() {AnimalID = 3, LocalizationCode = "Breed_"},
+                new() {AnimalID = 3, LocalizationCode = "Breed_"},
+                new() {AnimalID = 3, LocalizationCode = "Breed_"},
                 
                 new() {AnimalID = 2, LocalizationCode = "Breed_"},
                 new() {AnimalID = 2, LocalizationCode = "Breed_"},
@@ -211,8 +430,88 @@ namespace PetManage.Services
                 new() {AnimalID = 2, LocalizationCode = "Breed_"},
                 new() {AnimalID = 2, LocalizationCode = "Breed_"},
                 new() {AnimalID = 2, LocalizationCode = "Breed_"},
-
-            }
+                new() {AnimalID = 2, LocalizationCode = "Breed_"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_"},
+            };
         }
 
         #endregion
@@ -223,14 +522,14 @@ namespace PetManage.Services
         {
             await InitializeAsync();
 
-            await _database.InsertOrReplaceAsync(settings);
+            _ = await _database.InsertOrReplaceAsync(settings);
         }
 
         public async Task<int> SaveFoodAsync(FoodModel food)
         {
             await InitializeAsync();
             return await _database.InsertAsync(food);
-        } 
+        }
 
         #endregion
     }
