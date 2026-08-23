@@ -58,8 +58,9 @@
                                MaximumWidthRequest="250"/>
 
                         <Picker Grid.Column="1"
-                                ItemsSource=""
-                                SelectedItem="{Binding NewBreedPet}"
+                                ItemsSource="{Binding AnimalTypes}"
+                                ItemDisplayBinding="{Binding DisplayName}"
+                                SelectedItem="{Binding NewAnimalPet}"
                                 MinimumWidthRequest="150"
                                 MaximumWidthRequest="250"/>
 

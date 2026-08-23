@@ -15,15 +15,13 @@ public class LocalizationManager : INotifyPropertyChanged
 
     public string this[string key]
     {
-        get
-        {
-            return AppResources.ResourceManager.GetString(
-                key,
-                AppResources.Culture)
-                ?? key;
-        }
+        get => Get(key);
     }
 
+    public static string Get(string key)
+    {
+        return AppResources.ResourceManager.GetString(key,AppResources.Culture) ?? key;
+    }
 
     public void ChangeLanguage(string cultureCode)
     {

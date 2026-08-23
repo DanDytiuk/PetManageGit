@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace PetManage.Services
+﻿namespace PetManage.Services
 {
     [ContentProperty(nameof(Key))]
     public class Translate : IMarkupExtension

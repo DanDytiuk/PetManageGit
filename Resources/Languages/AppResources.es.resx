@@ -117,6 +117,39 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="AnimalType_Cat" xml:space="preserve">
+    <value>Gato</value>
+  </data>
+  <data name="AnimalType_Dog" xml:space="preserve">
+    <value>Perro</value>
+  </data>
+  <data name="AnimalType_Fox" xml:space="preserve">
+    <value>Zorro</value>
+  </data>
+  <data name="AnimalType_Hamster" xml:space="preserve">
+    <value>Hámster</value>
+  </data>
+  <data name="AnimalType_Lizard" xml:space="preserve">
+    <value>Lagarto</value>
+  </data>
+  <data name="AnimalType_Other" xml:space="preserve">
+    <value>Otro</value>
+  </data>
+  <data name="AnimalType_Parrot" xml:space="preserve">
+    <value>Loro</value>
+  </data>
+  <data name="AnimalType_Rabbit" xml:space="preserve">
+    <value>Conejo</value>
+  </data>
+  <data name="AnimalType_Snake" xml:space="preserve">
+    <value>Serpiente</value>
+  </data>
+  <data name="AnimalType_Spyder" xml:space="preserve">
+    <value>Araña</value>
+  </data>
+  <data name="AnimalType_Turtle" xml:space="preserve">
+    <value>Tortuga</value>
+  </data>
   <data name="Language" xml:space="preserve">
     <value>Idioma</value>
   </data>

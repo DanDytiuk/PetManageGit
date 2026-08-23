@@ -24,6 +24,9 @@ namespace PetManage.Services
             _ = await _database.CreateTableAsync<AnimalTypeModel>();
             _ = await _database.CreateTableAsync<BreedModel>();
             _ = await _database.CreateTableAsync<AppetiteModel>();
+
+            await InitializeAnimalTypesAsync();
+            await InitializeAppetiteTypesAsync();
         }
 
         #region GetDataAsync
@@ -51,6 +54,21 @@ namespace PetManage.Services
             return await _database.Table<FoodModel>()
                                   .OrderByDescending(x => x.DateOfEat)
                                   .ToListAsync();
+        }
+
+        public async Task<List<AnimalTypeModel>> GetAnimalTypesAsync()
+        {
+            return await _database
+                .Table<AnimalTypeModel>()
+                .ToListAsync();
+        }
+
+        public async Task<List<BreedModel>> GetBreedsByAnimalTypeAsync(int animalTypeId)
+        {
+            return await _database
+                .Table<BreedModel>()
+                .Where(x => x.AnimalID == animalTypeId)
+                .ToListAsync();
         }
 
         public async Task InitializeAnimalTypesAsync()
@@ -103,6 +121,7 @@ namespace PetManage.Services
             var count = await _database.Table<BreedModel>().CountAsync();
 
             if (count > 0) return;
+
             _ = new List<BreedModel>
             {
                 new() {AnimalID = 1, LocalizationCode = "Breed_Abyssinan"},
@@ -193,7 +212,7 @@ namespace PetManage.Services
                 new() {AnimalID = 1, LocalizationCode = "Breed_ChantillyTiffany"},
                 new() {AnimalID = 1, LocalizationCode = "Breed_Shartrez"},
                 new() {AnimalID = 1, LocalizationCode = "Breed_ScottishFoldCat"},
-                new() {AnimalID = 1, LocalizationCode = "Breed_scottishStraightCat"},
+                new() {AnimalID = 1, LocalizationCode = "Breed_ScottishStraightCat"},
                 new() {AnimalID = 1, LocalizationCode = "Breed_AegeanCat"},
                 new() {AnimalID = 1, LocalizationCode = "Breed_ExoticShorthairCat"},
                 new() {AnimalID = 1, LocalizationCode = "Breed_Elf"},
@@ -472,48 +491,23 @@ namespace PetManage.Services
 
                 new() {AnimalID = 7, LocalizationCode = "Breed_HomelessFox"},
                 new() {AnimalID = 7, LocalizationCode = "Breed_Fenech"},
-                
-                new() {AnimalID = 2, LocalizationCode = "Breed_"},
-                new() {AnimalID = 2, LocalizationCode = "Breed_"},
-                new() {AnimalID = 2, LocalizationCode = "Breed_"},
-                new() {AnimalID = 2, LocalizationCode = "Breed_"},
-                new() {AnimalID = 2, LocalizationCode = "Breed_"},
-                new() {AnimalID = 2, LocalizationCode = "Breed_"},
-                new() {AnimalID = 2, LocalizationCode = "Breed_"},
-                new() {AnimalID = 2, LocalizationCode = "Breed_"},
-                new() {AnimalID = 2, LocalizationCode = "Breed_"},
-                new() {AnimalID = 2, LocalizationCode = "Breed_"},
-                new() {AnimalID = 2, LocalizationCode = "Breed_"},
-                new() {AnimalID = 2, LocalizationCode = "Breed_"},
-                new() {AnimalID = 2, LocalizationCode = "Breed_"},
-                new() {AnimalID = 2, LocalizationCode = "Breed_"},
-                new() {AnimalID = 2, LocalizationCode = "Breed_"},
-                new() {AnimalID = 2, LocalizationCode = "Breed_"},
-                new() {AnimalID = 2, LocalizationCode = "Breed_"},
-                new() {AnimalID = 2, LocalizationCode = "Breed_"},
-                new() {AnimalID = 2, LocalizationCode = "Breed_"},
-                new() {AnimalID = 2, LocalizationCode = "Breed_"},
-                new() {AnimalID = 2, LocalizationCode = "Breed_"},
-                new() {AnimalID = 2, LocalizationCode = "Breed_"},
-                new() {AnimalID = 2, LocalizationCode = "Breed_"},
-                new() {AnimalID = 2, LocalizationCode = "Breed_"},
-                new() {AnimalID = 2, LocalizationCode = "Breed_"},
-                new() {AnimalID = 2, LocalizationCode = "Breed_"},
-                new() {AnimalID = 2, LocalizationCode = "Breed_"},
-                new() {AnimalID = 2, LocalizationCode = "Breed_"},
-                new() {AnimalID = 2, LocalizationCode = "Breed_"},
-                new() {AnimalID = 2, LocalizationCode = "Breed_"},
-                new() {AnimalID = 2, LocalizationCode = "Breed_"},
-                new() {AnimalID = 2, LocalizationCode = "Breed_"},
-                new() {AnimalID = 2, LocalizationCode = "Breed_"},
-                new() {AnimalID = 2, LocalizationCode = "Breed_"},
-                new() {AnimalID = 2, LocalizationCode = "Breed_"},
-                new() {AnimalID = 2, LocalizationCode = "Breed_"},
-                new() {AnimalID = 2, LocalizationCode = "Breed_"},
-                new() {AnimalID = 2, LocalizationCode = "Breed_"},
-                new() {AnimalID = 2, LocalizationCode = "Breed_"},
-                new() {AnimalID = 2, LocalizationCode = "Breed_"},
-                new() {AnimalID = 2, LocalizationCode = "Breed_"},
+
+                new() {AnimalID = 8, LocalizationCode = "Breed_LeopardGecko"},
+                new() {AnimalID = 8, LocalizationCode = "Breed_BananaEater"},
+                new() {AnimalID = 8, LocalizationCode = "Breed_BeardedDragon"},
+
+                new() {AnimalID = 9, LocalizationCode = "Breed_WhiteHairedTarantula"},
+                new() {AnimalID = 9, LocalizationCode = "Breed_GiantTarantula"},
+                new() {AnimalID = 9, LocalizationCode = "Breed_BicolorTarantula"},
+                new() {AnimalID = 9, LocalizationCode = "Breed_MexicanRedLeggedTarantula"},
+                new() {AnimalID = 9, LocalizationCode = "Breed_StripedTarantula"},
+                new() {AnimalID = 9, LocalizationCode = "Breed_HornedTarantula"},
+                new() {AnimalID = 9, LocalizationCode = "Breed_BlueTarantula"},
+                new() {AnimalID = 9, LocalizationCode = "Breed_ChromeTarantula"},
+
+
+                new() {AnimalID = 10, LocalizationCode = "Breed_CornSnake"},
+                new() {AnimalID = 10, LocalizationCode = "Breed_MilkSnake"},
             };
         }
 

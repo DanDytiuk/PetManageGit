@@ -4,9 +4,20 @@ namespace PetManage.View;
 
 public partial class AddNewProfilePage : ContentPage
 {
-	public AddNewProfilePage(AddNewProfilePageVM vm)
-	{
-		InitializeComponent();
-        BindingContext = vm;
+    private readonly AddNewProfilePageVM ViewModel;
+
+    public AddNewProfilePage(AddNewProfilePageVM viewModel)
+    {
+        InitializeComponent();
+
+        ViewModel = viewModel;
+        BindingContext = ViewModel;
+    }
+
+    protected override async void OnAppearing()
+    {
+        base.OnAppearing();
+
+        await ViewModel.LoadAnimalTypesAsync();
     }
 }
