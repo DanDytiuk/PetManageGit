@@ -150,6 +150,225 @@
   <data name="AnimalType_Turtle" xml:space="preserve">
     <value>Черепаха</value>
   </data>
+  <data name="Breed_Abyssinan" xml:space="preserve">
+    <value>Абиссинская кошка</value>
+  </data>
+  <data name="Breed_AmericanBobtail" xml:space="preserve">
+    <value>Американский бобтейл</value>
+  </data>
+  <data name="Breed_AmericanCurl" xml:space="preserve">
+    <value>Американский керл</value>
+  </data>
+  <data name="Breed_AmericanLongHair" xml:space="preserve">
+    <value>Американская длинношерстная</value>
+  </data>
+  <data name="Breed_AmericanShortHair" xml:space="preserve">
+    <value>Американская короткошерстная</value>
+  </data>
+  <data name="Breed_AmericanWireHair" xml:space="preserve">
+    <value>Американская жесткошерстная</value>
+  </data>
+  <data name="Breed_AnatolianCat" xml:space="preserve">
+    <value>Анатолийская кошка</value>
+  </data>
+  <data name="Breed_ArabianMau" xml:space="preserve">
+    <value>Арабский мау</value>
+  </data>
+  <data name="Breed_Asherah" xml:space="preserve">
+    <value>Ашера</value>
+  </data>
+  <data name="Breed_AsianTabby" xml:space="preserve">
+    <value>Азиатская табби</value>
+  </data>
+  <data name="Breed_AustralianSmoke" xml:space="preserve">
+    <value>Австралийская дымчатая кошка</value>
+  </data>
+  <data name="Breed_BalineseCat" xml:space="preserve">
+    <value>Балинезийская кошка</value>
+  </data>
+  <data name="Breed_Bambino" xml:space="preserve">
+    <value>Бамбино</value>
+  </data>
+  <data name="Breed_Bengal" xml:space="preserve">
+    <value>Бенгальская кошка</value>
+  </data>
+  <data name="Breed_Bombay" xml:space="preserve">
+    <value>Бомбейская кошка</value>
+  </data>
+  <data name="Breed_BrasilianShortHair" xml:space="preserve">
+    <value>Бразильская короткошерстная кошка</value>
+  </data>
+  <data name="Breed_BritainLongHair" xml:space="preserve">
+    <value>Британская длинношерстная кошка</value>
+  </data>
+  <data name="Breed_BritainShortHair" xml:space="preserve">
+    <value>Британская короткошерстная</value>
+  </data>
+  <data name="Breed_Burma" xml:space="preserve">
+    <value>Бурма</value>
+  </data>
+  <data name="Breed_BurmeseCat" xml:space="preserve">
+    <value>Бирманская кошка</value>
+  </data>
+  <data name="Breed_Burmilla" xml:space="preserve">
+    <value>Бурмилла</value>
+  </data>
+  <data name="Breed_CaliforniaShiningCat" xml:space="preserve">
+    <value>Калифорнийская сияющая кошка</value>
+  </data>
+  <data name="Breed_Canaan" xml:space="preserve">
+    <value>Канаани</value>
+  </data>
+  <data name="Breed_CanadianSphynx" xml:space="preserve">
+    <value>Канадский сфинкс</value>
+  </data>
+  <data name="Breed_Caracal" xml:space="preserve">
+    <value>Каракал</value>
+  </data>
+  <data name="Breed_CornishRex" xml:space="preserve">
+    <value>Корниш рекс</value>
+  </data>
+  <data name="Breed_Cymric" xml:space="preserve">
+    <value>Кимрик</value>
+  </data>
+  <data name="Breed_DevonRex" xml:space="preserve">
+    <value>Девон рекс</value>
+  </data>
+  <data name="Breed_DonSphynx" xml:space="preserve">
+    <value>Донской сфинкс</value>
+  </data>
+  <data name="Breed_Dvornyaga" xml:space="preserve">
+    <value>Дворовой кот</value>
+  </data>
+  <data name="Breed_Dwelf" xml:space="preserve">
+    <value>Эльф</value>
+  </data>
+  <data name="Breed_EgyptianMau" xml:space="preserve">
+    <value>Египетский мау</value>
+  </data>
+  <data name="Breed_EuropeanShortHair" xml:space="preserve">
+    <value>Европейская короткошерстная</value>
+  </data>
+  <data name="Breed_GermanRex" xml:space="preserve">
+    <value>Немецкий рекс</value>
+  </data>
+  <data name="Breed_HavanaBraun" xml:space="preserve">
+    <value>Гавана браун</value>
+  </data>
+  <data name="Breed_Himalai" xml:space="preserve">
+    <value>Гималайский кот</value>
+  </data>
+  <data name="Breed_KaoMani" xml:space="preserve">
+    <value>Као-мани</value>
+  </data>
+  <data name="Breed_KarelianBobtail" xml:space="preserve">
+    <value>Карельский бобтейл</value>
+  </data>
+  <data name="Breed_Korat" xml:space="preserve">
+    <value>Корат</value>
+  </data>
+  <data name="Breed_KurilianBobtail" xml:space="preserve">
+    <value>Курильский бобтейл</value>
+  </data>
+  <data name="Breed_Laperm" xml:space="preserve">
+    <value>м</value>
+  </data>
+  <data name="Breed_LeeHua" xml:space="preserve">
+    <value>Ли Хуа</value>
+  </data>
+  <data name="Breed_Likoy" xml:space="preserve">
+    <value>Ликой</value>
+  </data>
+  <data name="Breed_MaineCoon" xml:space="preserve">
+    <value>Мейн кун</value>
+  </data>
+  <data name="Breed_Mandalay" xml:space="preserve">
+    <value>Мандалай</value>
+  </data>
+  <data name="Breed_ManxCat" xml:space="preserve">
+    <value>Мэнская кошка</value>
+  </data>
+  <data name="Breed_MekongBobtail" xml:space="preserve">
+    <value>Меконгский бобтейл</value>
+  </data>
+  <data name="Breed_Minskin" xml:space="preserve">
+    <value>Минскин</value>
+  </data>
+  <data name="Breed_Munchkin" xml:space="preserve">
+    <value>Манчкин</value>
+  </data>
+  <data name="Breed_Napoleon" xml:space="preserve">
+    <value>Наполеон</value>
+  </data>
+  <data name="Breed_NevaMasqueradeCat" xml:space="preserve">
+    <value>Невская маскарадная кошка</value>
+  </data>
+  <data name="Breed_Nibelung" xml:space="preserve">
+    <value>Нибелунг</value>
+  </data>
+  <data name="Breed_NorwegianForestCat" xml:space="preserve">
+    <value>Норвежская лесная кошка</value>
+  </data>
+  <data name="Breed_Ocicat" xml:space="preserve">
+    <value>Оцикет</value>
+  </data>
+  <data name="Breed_OjosAzules" xml:space="preserve">
+    <value>Охос азулес</value>
+  </data>
+  <data name="Breed_OregonRex" xml:space="preserve">
+    <value>Орегон-рекс</value>
+  </data>
+  <data name="Breed_Oriental" xml:space="preserve">
+    <value>Ориентальная</value>
+  </data>
+  <data name="Breed_PersianCat" xml:space="preserve">
+    <value>Персидская кошка</value>
+  </data>
+  <data name="Breed_PetersburgSphinx" xml:space="preserve">
+    <value>Петербургский сфинкс</value>
+  </data>
+  <data name="Breed_PixieBob" xml:space="preserve">
+    <value>Пикси-боб</value>
+  </data>
+  <data name="Breed_Ragamuffin" xml:space="preserve">
+    <value>Рагамаффин</value>
+  </data>
+  <data name="Breed_Ragdoll" xml:space="preserve">
+    <value>Рэгдолл</value>
+  </data>
+  <data name="Breed_RussianBlueCat" xml:space="preserve">
+    <value>Русская голубая кошка</value>
+  </data>
+  <data name="Breed_Savannah" xml:space="preserve">
+    <value>Саванна</value>
+  </data>
+  <data name="Breed_SelkirkRex" xml:space="preserve">
+    <value>Селкирк-рекс</value>
+  </data>
+  <data name="Breed_Serengeti" xml:space="preserve">
+    <value>Серенгети</value>
+  </data>
+  <data name="Breed_SeychellsCat" xml:space="preserve">
+    <value>Сейшельская кошка</value>
+  </data>
+  <data name="Breed_SiameseCat" xml:space="preserve">
+    <value>Сиамская кошка</value>
+  </data>
+  <data name="Breed_SiberianCat" xml:space="preserve">
+    <value>Сибирская кошка</value>
+  </data>
+  <data name="Breed_SingapuraCat" xml:space="preserve">
+    <value>Сингапурская кошка (сингапура)</value>
+  </data>
+  <data name="Breed_SnowShoe" xml:space="preserve">
+    <value>Сноу-шу</value>
+  </data>
+  <data name="Breed_Sokoke" xml:space="preserve">
+    <value>Сококе</value>
+  </data>
+  <data name="Breed_YorkieChocCat" xml:space="preserve">
+    <value>Йоркская шоколадная кошка</value>
+  </data>
   <data name="Language" xml:space="preserve">
     <value>Язык</value>
   </data>

@@ -169,7 +169,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на Australian smoke cat.
+        ///   Ищет локализованную строку, похожую на Aegian cat.
         /// </summary>
         public static string Breed_AegeanCat {
             get {
@@ -403,7 +403,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на Chantilly-Tiffany.
         /// </summary>
         public static string Breed_ChantillyTiffany {
             get {
@@ -412,7 +412,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на Chauzi.
         /// </summary>
         public static string Breed_Chauzi {
             get {
@@ -421,7 +421,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на Cornish Rex.
         /// </summary>
         public static string Breed_CornishRex {
             get {
@@ -430,7 +430,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на Cymric cat.
         /// </summary>
         public static string Breed_Cymric {
             get {
@@ -439,7 +439,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на Devon rex.
         /// </summary>
         public static string Breed_DevonRex {
             get {
@@ -448,7 +448,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на Don Sphynx.
         /// </summary>
         public static string Breed_DonSphynx {
             get {
@@ -457,7 +457,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на Stray.
         /// </summary>
         public static string Breed_Dvornyaga {
             get {
@@ -466,7 +466,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на Dwelf.
         /// </summary>
         public static string Breed_Dwelf {
             get {
@@ -475,7 +475,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на Egyptian Mau.
         /// </summary>
         public static string Breed_EgyptianMau {
             get {
@@ -484,7 +484,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на Elf.
         /// </summary>
         public static string Breed_Elf {
             get {
@@ -493,7 +493,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на European short hair cat.
         /// </summary>
         public static string Breed_EuropeanShortHair {
             get {
@@ -502,7 +502,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на Exotic shorthair cat.
         /// </summary>
         public static string Breed_ExoticShorthairCat {
             get {
@@ -511,7 +511,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на Foreign White.
         /// </summary>
         public static string Breed_ForeignWhite {
             get {
@@ -520,7 +520,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на German Rex.
         /// </summary>
         public static string Breed_GermanRex {
             get {
@@ -529,7 +529,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на Havana brown.
         /// </summary>
         public static string Breed_HavanaBraun {
             get {
@@ -538,7 +538,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на Highland fold.
         /// </summary>
         public static string Breed_HighlandFold {
             get {
@@ -547,7 +547,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на Himalayan cat.
         /// </summary>
         public static string Breed_Himalai {
             get {
@@ -556,7 +556,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на Japanese Bobtail.
         /// </summary>
         public static string Breed_JapaneseBobtail {
             get {
@@ -565,7 +565,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на Javanese cat.
         /// </summary>
         public static string Breed_JavaneseCat {
             get {
@@ -574,7 +574,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на Kao-mani cat.
         /// </summary>
         public static string Breed_KaoMani {
             get {
@@ -583,7 +583,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на Karelian Bobtail.
         /// </summary>
         public static string Breed_KarelianBobtail {
             get {
@@ -592,7 +592,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на Korat.
         /// </summary>
         public static string Breed_Korat {
             get {
@@ -601,7 +601,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на Kurilian Bobtail.
         /// </summary>
         public static string Breed_KurilianBobtail {
             get {
@@ -610,7 +610,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на Laperm.
         /// </summary>
         public static string Breed_Laperm {
             get {
@@ -619,7 +619,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на Li Hua.
         /// </summary>
         public static string Breed_LeeHua {
             get {
@@ -628,7 +628,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на Likoy.
         /// </summary>
         public static string Breed_Likoy {
             get {
@@ -637,7 +637,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на Maine Coon.
         /// </summary>
         public static string Breed_MaineCoon {
             get {
@@ -646,7 +646,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на Mandalay.
         /// </summary>
         public static string Breed_Mandalay {
             get {
@@ -655,7 +655,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на Manx cat.
         /// </summary>
         public static string Breed_ManxCat {
             get {
@@ -664,7 +664,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на Mekong Bobtail.
         /// </summary>
         public static string Breed_MekongBobtail {
             get {
@@ -673,7 +673,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на Minskin.
         /// </summary>
         public static string Breed_Minskin {
             get {
@@ -682,7 +682,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на Munchkin.
         /// </summary>
         public static string Breed_Munchkin {
             get {
@@ -691,7 +691,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на Napoleon.
         /// </summary>
         public static string Breed_Napoleon {
             get {
@@ -700,7 +700,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на Neva masquerade cat.
         /// </summary>
         public static string Breed_NevaMasqueradeCat {
             get {
@@ -709,7 +709,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на Nibelung.
         /// </summary>
         public static string Breed_Nibelung {
             get {
@@ -718,7 +718,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на Norwegian Forest Cat.
         /// </summary>
         public static string Breed_NorwegianForestCat {
             get {
@@ -727,7 +727,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на Ociket.
         /// </summary>
         public static string Breed_Ocicat {
             get {
@@ -736,7 +736,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на Ohos azules.
         /// </summary>
         public static string Breed_OjosAzules {
             get {
@@ -745,7 +745,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на Oregon Rex.
         /// </summary>
         public static string Breed_OregonRex {
             get {
@@ -754,7 +754,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на Oriental.
         /// </summary>
         public static string Breed_Oriental {
             get {
@@ -763,7 +763,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на Persian cat.
         /// </summary>
         public static string Breed_PersianCat {
             get {
@@ -772,7 +772,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на Petersburg Sphinx.
         /// </summary>
         public static string Breed_PetersburgSphinx {
             get {
@@ -781,7 +781,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на Pixie bob.
         /// </summary>
         public static string Breed_PixieBob {
             get {
@@ -790,7 +790,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на Ragamuffin.
         /// </summary>
         public static string Breed_Ragamuffin {
             get {
@@ -799,7 +799,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на Ragdoll.
         /// </summary>
         public static string Breed_Ragdoll {
             get {
@@ -808,7 +808,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на Russian blue cat.
         /// </summary>
         public static string Breed_RussianBlueCat {
             get {
@@ -817,7 +817,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на Savannah.
         /// </summary>
         public static string Breed_Savannah {
             get {
@@ -826,7 +826,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на Scottish fold cat.
         /// </summary>
         public static string Breed_ScottishFoldCat {
             get {
@@ -835,7 +835,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на Scottish Straight cat.
         /// </summary>
         public static string Breed_ScottishStraightCat {
             get {
@@ -844,7 +844,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на Selkirk Rex.
         /// </summary>
         public static string Breed_SelkirkRex {
             get {
@@ -853,7 +853,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на Serengeti.
         /// </summary>
         public static string Breed_Serengeti {
             get {
@@ -862,7 +862,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на Seychelles cat.
         /// </summary>
         public static string Breed_SeychellsCat {
             get {
@@ -871,7 +871,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на Carthusian cat.
         /// </summary>
         public static string Breed_Shartrez {
             get {
@@ -880,7 +880,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на Siamese cat.
         /// </summary>
         public static string Breed_SiameseCat {
             get {
@@ -889,7 +889,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на Siberian cat.
         /// </summary>
         public static string Breed_SiberianCat {
             get {
@@ -898,7 +898,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на Singapura cat.
         /// </summary>
         public static string Breed_SingapuraCat {
             get {
@@ -907,7 +907,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на Snow-shoe.
         /// </summary>
         public static string Breed_SnowShoe {
             get {
@@ -916,7 +916,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на Sokoke.
         /// </summary>
         public static string Breed_Sokoke {
             get {
@@ -925,7 +925,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на Somali cat.
         /// </summary>
         public static string Breed_SomaliCat {
             get {
@@ -934,7 +934,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на Thai cat.
         /// </summary>
         public static string Breed_ThaiCat {
             get {
@@ -943,7 +943,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на Tonkinese cat.
         /// </summary>
         public static string Breed_Tonkinese {
             get {
@@ -952,7 +952,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на Toy bob.
         /// </summary>
         public static string Breed_Toybob {
             get {
@@ -961,7 +961,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на Toyger.
         /// </summary>
         public static string Breed_Toyger {
             get {
@@ -970,7 +970,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на Turkish Angora.
         /// </summary>
         public static string Breed_TurkishAngora {
             get {
@@ -979,7 +979,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на Turkish van.
         /// </summary>
         public static string Breed_TurkishVan {
             get {
@@ -988,7 +988,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на Ukrainian Levkoy.
         /// </summary>
         public static string Breed_UkrainianLevkoy {
             get {
@@ -997,7 +997,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на Ural rex.
         /// </summary>
         public static string Breed_UralRex {
             get {
@@ -1006,7 +1006,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на Yorkie chocolate cat.
         /// </summary>
         public static string Breed_YorkieChocCat {
             get {

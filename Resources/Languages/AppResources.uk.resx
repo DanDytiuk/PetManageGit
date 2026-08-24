@@ -150,6 +150,9 @@
   <data name="AnimalType_Turtle" xml:space="preserve">
     <value>Черепаха</value>
   </data>
+  <data name="Breed_Dvornyaga" xml:space="preserve">
+    <value>Вуличний кіт</value>
+  </data>
   <data name="Language" xml:space="preserve">
     <value>Мова</value>
   </data>

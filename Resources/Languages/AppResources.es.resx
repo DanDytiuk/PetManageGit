@@ -150,6 +150,291 @@
   <data name="AnimalType_Turtle" xml:space="preserve">
     <value>Tortuga</value>
   </data>
+  <data name="Breed_Abyssinan" xml:space="preserve">
+    <value>gato abisinio</value>
+  </data>
+  <data name="Breed_AegeanCat" xml:space="preserve">
+    <value>gato egeo</value>
+  </data>
+  <data name="Breed_AmericanBobtail" xml:space="preserve">
+    <value>Bobtail americano</value>
+  </data>
+  <data name="Breed_AmericanCurl" xml:space="preserve">
+    <value>rizo americano</value>
+  </data>
+  <data name="Breed_AmericanLongHair" xml:space="preserve">
+    <value>americano de pelo largo</value>
+  </data>
+  <data name="Breed_AmericanShortHair" xml:space="preserve">
+    <value>americano de pelo corto</value>
+  </data>
+  <data name="Breed_AmericanWireHair" xml:space="preserve">
+    <value>Pelo de alambre americano</value>
+  </data>
+  <data name="Breed_AnatolianCat" xml:space="preserve">
+    <value>gato de anatolia</value>
+  </data>
+  <data name="Breed_ArabianMau" xml:space="preserve">
+    <value>Mau árabe</value>
+  </data>
+  <data name="Breed_Asherah" xml:space="preserve">
+    <value>Asera</value>
+  </data>
+  <data name="Breed_AsianTabby" xml:space="preserve">
+    <value>atigrado asiático</value>
+  </data>
+  <data name="Breed_AustralianSmoke" xml:space="preserve">
+    <value>humo australiano</value>
+  </data>
+  <data name="Breed_BalineseCat" xml:space="preserve">
+    <value>Gato balinés</value>
+  </data>
+  <data name="Breed_Bambino" xml:space="preserve">
+    <value>niño</value>
+  </data>
+  <data name="Breed_Bengal" xml:space="preserve">
+    <value>gato bengala</value>
+  </data>
+  <data name="Breed_Bombay" xml:space="preserve">
+    <value>gato bombay</value>
+  </data>
+  <data name="Breed_BrasilianShortHair" xml:space="preserve">
+    <value>gato brasileño de pelo corto</value>
+  </data>
+  <data name="Breed_BritainLongHair" xml:space="preserve">
+    <value>gato británico de pelo largo</value>
+  </data>
+  <data name="Breed_BritainShortHair" xml:space="preserve">
+    <value>Pelo corto británico</value>
+  </data>
+  <data name="Breed_Burma" xml:space="preserve">
+    <value>gato birmano</value>
+  </data>
+  <data name="Breed_BurmeseCat" xml:space="preserve">
+    <value>Gato birmano</value>
+  </data>
+  <data name="Breed_Burmilla" xml:space="preserve">
+    <value>Burmilla</value>
+  </data>
+  <data name="Breed_CaliforniaShiningCat" xml:space="preserve">
+    <value>Gato brillante de California</value>
+  </data>
+  <data name="Breed_Canaan" xml:space="preserve">
+    <value>canaanita</value>
+  </data>
+  <data name="Breed_CanadianSphynx" xml:space="preserve">
+    <value>Esfinge canadiense</value>
+  </data>
+  <data name="Breed_Caracal" xml:space="preserve">
+    <value>Lince</value>
+  </data>
+  <data name="Breed_CeylonCat" xml:space="preserve">
+    <value>gato de ceilán</value>
+  </data>
+  <data name="Breed_ChantillyTiffany" xml:space="preserve">
+    <value>Chantilly-Tiffany</value>
+  </data>
+  <data name="Breed_Chauzi" xml:space="preserve">
+    <value>Chauzi </value>
+  </data>
+  <data name="Breed_CornishRex" xml:space="preserve">
+    <value>Rex de Cornualles</value>
+  </data>
+  <data name="Breed_Cymric" xml:space="preserve">
+    <value>Cymric</value>
+  </data>
+  <data name="Breed_DevonRex" xml:space="preserve">
+    <value>devon rex</value>
+  </data>
+  <data name="Breed_DonSphynx" xml:space="preserve">
+    <value>don esfinge</value>
+  </data>
+  <data name="Breed_Dvornyaga" xml:space="preserve">
+    <value>Un gato callejero</value>
+  </data>
+  <data name="Breed_Dwelf" xml:space="preserve">
+    <value>Dwelf</value>
+  </data>
+  <data name="Breed_EgyptianMau" xml:space="preserve">
+    <value>Mau egipcio</value>
+  </data>
+  <data name="Breed_Elf" xml:space="preserve">
+    <value>Duende</value>
+  </data>
+  <data name="Breed_EuropeanShortHair" xml:space="preserve">
+    <value>pelo corto europeo</value>
+  </data>
+  <data name="Breed_ExoticShorthairCat" xml:space="preserve">
+    <value>gato exótico de pelo corto</value>
+  </data>
+  <data name="Breed_ForeignWhite" xml:space="preserve">
+    <value>Blanco extranjero</value>
+  </data>
+  <data name="Breed_GermanRex" xml:space="preserve">
+    <value>Rex alemán</value>
+  </data>
+  <data name="Breed_HavanaBraun" xml:space="preserve">
+    <value>Marrón habana</value>
+  </data>
+  <data name="Breed_HighlandFold" xml:space="preserve">
+    <value>Pliegue de las tierras altas</value>
+  </data>
+  <data name="Breed_Himalai" xml:space="preserve">
+    <value>Gato del Himalaya</value>
+  </data>
+  <data name="Breed_JapaneseBobtail" xml:space="preserve">
+    <value>Bobtail japonés</value>
+  </data>
+  <data name="Breed_JavaneseCat" xml:space="preserve">
+    <value>Javanés</value>
+  </data>
+  <data name="Breed_KaoMani" xml:space="preserve">
+    <value>kao-mani</value>
+  </data>
+  <data name="Breed_KarelianBobtail" xml:space="preserve">
+    <value>Bobtail de Carelia</value>
+  </data>
+  <data name="Breed_Korat" xml:space="preserve">
+    <value>Korat</value>
+  </data>
+  <data name="Breed_KurilianBobtail" xml:space="preserve">
+    <value>Bobtail de las Kuriles</value>
+  </data>
+  <data name="Breed_Laperm" xml:space="preserve">
+    <value>Laperma</value>
+  </data>
+  <data name="Breed_LeeHua" xml:space="preserve">
+    <value>Li Hua </value>
+  </data>
+  <data name="Breed_Likoy" xml:space="preserve">
+    <value>Likoy</value>
+  </data>
+  <data name="Breed_MaineCoon" xml:space="preserve">
+    <value>Maine-coon</value>
+  </data>
+  <data name="Breed_Mandalay" xml:space="preserve">
+    <value>Mandalay</value>
+  </data>
+  <data name="Breed_ManxCat" xml:space="preserve">
+    <value>Gato de la Isla de Man</value>
+  </data>
+  <data name="Breed_MekongBobtail" xml:space="preserve">
+    <value>Bobtail del Mekong</value>
+  </data>
+  <data name="Breed_Minskin" xml:space="preserve">
+    <value>Minskin</value>
+  </data>
+  <data name="Breed_Munchkin" xml:space="preserve">
+    <value>Munchkins</value>
+  </data>
+  <data name="Breed_Napoleon" xml:space="preserve">
+    <value>Napoleón</value>
+  </data>
+  <data name="Breed_NevaMasqueradeCat" xml:space="preserve">
+    <value>Gato de mascarada Neva</value>
+  </data>
+  <data name="Breed_Nibelung" xml:space="preserve">
+    <value>nibelungo</value>
+  </data>
+  <data name="Breed_NorwegianForestCat" xml:space="preserve">
+    <value>Gato del bosque de Noruega</value>
+  </data>
+  <data name="Breed_Ocicat" xml:space="preserve">
+    <value>Ociket</value>
+  </data>
+  <data name="Breed_OjosAzules" xml:space="preserve">
+    <value>Ohos azules</value>
+  </data>
+  <data name="Breed_OregonRex" xml:space="preserve">
+    <value>Oregón Rex</value>
+  </data>
+  <data name="Breed_Oriental" xml:space="preserve">
+    <value>oriental</value>
+  </data>
+  <data name="Breed_PersianCat" xml:space="preserve">
+    <value>gato persa</value>
+  </data>
+  <data name="Breed_PetersburgSphinx" xml:space="preserve">
+    <value>Esfinge de San Petersburgo</value>
+  </data>
+  <data name="Breed_PixieBob" xml:space="preserve">
+    <value>bob duendecillo</value>
+  </data>
+  <data name="Breed_Ragamuffin" xml:space="preserve">
+    <value>Galopín</value>
+  </data>
+  <data name="Breed_Ragdoll" xml:space="preserve">
+    <value>muñeca de trapo</value>
+  </data>
+  <data name="Breed_RussianBlueCat" xml:space="preserve">
+    <value>gato azul ruso</value>
+  </data>
+  <data name="Breed_Savannah" xml:space="preserve">
+    <value>Sabana</value>
+  </data>
+  <data name="Breed_ScottishFoldCat" xml:space="preserve">
+    <value>Gato plegable escocés</value>
+  </data>
+  <data name="Breed_ScottishStraightCat" xml:space="preserve">
+    <value>Gato heterosexual escocés</value>
+  </data>
+  <data name="Breed_SelkirkRex" xml:space="preserve">
+    <value>Selkirk-Rex</value>
+  </data>
+  <data name="Breed_Serengeti" xml:space="preserve">
+    <value>Serengueti</value>
+  </data>
+  <data name="Breed_SeychellsCat" xml:space="preserve">
+    <value>gato seychelles</value>
+  </data>
+  <data name="Breed_Shartrez" xml:space="preserve">
+    <value>gato cartujo</value>
+  </data>
+  <data name="Breed_SiameseCat" xml:space="preserve">
+    <value>gato siamés</value>
+  </data>
+  <data name="Breed_SiberianCat" xml:space="preserve">
+    <value>gato siberiano</value>
+  </data>
+  <data name="Breed_SingapuraCat" xml:space="preserve">
+    <value>Gato Singapura</value>
+  </data>
+  <data name="Breed_SnowShoe" xml:space="preserve">
+    <value>Raqueta de nieve</value>
+  </data>
+  <data name="Breed_Sokoke" xml:space="preserve">
+    <value>Sokoke</value>
+  </data>
+  <data name="Breed_SomaliCat" xml:space="preserve">
+    <value>Gato somalí</value>
+  </data>
+  <data name="Breed_ThaiCat" xml:space="preserve">
+    <value>gato tailandés</value>
+  </data>
+  <data name="Breed_Tonkinese" xml:space="preserve">
+    <value>tonquinés</value>
+  </data>
+  <data name="Breed_Toybob" xml:space="preserve">
+    <value>Toybob</value>
+  </data>
+  <data name="Breed_Toyger" xml:space="preserve">
+    <value>juguete</value>
+  </data>
+  <data name="Breed_TurkishAngora" xml:space="preserve">
+    <value>Angora turca</value>
+  </data>
+  <data name="Breed_TurkishVan" xml:space="preserve">
+    <value>furgoneta turca</value>
+  </data>
+  <data name="Breed_UkrainianLevkoy" xml:space="preserve">
+    <value>Levkói ucraniano</value>
+  </data>
+  <data name="Breed_UralRex" xml:space="preserve">
+    <value>rex de los urales</value>
+  </data>
+  <data name="Breed_YorkieChocCat" xml:space="preserve">
+    <value>gato yorkie de chocolate</value>
+  </data>
   <data name="Language" xml:space="preserve">
     <value>Idioma</value>
   </data>
