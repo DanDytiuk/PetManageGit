@@ -178,11 +178,101 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
+        ///   Ищет локализованную строку, похожую на .
+        /// </summary>
+        public static string Breed_Affenpinscher {
+            get {
+                return ResourceManager.GetString("Breed_Affenpinscher", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на .
+        /// </summary>
+        public static string Breed_AfghanHound {
+            get {
+                return ResourceManager.GetString("Breed_AfghanHound", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на .
+        /// </summary>
+        public static string Breed_AiredaleTerrier {
+            get {
+                return ResourceManager.GetString("Breed_AiredaleTerrier", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на .
+        /// </summary>
+        public static string Breed_AkitaInu {
+            get {
+                return ResourceManager.GetString("Breed_AkitaInu", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на .
+        /// </summary>
+        public static string Breed_AlapahaBulldog {
+            get {
+                return ResourceManager.GetString("Breed_AlapahaBulldog", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на .
+        /// </summary>
+        public static string Breed_AlaskanMalamute {
+            get {
+                return ResourceManager.GetString("Breed_AlaskanMalamute", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на .
+        /// </summary>
+        public static string Breed_AmericanAkita {
+            get {
+                return ResourceManager.GetString("Breed_AmericanAkita", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на .
+        /// </summary>
+        public static string Breed_AmericanBandog {
+            get {
+                return ResourceManager.GetString("Breed_AmericanBandog", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Ищет локализованную строку, похожую на American bobtail.
         /// </summary>
         public static string Breed_AmericanBobtail {
             get {
                 return ResourceManager.GetString("Breed_AmericanBobtail", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на .
+        /// </summary>
+        public static string Breed_AmericanBulldog {
+            get {
+                return ResourceManager.GetString("Breed_AmericanBulldog", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на .
+        /// </summary>
+        public static string Breed_AmericanCockerSpaniel {
+            get {
+                return ResourceManager.GetString("Breed_AmericanCockerSpaniel", resourceCulture);
             }
         }
         
@@ -196,6 +286,33 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
+        ///   Ищет локализованную строку, похожую на .
+        /// </summary>
+        public static string Breed_AmericanEskimoSpitz {
+            get {
+                return ResourceManager.GetString("Breed_AmericanEskimoSpitz", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на .
+        /// </summary>
+        public static string Breed_AmericanFoxhound {
+            get {
+                return ResourceManager.GetString("Breed_AmericanFoxhound", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на .
+        /// </summary>
+        public static string Breed_AmericanHairlessTerrier {
+            get {
+                return ResourceManager.GetString("Breed_AmericanHairlessTerrier", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Ищет локализованную строку, похожую на American long hair cat.
         /// </summary>
         public static string Breed_AmericanLongHair {
@@ -205,11 +322,38 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
+        ///   Ищет локализованную строку, похожую на .
+        /// </summary>
+        public static string Breed_AmericanPitBullTerrier {
+            get {
+                return ResourceManager.GetString("Breed_AmericanPitBullTerrier", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Ищет локализованную строку, похожую на American short hair cat.
         /// </summary>
         public static string Breed_AmericanShortHair {
             get {
                 return ResourceManager.GetString("Breed_AmericanShortHair", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на .
+        /// </summary>
+        public static string Breed_AmericanStaffordshireTerrier {
+            get {
+                return ResourceManager.GetString("Breed_AmericanStaffordshireTerrier", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на .
+        /// </summary>
+        public static string Breed_AmericanWaterSpaniel {
+            get {
+                return ResourceManager.GetString("Breed_AmericanWaterSpaniel", resourceCulture);
             }
         }
         
@@ -228,6 +372,24 @@ namespace PetManage.Resources.Languages {
         public static string Breed_AnatolianCat {
             get {
                 return ResourceManager.GetString("Breed_AnatolianCat", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на .
+        /// </summary>
+        public static string Breed_AnatolianShepherd {
+            get {
+                return ResourceManager.GetString("Breed_AnatolianShepherd", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на .
+        /// </summary>
+        public static string Breed_AppenzellerSennenhund {
+            get {
+                return ResourceManager.GetString("Breed_AppenzellerSennenhund", resourceCulture);
             }
         }
         
@@ -259,11 +421,56 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
+        ///   Ищет локализованную строку, похожую на .
+        /// </summary>
+        public static string Breed_AustralianHeeler {
+            get {
+                return ResourceManager.GetString("Breed_AustralianHeeler", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Australian Kelpie.
+        /// </summary>
+        public static string Breed_AustralianKelpie {
+            get {
+                return ResourceManager.GetString("Breed_AustralianKelpie", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Australian Shepherd.
+        /// </summary>
+        public static string Breed_AustralianShepherd {
+            get {
+                return ResourceManager.GetString("Breed_AustralianShepherd", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Ищет локализованную строку, похожую на Australian smoke cat.
         /// </summary>
         public static string Breed_AustralianSmoke {
             get {
                 return ResourceManager.GetString("Breed_AustralianSmoke", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Australian Terrier.
+        /// </summary>
+        public static string Breed_AustralianTerrier {
+            get {
+                return ResourceManager.GetString("Breed_AustralianTerrier", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на .
+        /// </summary>
+        public static string Breed_Azawakh {
+            get {
+                return ResourceManager.GetString("Breed_Azawakh", resourceCulture);
             }
         }
         
@@ -286,11 +493,164 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
+        ///   Ищет локализованную строку, похожую на .
+        /// </summary>
+        public static string Breed_Basenji {
+            get {
+                return ResourceManager.GetString("Breed_Basenji", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на .
+        /// </summary>
+        public static string Breed_BassetHound {
+            get {
+                return ResourceManager.GetString("Breed_BassetHound", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на .
+        /// </summary>
+        public static string Breed_Beagle {
+            get {
+                return ResourceManager.GetString("Breed_Beagle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на .
+        /// </summary>
+        public static string Breed_BeardedCollie {
+            get {
+                return ResourceManager.GetString("Breed_BeardedCollie", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на .
+        /// </summary>
+        public static string Breed_Beauceron {
+            get {
+                return ResourceManager.GetString("Breed_Beauceron", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на .
+        /// </summary>
+        public static string Breed_BeaverYorkshireTerrier {
+            get {
+                return ResourceManager.GetString("Breed_BeaverYorkshireTerrier", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на .
+        /// </summary>
+        public static string Breed_BedlingtonTerrier {
+            get {
+                return ResourceManager.GetString("Breed_BedlingtonTerrier", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на .
+        /// </summary>
+        public static string Breed_BelgianMalinois {
+            get {
+                return ResourceManager.GetString("Breed_BelgianMalinois", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на .
+        /// </summary>
+        public static string Breed_BelgianShepherdGroenendael {
+            get {
+                return ResourceManager.GetString("Breed_BelgianShepherdGroenendael", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на .
+        /// </summary>
+        public static string Breed_BelgianShepherdLaekenois {
+            get {
+                return ResourceManager.GetString("Breed_BelgianShepherdLaekenois", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на .
+        /// </summary>
+        public static string Breed_BelgianShepherdTervuren {
+            get {
+                return ResourceManager.GetString("Breed_BelgianShepherdTervuren", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Ищет локализованную строку, похожую на Bengal.
         /// </summary>
         public static string Breed_Bengal {
             get {
                 return ResourceManager.GetString("Breed_Bengal", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на .
+        /// </summary>
+        public static string Breed_BerneseMountainDog {
+            get {
+                return ResourceManager.GetString("Breed_BerneseMountainDog", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на .
+        /// </summary>
+        public static string Breed_BichonFrize {
+            get {
+                return ResourceManager.GetString("Breed_BichonFrize", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на .
+        /// </summary>
+        public static string Breed_BlackRussianTerrier {
+            get {
+                return ResourceManager.GetString("Breed_BlackRussianTerrier", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на .
+        /// </summary>
+        public static string Breed_Bloodhound {
+            get {
+                return ResourceManager.GetString("Breed_Bloodhound", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на .
+        /// </summary>
+        public static string Breed_Bobtail {
+            get {
+                return ResourceManager.GetString("Breed_Bobtail", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на .
+        /// </summary>
+        public static string Breed_Bolognese {
+            get {
+                return ResourceManager.GetString("Breed_Bolognese", resourceCulture);
             }
         }
         
@@ -304,11 +664,65 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
+        ///   Ищет локализованную строку, похожую на .
+        /// </summary>
+        public static string Breed_BorderCollie {
+            get {
+                return ResourceManager.GetString("Breed_BorderCollie", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на .
+        /// </summary>
+        public static string Breed_BorderrTerrier {
+            get {
+                return ResourceManager.GetString("Breed_BorderrTerrier", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на .
+        /// </summary>
+        public static string Breed_BostonTerrier {
+            get {
+                return ResourceManager.GetString("Breed_BostonTerrier", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на .
+        /// </summary>
+        public static string Breed_Boxer {
+            get {
+                return ResourceManager.GetString("Breed_Boxer", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Ищет локализованную строку, похожую на Brazilian short hair cat.
         /// </summary>
         public static string Breed_BrasilianShortHair {
             get {
                 return ResourceManager.GetString("Breed_BrasilianShortHair", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на .
+        /// </summary>
+        public static string Breed_BretonEpagnole {
+            get {
+                return ResourceManager.GetString("Breed_BretonEpagnole", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на .
+        /// </summary>
+        public static string Breed_Briard {
+            get {
+                return ResourceManager.GetString("Breed_Briard", resourceCulture);
             }
         }
         
@@ -327,6 +741,42 @@ namespace PetManage.Resources.Languages {
         public static string Breed_BritainShortHair {
             get {
                 return ResourceManager.GetString("Breed_BritainShortHair", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на .
+        /// </summary>
+        public static string Breed_BrusselsGriffon {
+            get {
+                return ResourceManager.GetString("Breed_BrusselsGriffon", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на .
+        /// </summary>
+        public static string Breed_Bullmastiff {
+            get {
+                return ResourceManager.GetString("Breed_Bullmastiff", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на .
+        /// </summary>
+        public static string Breed_BullTerrier {
+            get {
+                return ResourceManager.GetString("Breed_BullTerrier", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на .
+        /// </summary>
+        public static string Breed_BullyKutta {
+            get {
+                return ResourceManager.GetString("Breed_BullyKutta", resourceCulture);
             }
         }
         
@@ -358,6 +808,33 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
+        ///   Ищет локализованную строку, похожую на .
+        /// </summary>
+        public static string Breed_BuryatMongolianWolfhound {
+            get {
+                return ResourceManager.GetString("Breed_BuryatMongolianWolfhound", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на .
+        /// </summary>
+        public static string Breed_Cadebo {
+            get {
+                return ResourceManager.GetString("Breed_Cadebo", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на .
+        /// </summary>
+        public static string Breed_CairnTerrier {
+            get {
+                return ResourceManager.GetString("Breed_CairnTerrier", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Ищет локализованную строку, похожую на Californian shining cat.
         /// </summary>
         public static string Breed_CaliforniaShiningCat {
@@ -385,11 +862,47 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
+        ///   Ищет локализованную строку, похожую на .
+        /// </summary>
+        public static string Breed_CaneCorso {
+            get {
+                return ResourceManager.GetString("Breed_CaneCorso", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Ищет локализованную строку, похожую на Caracal.
         /// </summary>
         public static string Breed_Caracal {
             get {
                 return ResourceManager.GetString("Breed_Caracal", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на .
+        /// </summary>
+        public static string Breed_CaucasianShepherd {
+            get {
+                return ResourceManager.GetString("Breed_CaucasianShepherd", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на .
+        /// </summary>
+        public static string Breed_CavalierKingCharlesSpaniel {
+            get {
+                return ResourceManager.GetString("Breed_CavalierKingCharlesSpaniel", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на .
+        /// </summary>
+        public static string Breed_CentralAsianShepherdDog {
+            get {
+                return ResourceManager.GetString("Breed_CentralAsianShepherdDog", resourceCulture);
             }
         }
         
@@ -421,11 +934,110 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
+        ///   Ищет локализованную строку, похожую на .
+        /// </summary>
+        public static string Breed_Chihuahua {
+            get {
+                return ResourceManager.GetString("Breed_Chihuahua", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на .
+        /// </summary>
+        public static string Breed_ChineseCrestedDog {
+            get {
+                return ResourceManager.GetString("Breed_ChineseCrestedDog", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на .
+        /// </summary>
+        public static string Breed_Chinook {
+            get {
+                return ResourceManager.GetString("Breed_Chinook", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на .
+        /// </summary>
+        public static string Breed_Chongqing {
+            get {
+                return ResourceManager.GetString("Breed_Chongqing", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на .
+        /// </summary>
+        public static string Breed_ChowChow {
+            get {
+                return ResourceManager.GetString("Breed_ChowChow", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на .
+        /// </summary>
+        public static string Breed_CirnecoDelEtna {
+            get {
+                return ResourceManager.GetString("Breed_CirnecoDelEtna", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на .
+        /// </summary>
+        public static string Breed_ClumberSpaniel {
+            get {
+                return ResourceManager.GetString("Breed_ClumberSpaniel", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на .
+        /// </summary>
+        public static string Breed_Collie {
+            get {
+                return ResourceManager.GetString("Breed_Collie", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на .
+        /// </summary>
+        public static string Breed_Commons {
+            get {
+                return ResourceManager.GetString("Breed_Commons", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Ищет локализованную строку, похожую на Cornish Rex.
         /// </summary>
         public static string Breed_CornishRex {
             get {
                 return ResourceManager.GetString("Breed_CornishRex", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на .
+        /// </summary>
+        public static string Breed_CotonDeTulear {
+            get {
+                return ResourceManager.GetString("Breed_CotonDeTulear", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на .
+        /// </summary>
+        public static string Breed_CurlyCoatedRetriever {
+            get {
+                return ResourceManager.GetString("Breed_CurlyCoatedRetriever", resourceCulture);
             }
         }
         
@@ -439,6 +1051,33 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
+        ///   Ищет локализованную строку, похожую на .
+        /// </summary>
+        public static string Breed_CzechoslovakianWolfdog {
+            get {
+                return ResourceManager.GetString("Breed_CzechoslovakianWolfdog", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на .
+        /// </summary>
+        public static string Breed_Dalmatian {
+            get {
+                return ResourceManager.GetString("Breed_Dalmatian", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на .
+        /// </summary>
+        public static string Breed_DandieDinmontTerrier {
+            get {
+                return ResourceManager.GetString("Breed_DandieDinmontTerrier", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Ищет локализованную строку, похожую на Devon rex.
         /// </summary>
         public static string Breed_DevonRex {
@@ -448,11 +1087,56 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
+        ///   Ищет локализованную строку, похожую на .
+        /// </summary>
+        public static string Breed_Doberman {
+            get {
+                return ResourceManager.GetString("Breed_Doberman", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на .
+        /// </summary>
+        public static string Breed_DogoArgentino {
+            get {
+                return ResourceManager.GetString("Breed_DogoArgentino", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на .
+        /// </summary>
+        public static string Breed_DogoCanario {
+            get {
+                return ResourceManager.GetString("Breed_DogoCanario", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на .
+        /// </summary>
+        public static string Breed_DogueDeBordeaux {
+            get {
+                return ResourceManager.GetString("Breed_DogueDeBordeaux", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Ищет локализованную строку, похожую на Don Sphynx.
         /// </summary>
         public static string Breed_DonSphynx {
             get {
                 return ResourceManager.GetString("Breed_DonSphynx", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на .
+        /// </summary>
+        public static string Breed_Drathaar {
+            get {
+                return ResourceManager.GetString("Breed_Drathaar", resourceCulture);
             }
         }
         
@@ -475,6 +1159,24 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
+        ///   Ищет локализованную строку, похожую на .
+        /// </summary>
+        public static string Breed_EastEuropeanShepherd {
+            get {
+                return ResourceManager.GetString("Breed_EastEuropeanShepherd", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на .
+        /// </summary>
+        public static string Breed_EastSiberianLaika {
+            get {
+                return ResourceManager.GetString("Breed_EastSiberianLaika", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Ищет локализованную строку, похожую на Egyptian Mau.
         /// </summary>
         public static string Breed_EgyptianMau {
@@ -489,6 +1191,96 @@ namespace PetManage.Resources.Languages {
         public static string Breed_Elf {
             get {
                 return ResourceManager.GetString("Breed_Elf", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на .
+        /// </summary>
+        public static string Breed_EnglishBulldog {
+            get {
+                return ResourceManager.GetString("Breed_EnglishBulldog", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на .
+        /// </summary>
+        public static string Breed_EnglishCockerSpaniel {
+            get {
+                return ResourceManager.GetString("Breed_EnglishCockerSpaniel", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на .
+        /// </summary>
+        public static string Breed_EnglishFoxhound {
+            get {
+                return ResourceManager.GetString("Breed_EnglishFoxhound", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на .
+        /// </summary>
+        public static string Breed_EnglishPointer {
+            get {
+                return ResourceManager.GetString("Breed_EnglishPointer", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на .
+        /// </summary>
+        public static string Breed_EnglishSetter {
+            get {
+                return ResourceManager.GetString("Breed_EnglishSetter", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на .
+        /// </summary>
+        public static string Breed_EnglishSpringerSpaniel {
+            get {
+                return ResourceManager.GetString("Breed_EnglishSpringerSpaniel", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на .
+        /// </summary>
+        public static string Breed_EnglishToyTerrier {
+            get {
+                return ResourceManager.GetString("Breed_EnglishToyTerrier", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на .
+        /// </summary>
+        public static string Breed_EntlebucherZennenhund {
+            get {
+                return ResourceManager.GetString("Breed_EntlebucherZennenhund", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на .
+        /// </summary>
+        public static string Breed_EstonianHound {
+            get {
+                return ResourceManager.GetString("Breed_EstonianHound", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на .
+        /// </summary>
+        public static string Breed_Euraiser {
+            get {
+                return ResourceManager.GetString("Breed_Euraiser", resourceCulture);
             }
         }
         
@@ -511,11 +1303,74 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
+        ///   Ищет локализованную строку, похожую на .
+        /// </summary>
+        public static string Breed_Fee {
+            get {
+                return ResourceManager.GetString("Breed_Fee", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на .
+        /// </summary>
+        public static string Breed_FilaBrasileiro {
+            get {
+                return ResourceManager.GetString("Breed_FilaBrasileiro", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на .
+        /// </summary>
+        public static string Breed_FinnishLaika {
+            get {
+                return ResourceManager.GetString("Breed_FinnishLaika", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на .
+        /// </summary>
+        public static string Breed_FlatRetriever {
+            get {
+                return ResourceManager.GetString("Breed_FlatRetriever", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Ищет локализованную строку, похожую на Foreign White.
         /// </summary>
         public static string Breed_ForeignWhite {
             get {
                 return ResourceManager.GetString("Breed_ForeignWhite", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на .
+        /// </summary>
+        public static string Breed_FrenchBulldog {
+            get {
+                return ResourceManager.GetString("Breed_FrenchBulldog", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на .
+        /// </summary>
+        public static string Breed_Gampr {
+            get {
+                return ResourceManager.GetString("Breed_Gampr", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на .
+        /// </summary>
+        public static string Breed_GermanPinscher {
+            get {
+                return ResourceManager.GetString("Breed_GermanPinscher", resourceCulture);
             }
         }
         
@@ -529,11 +1384,92 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
+        ///   Ищет локализованную строку, похожую на .
+        /// </summary>
+        public static string Breed_GermanShepherd {
+            get {
+                return ResourceManager.GetString("Breed_GermanShepherd", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на .
+        /// </summary>
+        public static string Breed_GoldenRetriever {
+            get {
+                return ResourceManager.GetString("Breed_GoldenRetriever", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на .
+        /// </summary>
+        public static string Breed_GreatDane {
+            get {
+                return ResourceManager.GetString("Breed_GreatDane", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на .
+        /// </summary>
+        public static string Breed_GreaterSwissMountainDog {
+            get {
+                return ResourceManager.GetString("Breed_GreaterSwissMountainDog", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на .
+        /// </summary>
+        public static string Breed_Greyhound {
+            get {
+                return ResourceManager.GetString("Breed_Greyhound", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на .
+        /// </summary>
+        public static string Breed_GriffonDeNivernaise {
+            get {
+                return ResourceManager.GetString("Breed_GriffonDeNivernaise", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на .
+        /// </summary>
+        public static string Breed_GriffonKortalsa {
+            get {
+                return ResourceManager.GetString("Breed_GriffonKortalsa", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на .
+        /// </summary>
+        public static string Breed_Harrier {
+            get {
+                return ResourceManager.GetString("Breed_Harrier", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Ищет локализованную строку, похожую на Havana brown.
         /// </summary>
         public static string Breed_HavanaBraun {
             get {
                 return ResourceManager.GetString("Breed_HavanaBraun", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на .
+        /// </summary>
+        public static string Breed_HavaneseBichon {
+            get {
+                return ResourceManager.GetString("Breed_HavaneseBichon", resourceCulture);
             }
         }
         
@@ -556,11 +1492,164 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
+        ///   Ищет локализованную строку, похожую на .
+        /// </summary>
+        public static string Breed_Hovawart {
+            get {
+                return ResourceManager.GetString("Breed_Hovawart", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на .
+        /// </summary>
+        public static string Breed_HungarianGreyhound {
+            get {
+                return ResourceManager.GetString("Breed_HungarianGreyhound", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на .
+        /// </summary>
+        public static string Breed_HungarianVizsla {
+            get {
+                return ResourceManager.GetString("Breed_HungarianVizsla", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на .
+        /// </summary>
+        public static string Breed_Husky {
+            get {
+                return ResourceManager.GetString("Breed_Husky", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на .
+        /// </summary>
+        public static string Breed_IbizanHound {
+            get {
+                return ResourceManager.GetString("Breed_IbizanHound", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на .
+        /// </summary>
+        public static string Breed_IcelandicDog {
+            get {
+                return ResourceManager.GetString("Breed_IcelandicDog", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на .
+        /// </summary>
+        public static string Breed_IrishGlenOfImaalTerrier {
+            get {
+                return ResourceManager.GetString("Breed_IrishGlenOfImaalTerrier", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на .
+        /// </summary>
+        public static string Breed_IrishRedSetter {
+            get {
+                return ResourceManager.GetString("Breed_IrishRedSetter", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на .
+        /// </summary>
+        public static string Breed_IrishSoftCoatedWheatenTerrier {
+            get {
+                return ResourceManager.GetString("Breed_IrishSoftCoatedWheatenTerrier", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на .
+        /// </summary>
+        public static string Breed_IrishTerrier {
+            get {
+                return ResourceManager.GetString("Breed_IrishTerrier", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на .
+        /// </summary>
+        public static string Breed_IrishWaterSpaniel {
+            get {
+                return ResourceManager.GetString("Breed_IrishWaterSpaniel", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на .
+        /// </summary>
+        public static string Breed_IrishWolfhound {
+            get {
+                return ResourceManager.GetString("Breed_IrishWolfhound", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на .
+        /// </summary>
+        public static string Breed_ItalianGreyhound {
+            get {
+                return ResourceManager.GetString("Breed_ItalianGreyhound", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на .
+        /// </summary>
+        public static string Breed_JackRussellTerrier {
+            get {
+                return ResourceManager.GetString("Breed_JackRussellTerrier", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на .
+        /// </summary>
+        public static string Breed_Jagdterrier {
+            get {
+                return ResourceManager.GetString("Breed_Jagdterrier", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Ищет локализованную строку, похожую на Japanese Bobtail.
         /// </summary>
         public static string Breed_JapaneseBobtail {
             get {
                 return ResourceManager.GetString("Breed_JapaneseBobtail", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на .
+        /// </summary>
+        public static string Breed_JapaneseChin {
+            get {
+                return ResourceManager.GetString("Breed_JapaneseChin", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на .
+        /// </summary>
+        public static string Breed_JapaneseSpitz {
+            get {
+                return ResourceManager.GetString("Breed_JapaneseSpitz", resourceCulture);
             }
         }
         
@@ -583,11 +1672,38 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
+        ///   Ищет локализованную строку, похожую на .
+        /// </summary>
+        public static string Breed_KarelianBearDog {
+            get {
+                return ResourceManager.GetString("Breed_KarelianBearDog", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Ищет локализованную строку, похожую на Karelian Bobtail.
         /// </summary>
         public static string Breed_KarelianBobtail {
             get {
                 return ResourceManager.GetString("Breed_KarelianBobtail", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на .
+        /// </summary>
+        public static string Breed_Keeshond {
+            get {
+                return ResourceManager.GetString("Breed_Keeshond", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на .
+        /// </summary>
+        public static string Breed_KerryBlueTerrier {
+            get {
+                return ResourceManager.GetString("Breed_KerryBlueTerrier", resourceCulture);
             }
         }
         
@@ -610,6 +1726,69 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
+        ///   Ищет локализованную строку, похожую на .
+        /// </summary>
+        public static string Breed_Kurzhaar {
+            get {
+                return ResourceManager.GetString("Breed_Kurzhaar", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на .
+        /// </summary>
+        public static string Breed_Kuvasz {
+            get {
+                return ResourceManager.GetString("Breed_Kuvasz", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на .
+        /// </summary>
+        public static string Breed_Labradoodle {
+            get {
+                return ResourceManager.GetString("Breed_Labradoodle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на .
+        /// </summary>
+        public static string Breed_LabradorRetriever {
+            get {
+                return ResourceManager.GetString("Breed_LabradorRetriever", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на .
+        /// </summary>
+        public static string Breed_LakelandTerrier {
+            get {
+                return ResourceManager.GetString("Breed_LakelandTerrier", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на .
+        /// </summary>
+        public static string Breed_Landseer {
+            get {
+                return ResourceManager.GetString("Breed_Landseer", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на .
+        /// </summary>
+        public static string Breed_Langhaar {
+            get {
+                return ResourceManager.GetString("Breed_Langhaar", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Ищет локализованную строку, похожую на Laperm.
         /// </summary>
         public static string Breed_Laperm {
@@ -628,6 +1807,24 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
+        ///   Ищет локализованную строку, похожую на .
+        /// </summary>
+        public static string Breed_Leonberger {
+            get {
+                return ResourceManager.GetString("Breed_Leonberger", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на .
+        /// </summary>
+        public static string Breed_LhasaApso {
+            get {
+                return ResourceManager.GetString("Breed_LhasaApso", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Ищет локализованную строку, похожую на Likoy.
         /// </summary>
         public static string Breed_Likoy {
@@ -637,11 +1834,47 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
+        ///   Ищет локализованную строку, похожую на .
+        /// </summary>
+        public static string Breed_Louchen {
+            get {
+                return ResourceManager.GetString("Breed_Louchen", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Ищет локализованную строку, похожую на Maine Coon.
         /// </summary>
         public static string Breed_MaineCoon {
             get {
                 return ResourceManager.GetString("Breed_MaineCoon", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на .
+        /// </summary>
+        public static string Breed_Maltese {
+            get {
+                return ResourceManager.GetString("Breed_Maltese", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на .
+        /// </summary>
+        public static string Breed_Maltipu {
+            get {
+                return ResourceManager.GetString("Breed_Maltipu", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на .
+        /// </summary>
+        public static string Breed_ManchesterTerrier {
+            get {
+                return ResourceManager.GetString("Breed_ManchesterTerrier", resourceCulture);
             }
         }
         
@@ -664,6 +1897,15 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
+        ///   Ищет локализованную строку, похожую на .
+        /// </summary>
+        public static string Breed_Mastiff {
+            get {
+                return ResourceManager.GetString("Breed_Mastiff", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Ищет локализованную строку, похожую на Mekong Bobtail.
         /// </summary>
         public static string Breed_MekongBobtail {
@@ -673,11 +1915,56 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
+        ///   Ищет локализованную строку, похожую на .
+        /// </summary>
+        public static string Breed_MexicanHairlessDog {
+            get {
+                return ResourceManager.GetString("Breed_MexicanHairlessDog", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на .
+        /// </summary>
+        public static string Breed_MiniatureBullTerrier {
+            get {
+                return ResourceManager.GetString("Breed_MiniatureBullTerrier", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на .
+        /// </summary>
+        public static string Breed_MiniaturePinscher {
+            get {
+                return ResourceManager.GetString("Breed_MiniaturePinscher", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Ищет локализованную строку, похожую на Minskin.
         /// </summary>
         public static string Breed_Minskin {
             get {
                 return ResourceManager.GetString("Breed_Minskin", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на .
+        /// </summary>
+        public static string Breed_MittelSchnauzer {
+            get {
+                return ResourceManager.GetString("Breed_MittelSchnauzer", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на .
+        /// </summary>
+        public static string Breed_MoscowWatchDog {
+            get {
+                return ResourceManager.GetString("Breed_MoscowWatchDog", resourceCulture);
             }
         }
         
@@ -700,11 +1987,29 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
+        ///   Ищет локализованную строку, похожую на .
+        /// </summary>
+        public static string Breed_NeapolitainMastiff {
+            get {
+                return ResourceManager.GetString("Breed_NeapolitainMastiff", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Ищет локализованную строку, похожую на Neva masquerade cat.
         /// </summary>
         public static string Breed_NevaMasqueradeCat {
             get {
                 return ResourceManager.GetString("Breed_NevaMasqueradeCat", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на .
+        /// </summary>
+        public static string Breed_Newfoundland {
+            get {
+                return ResourceManager.GetString("Breed_Newfoundland", resourceCulture);
             }
         }
         
@@ -718,11 +2023,56 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
+        ///   Ищет локализованную строку, похожую на .
+        /// </summary>
+        public static string Breed_NorfolkTerrier {
+            get {
+                return ResourceManager.GetString("Breed_NorfolkTerrier", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на .
+        /// </summary>
+        public static string Breed_NorwegianBuhund {
+            get {
+                return ResourceManager.GetString("Breed_NorwegianBuhund", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на .
+        /// </summary>
+        public static string Breed_NorwegianElkhound {
+            get {
+                return ResourceManager.GetString("Breed_NorwegianElkhound", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Ищет локализованную строку, похожую на Norwegian Forest Cat.
         /// </summary>
         public static string Breed_NorwegianForestCat {
             get {
                 return ResourceManager.GetString("Breed_NorwegianForestCat", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на .
+        /// </summary>
+        public static string Breed_NorwichTerrier {
+            get {
+                return ResourceManager.GetString("Breed_NorwichTerrier", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на .
+        /// </summary>
+        public static string Breed_NovaScotiaDuckRetriever {
+            get {
+                return ResourceManager.GetString("Breed_NovaScotiaDuckRetriever", resourceCulture);
             }
         }
         
@@ -763,11 +2113,65 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
+        ///   Ищет локализованную строку, похожую на .
+        /// </summary>
+        public static string Breed_Otterhound {
+            get {
+                return ResourceManager.GetString("Breed_Otterhound", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на .
+        /// </summary>
+        public static string Breed_Papillon {
+            get {
+                return ResourceManager.GetString("Breed_Papillon", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на .
+        /// </summary>
+        public static string Breed_ParsonRussellTerrier {
+            get {
+                return ResourceManager.GetString("Breed_ParsonRussellTerrier", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на .
+        /// </summary>
+        public static string Breed_Pekingese {
+            get {
+                return ResourceManager.GetString("Breed_Pekingese", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на .
+        /// </summary>
+        public static string Breed_PembrokeWelshCorgi {
+            get {
+                return ResourceManager.GetString("Breed_PembrokeWelshCorgi", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Ищет локализованную строку, похожую на Persian cat.
         /// </summary>
         public static string Breed_PersianCat {
             get {
                 return ResourceManager.GetString("Breed_PersianCat", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на .
+        /// </summary>
+        public static string Breed_PeruvianHairlessDog {
+            get {
+                return ResourceManager.GetString("Breed_PeruvianHairlessDog", resourceCulture);
             }
         }
         
@@ -781,11 +2185,128 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
+        ///   Ищет локализованную строку, похожую на .
+        /// </summary>
+        public static string Breed_PharaohHound {
+            get {
+                return ResourceManager.GetString("Breed_PharaohHound", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на .
+        /// </summary>
+        public static string Breed_Pig {
+            get {
+                return ResourceManager.GetString("Breed_Pig", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Ищет локализованную строку, похожую на Pixie bob.
         /// </summary>
         public static string Breed_PixieBob {
             get {
                 return ResourceManager.GetString("Breed_PixieBob", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на .
+        /// </summary>
+        public static string Breed_PolishLowlandSheepDog {
+            get {
+                return ResourceManager.GetString("Breed_PolishLowlandSheepDog", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на .
+        /// </summary>
+        public static string Breed_PolishPodgalianShepherdDog {
+            get {
+                return ResourceManager.GetString("Breed_PolishPodgalianShepherdDog", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на .
+        /// </summary>
+        public static string Breed_PomeranianSpitz {
+            get {
+                return ResourceManager.GetString("Breed_PomeranianSpitz", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на .
+        /// </summary>
+        public static string Breed_Poodle {
+            get {
+                return ResourceManager.GetString("Breed_Poodle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на .
+        /// </summary>
+        public static string Breed_PortugueseWaterDog {
+            get {
+                return ResourceManager.GetString("Breed_PortugueseWaterDog", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на .
+        /// </summary>
+        public static string Breed_PragueKnight {
+            get {
+                return ResourceManager.GetString("Breed_PragueKnight", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на .
+        /// </summary>
+        public static string Breed_Pug {
+            get {
+                return ResourceManager.GetString("Breed_Pug", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на .
+        /// </summary>
+        public static string Breed_Puli {
+            get {
+                return ResourceManager.GetString("Breed_Puli", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на .
+        /// </summary>
+        public static string Breed_PyreneanMastiff {
+            get {
+                return ResourceManager.GetString("Breed_PyreneanMastiff", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на .
+        /// </summary>
+        public static string Breed_PyreneanShepherd {
+            get {
+                return ResourceManager.GetString("Breed_PyreneanShepherd", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на .
+        /// </summary>
+        public static string Breed_RafeiraDoAlentejo {
+            get {
+                return ResourceManager.GetString("Breed_RafeiraDoAlentejo", resourceCulture);
             }
         }
         
@@ -808,11 +2329,92 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
+        ///   Ищет локализованную строку, похожую на .
+        /// </summary>
+        public static string Breed_RatTerrier {
+            get {
+                return ResourceManager.GetString("Breed_RatTerrier", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на .
+        /// </summary>
+        public static string Breed_RhodesianRidgeback {
+            get {
+                return ResourceManager.GetString("Breed_RhodesianRidgeback", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на .
+        /// </summary>
+        public static string Breed_Riesenschnauzer {
+            get {
+                return ResourceManager.GetString("Breed_Riesenschnauzer", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на .
+        /// </summary>
+        public static string Breed_Rottweiler {
+            get {
+                return ResourceManager.GetString("Breed_Rottweiler", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Ищет локализованную строку, похожую на Russian blue cat.
         /// </summary>
         public static string Breed_RussianBlueCat {
             get {
                 return ResourceManager.GetString("Breed_RussianBlueCat", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на .
+        /// </summary>
+        public static string Breed_RussianEuropeanLaika {
+            get {
+                return ResourceManager.GetString("Breed_RussianEuropeanLaika", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на .
+        /// </summary>
+        public static string Breed_RussianToy {
+            get {
+                return ResourceManager.GetString("Breed_RussianToy", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на .
+        /// </summary>
+        public static string Breed_SaintBernard {
+            get {
+                return ResourceManager.GetString("Breed_SaintBernard", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на .
+        /// </summary>
+        public static string Breed_Saluki {
+            get {
+                return ResourceManager.GetString("Breed_Saluki", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на .
+        /// </summary>
+        public static string Breed_Samoyed {
+            get {
+                return ResourceManager.GetString("Breed_Samoyed", resourceCulture);
             }
         }
         
@@ -826,6 +2428,24 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
+        ///   Ищет локализованную строку, похожую на .
+        /// </summary>
+        public static string Breed_Schipperke {
+            get {
+                return ResourceManager.GetString("Breed_Schipperke", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на .
+        /// </summary>
+        public static string Breed_ScotchTerrier {
+            get {
+                return ResourceManager.GetString("Breed_ScotchTerrier", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Ищет локализованную строку, похожую на Scottish fold cat.
         /// </summary>
         public static string Breed_ScottishFoldCat {
@@ -835,11 +2455,38 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
+        ///   Ищет локализованную строку, похожую на .
+        /// </summary>
+        public static string Breed_ScottishGreyhound {
+            get {
+                return ResourceManager.GetString("Breed_ScottishGreyhound", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на .
+        /// </summary>
+        public static string Breed_ScottishSetter {
+            get {
+                return ResourceManager.GetString("Breed_ScottishSetter", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Ищет локализованную строку, похожую на Scottish Straight cat.
         /// </summary>
         public static string Breed_ScottishStraightCat {
             get {
                 return ResourceManager.GetString("Breed_ScottishStraightCat", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на .
+        /// </summary>
+        public static string Breed_SealyhamTerrier {
+            get {
+                return ResourceManager.GetString("Breed_SealyhamTerrier", resourceCulture);
             }
         }
         
@@ -871,11 +2518,47 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
+        ///   Ищет локализованную строку, похожую на .
+        /// </summary>
+        public static string Breed_Sharpey {
+            get {
+                return ResourceManager.GetString("Breed_Sharpey", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Ищет локализованную строку, похожую на Carthusian cat.
         /// </summary>
         public static string Breed_Shartrez {
             get {
                 return ResourceManager.GetString("Breed_Shartrez", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на .
+        /// </summary>
+        public static string Breed_Sheltie {
+            get {
+                return ResourceManager.GetString("Breed_Sheltie", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на .
+        /// </summary>
+        public static string Breed_ShibaInu {
+            get {
+                return ResourceManager.GetString("Breed_ShibaInu", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на .
+        /// </summary>
+        public static string Breed_ShihTzu {
+            get {
+                return ResourceManager.GetString("Breed_ShihTzu", resourceCulture);
             }
         }
         
@@ -907,6 +2590,42 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
+        ///   Ищет локализованную строку, похожую на .
+        /// </summary>
+        public static string Breed_SkyeTerrier {
+            get {
+                return ResourceManager.GetString("Breed_SkyeTerrier", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на .
+        /// </summary>
+        public static string Breed_SlovakWatchman {
+            get {
+                return ResourceManager.GetString("Breed_SlovakWatchman", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на .
+        /// </summary>
+        public static string Breed_Slugi {
+            get {
+                return ResourceManager.GetString("Breed_Slugi", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на .
+        /// </summary>
+        public static string Breed_SmoothFoxTerrier {
+            get {
+                return ResourceManager.GetString("Breed_SmoothFoxTerrier", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Ищет локализованную строку, похожую на Snow-shoe.
         /// </summary>
         public static string Breed_SnowShoe {
@@ -934,6 +2653,60 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
+        ///   Ищет локализованную строку, похожую на .
+        /// </summary>
+        public static string Breed_SouthAfricanBoerboel {
+            get {
+                return ResourceManager.GetString("Breed_SouthAfricanBoerboel", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на .
+        /// </summary>
+        public static string Breed_SouthRussianShepherd {
+            get {
+                return ResourceManager.GetString("Breed_SouthRussianShepherd", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на .
+        /// </summary>
+        public static string Breed_SpanishMastiff {
+            get {
+                return ResourceManager.GetString("Breed_SpanishMastiff", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на .
+        /// </summary>
+        public static string Breed_StaffordshireBullTerrier {
+            get {
+                return ResourceManager.GetString("Breed_StaffordshireBullTerrier", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на .
+        /// </summary>
+        public static string Breed_SussexSpaniel {
+            get {
+                return ResourceManager.GetString("Breed_SussexSpaniel", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на .
+        /// </summary>
+        public static string Breed_Taigan {
+            get {
+                return ResourceManager.GetString("Breed_Taigan", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Ищет локализованную строку, похожую на Thai cat.
         /// </summary>
         public static string Breed_ThaiCat {
@@ -943,11 +2716,56 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
+        ///   Ищет локализованную строку, похожую на .
+        /// </summary>
+        public static string Breed_ThaiRidgeback {
+            get {
+                return ResourceManager.GetString("Breed_ThaiRidgeback", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на .
+        /// </summary>
+        public static string Breed_TibetanMastiff {
+            get {
+                return ResourceManager.GetString("Breed_TibetanMastiff", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на .
+        /// </summary>
+        public static string Breed_TibetanSpaniel {
+            get {
+                return ResourceManager.GetString("Breed_TibetanSpaniel", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на .
+        /// </summary>
+        public static string Breed_TibetanTerrier {
+            get {
+                return ResourceManager.GetString("Breed_TibetanTerrier", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Ищет локализованную строку, похожую на Tonkinese cat.
         /// </summary>
         public static string Breed_Tonkinese {
             get {
                 return ResourceManager.GetString("Breed_Tonkinese", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на .
+        /// </summary>
+        public static string Breed_TosaInu {
+            get {
+                return ResourceManager.GetString("Breed_TosaInu", resourceCulture);
             }
         }
         
@@ -1006,11 +2824,119 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
+        ///   Ищет локализованную строку, похожую на .
+        /// </summary>
+        public static string Breed_VendeenBassetGriffon {
+            get {
+                return ResourceManager.GetString("Breed_VendeenBassetGriffon", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на .
+        /// </summary>
+        public static string Breed_Weimaraner {
+            get {
+                return ResourceManager.GetString("Breed_Weimaraner", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на .
+        /// </summary>
+        public static string Breed_WelshCorgiCardigan {
+            get {
+                return ResourceManager.GetString("Breed_WelshCorgiCardigan", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на .
+        /// </summary>
+        public static string Breed_WelshSpringerSpaniel {
+            get {
+                return ResourceManager.GetString("Breed_WelshSpringerSpaniel", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на .
+        /// </summary>
+        public static string Breed_WelshTerrier {
+            get {
+                return ResourceManager.GetString("Breed_WelshTerrier", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на .
+        /// </summary>
+        public static string Breed_WestGighlandTerrier {
+            get {
+                return ResourceManager.GetString("Breed_WestGighlandTerrier", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на .
+        /// </summary>
+        public static string Breed_WestSiberianLaika {
+            get {
+                return ResourceManager.GetString("Breed_WestSiberianLaika", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на .
+        /// </summary>
+        public static string Breed_Whippet {
+            get {
+                return ResourceManager.GetString("Breed_Whippet", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на .
+        /// </summary>
+        public static string Breed_WhiteSwissShepherd {
+            get {
+                return ResourceManager.GetString("Breed_WhiteSwissShepherd", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на .
+        /// </summary>
+        public static string Breed_WolfDog {
+            get {
+                return ResourceManager.GetString("Breed_WolfDog", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Ищет локализованную строку, похожую на Yorkie chocolate cat.
         /// </summary>
         public static string Breed_YorkieChocCat {
             get {
                 return ResourceManager.GetString("Breed_YorkieChocCat", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на .
+        /// </summary>
+        public static string Breed_YorkshireTerrier {
+            get {
+                return ResourceManager.GetString("Breed_YorkshireTerrier", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на .
+        /// </summary>
+        public static string Breed_Zvergschnauzer {
+            get {
+                return ResourceManager.GetString("Breed_Zvergschnauzer", resourceCulture);
             }
         }
         

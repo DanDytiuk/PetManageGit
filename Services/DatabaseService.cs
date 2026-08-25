@@ -311,7 +311,7 @@ namespace PetManage.Services
                 new() {AnimalID = 2, LocalizationCode = "Breed_IrishRedSetter"},
                 new() {AnimalID = 2, LocalizationCode = "Breed_IrishSoftCoatedWheatenTerrier"},
                 new() {AnimalID = 2, LocalizationCode = "Breed_IrishTerrier"},
-                new() {AnimalID = 2, LocalizationCode = "Breed_irishGlenOfImaalTerrier"},
+                new() {AnimalID = 2, LocalizationCode = "Breed_IrishGlenOfImaalTerrier"},
                 new() {AnimalID = 2, LocalizationCode = "Breed_IcelandicDog"},
                 new() {AnimalID = 2, LocalizationCode = "Breed_SpanishMastiff"},
                 new() {AnimalID = 2, LocalizationCode = "Breed_YorkshireTerrier"},
