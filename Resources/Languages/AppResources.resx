@@ -157,7 +157,7 @@
     <value>Aegian cat</value>
   </data>
   <data name="Breed_AkitaInu" xml:space="preserve">
-    <value />
+    <value>Akita inu</value>
     <comment>6</comment>
   </data>
   <data name="Breed_AmericanBobtail" xml:space="preserve">
@@ -188,7 +188,7 @@
     <value>Asian tubby</value>
   </data>
   <data name="Breed_AustralianHeeler" xml:space="preserve">
-    <value />
+    <value>Australian heeler</value>
     <comment>4</comment>
   </data>
   <data name="Breed_AustralianKelpie" xml:space="preserve">
@@ -207,7 +207,7 @@
     <comment>3</comment>
   </data>
   <data name="Breed_Azawakh" xml:space="preserve">
-    <value />
+    <value>Azawakh</value>
     <comment>5</comment>
   </data>
   <data name="Breed_BalineseCat" xml:space="preserve">
@@ -477,835 +477,835 @@
     <comment>&#x8;</comment>
   </data>
   <data name="Breed_AlapahaBulldog" xml:space="preserve">
-    <value />
+    <value>Alapaha Bulldog</value>
     <comment>7</comment>
   </data>
   <data name="Breed_AlaskanMalamute" xml:space="preserve">
-    <value />
+    <value>Alaskan Malamute</value>
     <comment>8</comment>
   </data>
   <data name="Breed_AmericanAkita" xml:space="preserve">
-    <value />
+    <value>American Akita</value>
     <comment>9</comment>
   </data>
   <data name="Breed_AmericanBandog" xml:space="preserve">
-    <value />
+    <value>American Bandog</value>
     <comment>10</comment>
   </data>
   <data name="Breed_AmericanBulldog" xml:space="preserve">
-    <value />
+    <value>American Bulldog</value>
     <comment>11</comment>
   </data>
   <data name="Breed_AmericanWaterSpaniel" xml:space="preserve">
-    <value />
+    <value>American Water Spaniel</value>
     <comment>12</comment>
   </data>
   <data name="Breed_AmericanHairlessTerrier" xml:space="preserve">
-    <value />
+    <value>American Hairless Terrier</value>
     <comment>13</comment>
   </data>
   <data name="Breed_AmericanCockerSpaniel" xml:space="preserve">
-    <value />
+    <value>American Cocker Spaniel</value>
     <comment>14</comment>
   </data>
   <data name="Breed_AmericanPitBullTerrier" xml:space="preserve">
-    <value />
+    <value>American Pit Bull Terrier</value>
     <comment>15</comment>
   </data>
   <data name="Breed_AmericanStaffordshireTerrier" xml:space="preserve">
-    <value />
+    <value>American Staffordshire Terrier</value>
     <comment>16</comment>
   </data>
   <data name="Breed_AmericanFoxhound" xml:space="preserve">
-    <value />
+    <value>American Foxhound</value>
     <comment>17</comment>
   </data>
   <data name="Breed_AmericanEskimoSpitz" xml:space="preserve">
-    <value />
+    <value>American Eskimo Spitz</value>
     <comment>18</comment>
   </data>
   <data name="Breed_AnatolianShepherd" xml:space="preserve">
-    <value />
+    <value>Anatolian Shepherd</value>
     <comment>19</comment>
   </data>
   <data name="Breed_EnglishBulldog" xml:space="preserve">
-    <value />
+    <value>English bulldog</value>
     <comment>20</comment>
   </data>
   <data name="Breed_EnglishCockerSpaniel" xml:space="preserve">
-    <value />
+    <value>English cocker spaniel</value>
     <comment>21</comment>
   </data>
   <data name="Breed_EnglishPointer" xml:space="preserve">
-    <value />
+    <value>English pointer</value>
     <comment>22</comment>
   </data>
   <data name="Breed_EnglishSetter" xml:space="preserve">
-    <value />
+    <value>English Setter</value>
     <comment>23</comment>
   </data>
   <data name="Breed_EnglishSpringerSpaniel" xml:space="preserve">
-    <value />
+    <value>English Springer Spaniel</value>
     <comment>24</comment>
   </data>
   <data name="Breed_EnglishToyTerrier" xml:space="preserve">
-    <value />
+    <value>English Toy Terrier</value>
     <comment>25</comment>
   </data>
   <data name="Breed_EnglishFoxhound" xml:space="preserve">
-    <value />
+    <value>English Foxhound</value>
     <comment>26</comment>
   </data>
   <data name="Breed_AppenzellerSennenhund" xml:space="preserve">
-    <value />
+    <value>Appenzeller Zennenhund</value>
     <comment>27</comment>
   </data>
   <data name="Breed_DogoArgentino" xml:space="preserve">
-    <value />
+    <value>Dogo Argentino</value>
     <comment>28</comment>
   </data>
   <data name="Breed_AfghanHound" xml:space="preserve">
-    <value />
+    <value>Afghan Hound</value>
     <comment>29</comment>
   </data>
   <data name="Breed_Affenpinscher" xml:space="preserve">
-    <value />
+    <value>Affenpinscher</value>
     <comment>30</comment>
   </data>
   <data name="Breed_Basenji" xml:space="preserve">
-    <value />
+    <value>Basenji</value>
     <comment>31</comment>
   </data>
   <data name="Breed_BassetHound" xml:space="preserve">
-    <value />
+    <value>Basset hound</value>
     <comment>32</comment>
   </data>
   <data name="Breed_BedlingtonTerrier" xml:space="preserve">
-    <value />
+    <value>Bedlington Terrier</value>
     <comment>33</comment>
   </data>
   <data name="Breed_WhiteSwissShepherd" xml:space="preserve">
-    <value />
+    <value>White Swiss Shepherd</value>
     <comment>34</comment>
   </data>
   <data name="Breed_BelgianShepherdGroenendael" xml:space="preserve">
-    <value />
+    <value>Belgian Shepherd Groenendael</value>
     <comment>35</comment>
   </data>
   <data name="Breed_BelgianShepherdLaekenois" xml:space="preserve">
-    <value />
+    <value>Belgian Shepherd Laekenois</value>
     <comment>36</comment>
   </data>
   <data name="Breed_BelgianMalinois" xml:space="preserve">
-    <value />
+    <value>Belgian Malinois</value>
     <comment>37</comment>
   </data>
   <data name="Breed_BelgianShepherdTervuren" xml:space="preserve">
-    <value />
+    <value>Belgian Shepherd Tervuren</value>
     <comment>38</comment>
   </data>
   <data name="Breed_BerneseMountainDog" xml:space="preserve">
-    <value />
+    <value>Bernese Mountain Dog</value>
     <comment>39</comment>
   </data>
   <data name="Breed_BeaverYorkshireTerrier" xml:space="preserve">
-    <value />
+    <value>Beaver Yorkshire Terrier</value>
     <comment>40</comment>
   </data>
   <data name="Breed_Beagle" xml:space="preserve">
-    <value />
+    <value>Beagle</value>
     <comment>41</comment>
   </data>
   <data name="Breed_BichonFrize" xml:space="preserve">
-    <value />
+    <value>Bichon Frize</value>
     <comment>42</comment>
   </data>
   <data name="Breed_Bloodhound" xml:space="preserve">
-    <value />
+    <value>Bloodhound</value>
     <comment>43</comment>
   </data>
   <data name="Breed_Bobtail" xml:space="preserve">
-    <value />
+    <value>Bobtail</value>
     <comment>44</comment>
   </data>
   <data name="Breed_Boxer" xml:space="preserve">
-    <value />
+    <value>Boxer</value>
     <comment>45</comment>
   </data>
   <data name="Breed_Bolognese" xml:space="preserve">
-    <value />
+    <value>Bolognese</value>
     <comment>46</comment>
   </data>
   <data name="Breed_GreaterSwissMountainDog" xml:space="preserve">
-    <value />
+    <value>Greater Swiss Mountain Dog</value>
     <comment>47</comment>
   </data>
   <data name="Breed_BorderCollie" xml:space="preserve">
-    <value />
+    <value>Border Collie</value>
     <comment>48</comment>
   </data>
   <data name="Breed_BorderrTerrier" xml:space="preserve">
-    <value />
+    <value>Border terrier</value>
     <comment>49</comment>
   </data>
   <data name="Breed_DogueDeBordeaux" xml:space="preserve">
-    <value />
+    <value>Dogue de Bordeaux</value>
     <comment>50</comment>
   </data>
   <data name="Breed_BeardedCollie" xml:space="preserve">
-    <value />
+    <value>Bearded Collie</value>
     <comment>51</comment>
   </data>
   <data name="Breed_Beauceron" xml:space="preserve">
-    <value />
+    <value>Beauceron</value>
     <comment>52</comment>
   </data>
   <data name="Breed_BostonTerrier" xml:space="preserve">
-    <value />
+    <value>Boston Terrier </value>
     <comment>53</comment>
   </data>
   <data name="Breed_BretonEpagnole" xml:space="preserve">
-    <value />
+    <value>Breton Epagnole</value>
     <comment>54</comment>
   </data>
   <data name="Breed_Briard" xml:space="preserve">
-    <value />
+    <value>Briard</value>
     <comment>55</comment>
   </data>
   <data name="Breed_BrusselsGriffon" xml:space="preserve">
-    <value />
+    <value>Brussels Griffon</value>
     <comment>56</comment>
   </data>
   <data name="Breed_BullyKutta" xml:space="preserve">
-    <value />
+    <value>Bully Kutta</value>
     <comment>57</comment>
   </data>
   <data name="Breed_Bullmastiff" xml:space="preserve">
-    <value />
+    <value>Bullmastiff</value>
     <comment>58</comment>
   </data>
   <data name="Breed_BullTerrier" xml:space="preserve">
-    <value />
+    <value>Bull Terrier</value>
     <comment>59</comment>
   </data>
   <data name="Breed_MiniatureBullTerrier" xml:space="preserve">
-    <value />
+    <value>Miniature Bull Terrier</value>
     <comment>60</comment>
   </data>
   <data name="Breed_BuryatMongolianWolfhound" xml:space="preserve">
-    <value />
+    <value>Buryat-Mongolian wolfhound</value>
     <comment>61</comment>
   </data>
   <data name="Breed_VendeenBassetGriffon" xml:space="preserve">
-    <value />
+    <value>Vendeen Basset Griffon</value>
     <comment>62</comment>
   </data>
   <data name="Breed_Weimaraner" xml:space="preserve">
-    <value />
+    <value>Weimaraner</value>
     <comment>63</comment>
   </data>
   <data name="Breed_WelshCorgiCardigan" xml:space="preserve">
-    <value />
+    <value>Welsh Corgi Cardigan</value>
     <comment>64</comment>
   </data>
   <data name="Breed_PembrokeWelshCorgi" xml:space="preserve">
-    <value />
+    <value>Pembroke Welsh Corgi</value>
     <comment>65</comment>
   </data>
   <data name="Breed_WelshSpringerSpaniel" xml:space="preserve">
-    <value />
+    <value>Welsh Springer Spaniel</value>
     <comment>66</comment>
   </data>
   <data name="Breed_WelshTerrier" xml:space="preserve">
-    <value />
+    <value>Welsh Terrier</value>
     <comment>67</comment>
   </data>
   <data name="Breed_HungarianGreyhound" xml:space="preserve">
-    <value />
+    <value>Hungarian Greyhound</value>
     <comment>68</comment>
   </data>
   <data name="Breed_HungarianVizsla" xml:space="preserve">
-    <value />
+    <value>Hungarian Vizsla</value>
     <comment>69</comment>
   </data>
   <data name="Breed_WestGighlandTerrier" xml:space="preserve">
-    <value />
+    <value>West Highland Terrier</value>
     <comment>70</comment>
   </data>
   <data name="Breed_WolfDog" xml:space="preserve">
-    <value />
+    <value>Wolfdog</value>
     <comment>71</comment>
   </data>
   <data name="Breed_EastEuropeanShepherd" xml:space="preserve">
-    <value />
+    <value>East European Shepherd</value>
     <comment>72</comment>
   </data>
   <data name="Breed_EastSiberianLaika" xml:space="preserve">
-    <value />
+    <value>East Siberian Laika</value>
     <comment>73</comment>
   </data>
   <data name="Breed_HavaneseBichon" xml:space="preserve">
-    <value />
+    <value>Havanese Bichon</value>
     <comment>74</comment>
   </data>
   <data name="Breed_Gampr" xml:space="preserve">
-    <value />
+    <value>Gampr</value>
     <comment>75</comment>
   </data>
   <data name="Breed_SmoothFoxTerrier" xml:space="preserve">
-    <value />
+    <value>Smooth Fox Terrier</value>
     <comment>76</comment>
   </data>
   <data name="Breed_Greyhound" xml:space="preserve">
-    <value />
+    <value>Greyhound</value>
     <comment>77</comment>
   </data>
   <data name="Breed_GriffonKortalsa" xml:space="preserve">
-    <value />
+    <value>Griffon Kortalsa</value>
     <comment>78</comment>
   </data>
   <data name="Breed_Dalmatian" xml:space="preserve">
-    <value />
+    <value>Dalmatian</value>
     <comment>79</comment>
   </data>
   <data name="Breed_DandieDinmontTerrier" xml:space="preserve">
-    <value />
+    <value>Dandie Dinmont Terrier</value>
     <comment>80</comment>
   </data>
   <data name="Breed_JackRussellTerrier" xml:space="preserve">
-    <value />
+    <value>Jack Russell Terrier</value>
     <comment>81</comment>
   </data>
   <data name="Breed_Doberman" xml:space="preserve">
-    <value />
+    <value>Doberman</value>
     <comment>82</comment>
   </data>
   <data name="Breed_Drathaar" xml:space="preserve">
-    <value />
+    <value>Drathaar </value>
     <comment>83</comment>
   </data>
   <data name="Breed_Euraiser" xml:space="preserve">
-    <value />
+    <value>Eurasier</value>
     <comment>84</comment>
   </data>
   <data name="Breed_WestSiberianLaika" xml:space="preserve">
-    <value />
+    <value>West Siberian Laika</value>
     <comment>85</comment>
   </data>
   <data name="Breed_GoldenRetriever" xml:space="preserve">
-    <value />
+    <value>Golden Retriever</value>
     <comment>86</comment>
   </data>
   <data name="Breed_IrishWaterSpaniel" xml:space="preserve">
-    <value />
+    <value>Irish Water Spaniel</value>
     <comment>87</comment>
   </data>
   <data name="Breed_IrishWolfhound" xml:space="preserve">
-    <value />
+    <value>Irish Wolfhound</value>
     <comment>88</comment>
   </data>
   <data name="Breed_IrishRedSetter" xml:space="preserve">
-    <value />
+    <value>Irish Red Setter</value>
     <comment>89</comment>
   </data>
   <data name="Breed_IrishSoftCoatedWheatenTerrier" xml:space="preserve">
-    <value />
+    <value>Irish Soft Coated Wheaten Terrier</value>
     <comment>90</comment>
   </data>
   <data name="Breed_IrishTerrier" xml:space="preserve">
-    <value />
+    <value>Irish Terrier</value>
     <comment>91</comment>
   </data>
   <data name="Breed_IrishGlenOfImaalTerrier" xml:space="preserve">
-    <value />
+    <value>Irish Glen of Imaal Terrier</value>
     <comment>92</comment>
   </data>
   <data name="Breed_IcelandicDog" xml:space="preserve">
-    <value />
+    <value>Icelandic dog</value>
     <comment>93</comment>
   </data>
   <data name="Breed_SpanishMastiff" xml:space="preserve">
-    <value />
+    <value>Spanish Mastiff</value>
     <comment>94</comment>
   </data>
   <data name="Breed_YorkshireTerrier" xml:space="preserve">
-    <value />
+    <value>Yorkshire Terrier</value>
     <comment>95</comment>
   </data>
   <data name="Breed_Cadebo" xml:space="preserve">
-    <value />
+    <value>Ca-de-bo </value>
     <comment>96</comment>
   </data>
   <data name="Breed_CavalierKingCharlesSpaniel" xml:space="preserve">
-    <value />
+    <value>Cavalier King Charles Spaniel</value>
     <comment>97</comment>
   </data>
   <data name="Breed_CaucasianShepherd" xml:space="preserve">
-    <value />
+    <value>Caucasian Shepherd</value>
     <comment>98</comment>
   </data>
   <data name="Breed_DogoCanario" xml:space="preserve">
-    <value />
+    <value>Dogo Canario</value>
     <comment>99</comment>
   </data>
   <data name="Breed_CaneCorso" xml:space="preserve">
-    <value />
+    <value>Cane Corso</value>
     <comment>100</comment>
   </data>
   <data name="Breed_KarelianBearDog" xml:space="preserve">
-    <value />
+    <value>Karelian Bear Dog</value>
     <comment>101</comment>
   </data>
   <data name="Breed_MiniaturePinscher" xml:space="preserve">
-    <value />
+    <value>Miniature Pinscher</value>
     <comment>102</comment>
   </data>
   <data name="Breed_Keeshond" xml:space="preserve">
-    <value />
+    <value>Keeshond</value>
     <comment>103</comment>
   </data>
   <data name="Breed_CairnTerrier" xml:space="preserve">
-    <value />
+    <value>Cairn Terrier</value>
     <comment>104</comment>
   </data>
   <data name="Breed_KerryBlueTerrier" xml:space="preserve">
-    <value />
+    <value>Kerry Blue Terrier</value>
     <comment>105</comment>
   </data>
   <data name="Breed_ChineseCrestedDog" xml:space="preserve">
-    <value />
+    <value>Chinese Crested Dog</value>
     <comment>106</comment>
   </data>
   <data name="Breed_ClumberSpaniel" xml:space="preserve">
-    <value />
+    <value>Clumber spaniel</value>
     <comment>107</comment>
   </data>
   <data name="Breed_Collie" xml:space="preserve">
-    <value />
+    <value>Collie</value>
     <comment>108</comment>
   </data>
   <data name="Breed_Commons" xml:space="preserve">
-    <value />
+    <value>Commons</value>
     <comment>109</comment>
   </data>
   <data name="Breed_CotonDeTulear" xml:space="preserve">
-    <value />
+    <value>Coton de Tulear</value>
     <comment>110</comment>
   </data>
   <data name="Breed_Kuvasz" xml:space="preserve">
-    <value />
+    <value>Kuvasz</value>
     <comment>111</comment>
   </data>
   <data name="Breed_Kurzhaar" xml:space="preserve">
-    <value />
+    <value>Kurzhaar</value>
     <comment>112</comment>
   </data>
   <data name="Breed_CurlyCoatedRetriever" xml:space="preserve">
-    <value />
+    <value>Curly coated retriever</value>
     <comment>113</comment>
   </data>
   <data name="Breed_LabradorRetriever" xml:space="preserve">
-    <value />
+    <value>Labrador retriever</value>
     <comment>114</comment>
   </data>
   <data name="Breed_Labradoodle" xml:space="preserve">
-    <value />
+    <value>Labradoodle</value>
     <comment>115</comment>
   </data>
   <data name="Breed_Langhaar" xml:space="preserve">
-    <value />
+    <value>Langhaar </value>
     <comment>116</comment>
   </data>
   <data name="Breed_Landseer" xml:space="preserve">
-    <value />
+    <value>Landseer</value>
     <comment>117</comment>
   </data>
   <data name="Breed_ItalianGreyhound" xml:space="preserve">
-    <value />
+    <value>Italian Greyhound</value>
     <comment>118</comment>
   </data>
   <data name="Breed_LakelandTerrier" xml:space="preserve">
-    <value />
+    <value>Lakeland Terrier</value>
     <comment>119</comment>
   </data>
   <data name="Breed_Leonberger" xml:space="preserve">
-    <value />
+    <value>Leonberger</value>
     <comment>120</comment>
   </data>
   <data name="Breed_Louchen" xml:space="preserve">
-    <value />
+    <value>Louchen</value>
     <comment>121</comment>
   </data>
   <data name="Breed_LhasaApso" xml:space="preserve">
-    <value />
+    <value>Lhasa Apso</value>
     <comment>122</comment>
   </data>
   <data name="Breed_Maltese" xml:space="preserve">
-    <value />
+    <value>Maltese</value>
     <comment>123</comment>
   </data>
   <data name="Breed_Maltipu" xml:space="preserve">
-    <value />
+    <value>Maltipu</value>
     <comment>124</comment>
   </data>
   <data name="Breed_ManchesterTerrier" xml:space="preserve">
-    <value />
+    <value>Manchester Terrier</value>
     <comment>125</comment>
   </data>
   <data name="Breed_Mastiff" xml:space="preserve">
-    <value />
+    <value>Mastiff</value>
     <comment>126</comment>
   </data>
   <data name="Breed_MexicanHairlessDog" xml:space="preserve">
-    <value />
+    <value>Mexican Hairless Dog</value>
     <comment>127</comment>
   </data>
   <data name="Breed_MittelSchnauzer" xml:space="preserve">
-    <value />
+    <value>Mittel Schnauzer</value>
     <comment>128</comment>
   </data>
   <data name="Breed_Pug" xml:space="preserve">
-    <value />
+    <value>Pug</value>
     <comment>129</comment>
   </data>
   <data name="Breed_MoscowWatchDog" xml:space="preserve">
-    <value />
+    <value>Moscow watchdog</value>
     <comment>130</comment>
   </data>
   <data name="Breed_NeapolitainMastiff" xml:space="preserve">
-    <value />
+    <value>Neapolitan Mastiff</value>
     <comment>131</comment>
   </data>
   <data name="Breed_GermanShepherd" xml:space="preserve">
-    <value />
+    <value>German shepherd</value>
     <comment>132</comment>
   </data>
   <data name="Breed_GreatDane" xml:space="preserve">
-    <value />
+    <value>Great Dane</value>
     <comment>133</comment>
   </data>
   <data name="Breed_GermanPinscher" xml:space="preserve">
-    <value />
+    <value>German Pinscher</value>
     <comment>134</comment>
   </data>
   <data name="Breed_GriffonDeNivernaise" xml:space="preserve">
-    <value />
+    <value>Griffon de Nivernaise</value>
     <comment>135</comment>
   </data>
   <data name="Breed_NovaScotiaDuckRetriever" xml:space="preserve">
-    <value />
+    <value>Nova Scotia Duck Retriever</value>
     <comment>136</comment>
   </data>
   <data name="Breed_NorwegianBuhund" xml:space="preserve">
-    <value />
+    <value>Norwegian Buhund</value>
     <comment>137</comment>
   </data>
   <data name="Breed_NorwegianElkhound" xml:space="preserve">
-    <value />
+    <value>Norwegian Elkhound</value>
     <comment>138</comment>
   </data>
   <data name="Breed_NorwichTerrier" xml:space="preserve">
-    <value />
+    <value>Norwich Terrier</value>
     <comment>139</comment>
   </data>
   <data name="Breed_NorfolkTerrier" xml:space="preserve">
-    <value />
+    <value>Norfolk Terrier</value>
     <comment>140</comment>
   </data>
   <data name="Breed_Newfoundland" xml:space="preserve">
-    <value />
+    <value>Newfoundland</value>
     <comment>141</comment>
   </data>
   <data name="Breed_Otterhound" xml:space="preserve">
-    <value />
+    <value>Otterhound</value>
     <comment>142</comment>
   </data>
   <data name="Breed_Pig" xml:space="preserve">
-    <value />
+    <value>Pig</value>
     <comment>143</comment>
   </data>
   <data name="Breed_Papillon" xml:space="preserve">
-    <value />
+    <value>Papillon</value>
     <comment>144</comment>
   </data>
   <data name="Breed_ParsonRussellTerrier" xml:space="preserve">
-    <value />
+    <value>Parson Russell Terrier</value>
     <comment>145</comment>
   </data>
   <data name="Breed_Pekingese" xml:space="preserve">
-    <value />
+    <value>Pekingese</value>
     <comment>146</comment>
   </data>
   <data name="Breed_PeruvianHairlessDog" xml:space="preserve">
-    <value />
+    <value>Peruvian hairless dog</value>
     <comment>147</comment>
   </data>
   <data name="Breed_PyreneanShepherd" xml:space="preserve">
-    <value />
+    <value>Pyrenean Shepherd</value>
     <comment>148</comment>
   </data>
   <data name="Breed_PyreneanMastiff" xml:space="preserve">
-    <value />
+    <value>Pyrenean Mastiff</value>
     <comment>149</comment>
   </data>
   <data name="Breed_IbizanHound" xml:space="preserve">
-    <value />
+    <value>Podenko ibičenko</value>
     <comment>150</comment>
   </data>
   <data name="Breed_PolishLowlandSheepDog" xml:space="preserve">
-    <value />
+    <value>Polish Lowland Sheepdog</value>
     <comment>151</comment>
   </data>
   <data name="Breed_PolishPodgalianShepherdDog" xml:space="preserve">
-    <value />
+    <value>Polish Podgalian Shepherd Dog</value>
     <comment>152</comment>
   </data>
   <data name="Breed_PomeranianSpitz" xml:space="preserve">
-    <value />
+    <value>Pomeranian Spitz</value>
     <comment>153</comment>
   </data>
   <data name="Breed_PortugueseWaterDog" xml:space="preserve">
-    <value />
+    <value>Portuguese water dog</value>
     <comment>154</comment>
   </data>
   <data name="Breed_PragueKnight" xml:space="preserve">
-    <value />
+    <value>The Prague Knight</value>
     <comment>155</comment>
   </data>
   <data name="Breed_Poodle" xml:space="preserve">
-    <value />
+    <value>Poodle</value>
     <comment>156</comment>
   </data>
   <data name="Breed_Puli" xml:space="preserve">
-    <value />
+    <value>Puli</value>
     <comment>157</comment>
   </data>
   <data name="Breed_RafeiraDoAlentejo" xml:space="preserve">
-    <value />
+    <value>Rafeira do Alentejo</value>
     <comment>158</comment>
   </data>
   <data name="Breed_Riesenschnauzer" xml:space="preserve">
-    <value />
+    <value>Riesenschnauzer</value>
     <comment>159</comment>
   </data>
   <data name="Breed_RhodesianRidgeback" xml:space="preserve">
-    <value />
+    <value>Rhodesian Ridgeback</value>
     <comment>160</comment>
   </data>
   <data name="Breed_Rottweiler" xml:space="preserve">
-    <value />
+    <value>Rottweiler</value>
     <comment>161</comment>
   </data>
   <data name="Breed_RussianToy" xml:space="preserve">
-    <value />
+    <value>Russian Toy</value>
     <comment>162</comment>
   </data>
   <data name="Breed_BlackRussianTerrier" xml:space="preserve">
-    <value />
+    <value>Black Russian Terrier</value>
     <comment>163</comment>
   </data>
   <data name="Breed_RussianEuropeanLaika" xml:space="preserve">
-    <value />
+    <value>Russian-European Laika</value>
     <comment>164</comment>
   </data>
   <data name="Breed_RatTerrier" xml:space="preserve">
-    <value />
+    <value>Rat Terrier</value>
     <comment>165</comment>
   </data>
   <data name="Breed_Saluki" xml:space="preserve">
-    <value />
+    <value>Saluki </value>
     <comment>166</comment>
   </data>
   <data name="Breed_Samoyed" xml:space="preserve">
-    <value />
+    <value>Samoyed</value>
     <comment>167</comment>
   </data>
   <data name="Breed_SussexSpaniel" xml:space="preserve">
-    <value />
+    <value>Sussex Spaniel</value>
     <comment>168</comment>
   </data>
   <data name="Breed_SaintBernard" xml:space="preserve">
-    <value />
+    <value>Saint Bernard</value>
     <comment>169</comment>
   </data>
   <data name="Breed_ShibaInu" xml:space="preserve">
-    <value />
+    <value>Shiba Inu </value>
     <comment>170</comment>
   </data>
   <data name="Breed_SealyhamTerrier" xml:space="preserve">
-    <value />
+    <value>Sealyham Terrier</value>
     <comment>171</comment>
   </data>
   <data name="Breed_SkyeTerrier" xml:space="preserve">
-    <value />
+    <value>Skye Terrier</value>
     <comment>172</comment>
   </data>
   <data name="Breed_ScotchTerrier" xml:space="preserve">
-    <value />
+    <value>Scotch Terrier</value>
     <comment>173</comment>
   </data>
   <data name="Breed_SlovakWatchman" xml:space="preserve">
-    <value />
+    <value>Slovak watchman</value>
     <comment>174</comment>
   </data>
   <data name="Breed_Slugi" xml:space="preserve">
-    <value />
+    <value>Slugi </value>
     <comment>175</comment>
   </data>
   <data name="Breed_CentralAsianShepherdDog" xml:space="preserve">
-    <value />
+    <value>Central Asian Shepherd Dog</value>
     <comment>176</comment>
   </data>
   <data name="Breed_StaffordshireBullTerrier" xml:space="preserve">
-    <value />
+    <value>Staffordshire bull terrier</value>
     <comment>177</comment>
   </data>
   <data name="Breed_Taigan" xml:space="preserve">
-    <value />
+    <value>Taigan</value>
     <comment>178</comment>
   </data>
   <data name="Breed_ThaiRidgeback" xml:space="preserve">
-    <value />
+    <value>Thai Ridgeback</value>
     <comment>179</comment>
   </data>
   <data name="Breed_Fee" xml:space="preserve">
-    <value />
+    <value>Fee</value>
     <comment>180</comment>
   </data>
   <data name="Breed_TibetanMastiff" xml:space="preserve">
-    <value />
+    <value>Tibetan Mastiff</value>
     <comment>181</comment>
   </data>
   <data name="Breed_TibetanSpaniel" xml:space="preserve">
-    <value />
+    <value>Tibetan Spaniel</value>
     <comment>182</comment>
   </data>
   <data name="Breed_TibetanTerrier" xml:space="preserve">
-    <value />
+    <value>Tibetan Terrier</value>
     <comment>183</comment>
   </data>
   <data name="Breed_TosaInu" xml:space="preserve">
-    <value />
+    <value>Tosa Inu</value>
     <comment>184</comment>
   </data>
   <data name="Breed_Whippet" xml:space="preserve">
-    <value />
+    <value>Whippet</value>
     <comment>185</comment>
   </data>
   <data name="Breed_PharaohHound" xml:space="preserve">
-    <value />
+    <value>Pharaoh Hound</value>
     <comment>186</comment>
   </data>
   <data name="Breed_FilaBrasileiro" xml:space="preserve">
-    <value />
+    <value>Fila Brasileiro</value>
     <comment>187</comment>
   </data>
   <data name="Breed_FinnishLaika" xml:space="preserve">
-    <value />
+    <value>Finnish Laika </value>
     <comment>188</comment>
   </data>
   <data name="Breed_FlatRetriever" xml:space="preserve">
-    <value />
+    <value>Flat Retriever</value>
     <comment>189</comment>
   </data>
   <data name="Breed_FrenchBulldog" xml:space="preserve">
-    <value />
+    <value>French bulldog</value>
     <comment>190</comment>
   </data>
   <data name="Breed_Harrier" xml:space="preserve">
-    <value />
+    <value>Harrier</value>
     <comment>191</comment>
   </data>
   <data name="Breed_Husky" xml:space="preserve">
-    <value />
+    <value>Husky </value>
     <comment>192</comment>
   </data>
   <data name="Breed_Hovawart" xml:space="preserve">
-    <value />
+    <value>Hovawart</value>
     <comment>193</comment>
   </data>
   <data name="Breed_Zvergschnauzer" xml:space="preserve">
-    <value />
+    <value>Zvergschnauzer</value>
     <comment>194</comment>
   </data>
   <data name="Breed_ChowChow" xml:space="preserve">
-    <value />
+    <value>Chow Chow</value>
     <comment>195</comment>
   </data>
   <data name="Breed_CzechoslovakianWolfdog" xml:space="preserve">
-    <value />
+    <value>Czechoslovakian Wolfdog</value>
     <comment>196</comment>
   </data>
   <data name="Breed_Chinook" xml:space="preserve">
-    <value />
+    <value>Chinook</value>
     <comment>197</comment>
   </data>
   <data name="Breed_CirnecoDelEtna" xml:space="preserve">
-    <value />
+    <value>Cirneco del Etna</value>
     <comment>198</comment>
   </data>
   <data name="Breed_Chihuahua" xml:space="preserve">
-    <value />
+    <value>Chihuahua</value>
     <comment>199</comment>
   </data>
   <data name="Breed_Chongqing" xml:space="preserve">
-    <value />
+    <value>Chongqing</value>
     <comment>200</comment>
   </data>
   <data name="Breed_Sharpey" xml:space="preserve">
-    <value />
+    <value>Sharpey</value>
     <comment>201</comment>
   </data>
   <data name="Breed_Sheltie" xml:space="preserve">
-    <value />
+    <value>Sheltie</value>
     <comment>202</comment>
   </data>
   <data name="Breed_ShihTzu" xml:space="preserve">
-    <value />
+    <value>Shih Tzu</value>
     <comment>203</comment>
   </data>
   <data name="Breed_Schipperke" xml:space="preserve">
-    <value />
+    <value>Schipperke</value>
     <comment>204</comment>
   </data>
   <data name="Breed_ScottishGreyhound" xml:space="preserve">
-    <value />
+    <value>Scottish Greyhound</value>
     <comment>205</comment>
   </data>
   <data name="Breed_ScottishSetter" xml:space="preserve">
-    <value />
+    <value>Scottish Setter</value>
     <comment>206</comment>
   </data>
   <data name="Breed_EntlebucherZennenhund" xml:space="preserve">
-    <value />
+    <value>Entlebucher Zennenhund</value>
     <comment>207</comment>
   </data>
   <data name="Breed_AiredaleTerrier" xml:space="preserve">
-    <value />
+    <value>Airedale Terrier</value>
     <comment>208</comment>
   </data>
   <data name="Breed_EstonianHound" xml:space="preserve">
-    <value />
+    <value>Estonian hound</value>
     <comment>209</comment>
   </data>
   <data name="Breed_SouthAfricanBoerboel" xml:space="preserve">
-    <value />
+    <value>South African Boerboel</value>
     <comment>210</comment>
   </data>
   <data name="Breed_SouthRussianShepherd" xml:space="preserve">
-    <value />
+    <value>South Russian Shepherd</value>
     <comment>211</comment>
   </data>
   <data name="Breed_Jagdterrier" xml:space="preserve">
-    <value />
+    <value>Jagdterrier</value>
     <comment>212</comment>
   </data>
   <data name="Breed_JapaneseChin" xml:space="preserve">
-    <value />
+    <value>Japanese Chin</value>
     <comment>213</comment>
   </data>
   <data name="Breed_JapaneseSpitz" xml:space="preserve">
-    <value />
+    <value>Japanese Spitz</value>
     <comment>214</comment>
   </data>
 </root>

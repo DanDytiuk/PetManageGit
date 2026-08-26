@@ -178,7 +178,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на Affenpinscher.
         /// </summary>
         public static string Breed_Affenpinscher {
             get {
@@ -187,7 +187,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на Afghan Hound.
         /// </summary>
         public static string Breed_AfghanHound {
             get {
@@ -196,7 +196,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на Airedale Terrier.
         /// </summary>
         public static string Breed_AiredaleTerrier {
             get {
@@ -205,7 +205,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на Akita inu.
         /// </summary>
         public static string Breed_AkitaInu {
             get {
@@ -214,7 +214,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на Alapaha Bulldog.
         /// </summary>
         public static string Breed_AlapahaBulldog {
             get {
@@ -223,7 +223,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на Alaskan Malamute.
         /// </summary>
         public static string Breed_AlaskanMalamute {
             get {
@@ -232,7 +232,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на American Akita.
         /// </summary>
         public static string Breed_AmericanAkita {
             get {
@@ -241,7 +241,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на American Bandog.
         /// </summary>
         public static string Breed_AmericanBandog {
             get {
@@ -259,7 +259,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на American Bulldog.
         /// </summary>
         public static string Breed_AmericanBulldog {
             get {
@@ -268,7 +268,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на American Cocker Spaniel.
         /// </summary>
         public static string Breed_AmericanCockerSpaniel {
             get {
@@ -286,7 +286,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на American Eskimo Spitz.
         /// </summary>
         public static string Breed_AmericanEskimoSpitz {
             get {
@@ -295,7 +295,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на American Foxhound.
         /// </summary>
         public static string Breed_AmericanFoxhound {
             get {
@@ -304,7 +304,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на American Hairless Terrier.
         /// </summary>
         public static string Breed_AmericanHairlessTerrier {
             get {
@@ -322,7 +322,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на American Pit Bull Terrier.
         /// </summary>
         public static string Breed_AmericanPitBullTerrier {
             get {
@@ -340,7 +340,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на American Staffordshire Terrier.
         /// </summary>
         public static string Breed_AmericanStaffordshireTerrier {
             get {
@@ -349,7 +349,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на American Water Spaniel.
         /// </summary>
         public static string Breed_AmericanWaterSpaniel {
             get {
@@ -376,7 +376,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на Anatolian Shepherd.
         /// </summary>
         public static string Breed_AnatolianShepherd {
             get {
@@ -385,7 +385,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на Appenzeller Zennenhund.
         /// </summary>
         public static string Breed_AppenzellerSennenhund {
             get {
@@ -421,7 +421,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на Australian heeler.
         /// </summary>
         public static string Breed_AustralianHeeler {
             get {
@@ -466,7 +466,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на Azawakh.
         /// </summary>
         public static string Breed_Azawakh {
             get {
@@ -493,7 +493,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на Basenji.
         /// </summary>
         public static string Breed_Basenji {
             get {
@@ -502,7 +502,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на Basset hound.
         /// </summary>
         public static string Breed_BassetHound {
             get {
@@ -511,7 +511,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на Beagle.
         /// </summary>
         public static string Breed_Beagle {
             get {
@@ -520,7 +520,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на Bearded Collie.
         /// </summary>
         public static string Breed_BeardedCollie {
             get {
@@ -529,7 +529,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на Beauceron.
         /// </summary>
         public static string Breed_Beauceron {
             get {
@@ -538,7 +538,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на Beaver Yorkshire Terrier.
         /// </summary>
         public static string Breed_BeaverYorkshireTerrier {
             get {
@@ -547,7 +547,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на Bedlington Terrier.
         /// </summary>
         public static string Breed_BedlingtonTerrier {
             get {
@@ -556,7 +556,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на Belgian Malinois.
         /// </summary>
         public static string Breed_BelgianMalinois {
             get {
@@ -565,7 +565,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на Belgian Shepherd Groenendael.
         /// </summary>
         public static string Breed_BelgianShepherdGroenendael {
             get {
@@ -574,7 +574,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на Belgian Shepherd Laekenois.
         /// </summary>
         public static string Breed_BelgianShepherdLaekenois {
             get {
@@ -583,7 +583,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на Belgian Shepherd Tervuren.
         /// </summary>
         public static string Breed_BelgianShepherdTervuren {
             get {
@@ -601,7 +601,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на Bernese Mountain Dog.
         /// </summary>
         public static string Breed_BerneseMountainDog {
             get {
@@ -610,7 +610,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на Bichon Frize.
         /// </summary>
         public static string Breed_BichonFrize {
             get {
@@ -619,7 +619,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на Black Russian Terrier.
         /// </summary>
         public static string Breed_BlackRussianTerrier {
             get {
@@ -628,7 +628,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на Bloodhound.
         /// </summary>
         public static string Breed_Bloodhound {
             get {
@@ -637,7 +637,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на Bobtail.
         /// </summary>
         public static string Breed_Bobtail {
             get {
@@ -646,7 +646,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на Bolognese.
         /// </summary>
         public static string Breed_Bolognese {
             get {
@@ -664,7 +664,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на Border Collie.
         /// </summary>
         public static string Breed_BorderCollie {
             get {
@@ -673,7 +673,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на Border terrier.
         /// </summary>
         public static string Breed_BorderrTerrier {
             get {
@@ -682,7 +682,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на Boston Terrier .
         /// </summary>
         public static string Breed_BostonTerrier {
             get {
@@ -691,7 +691,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на Boxer.
         /// </summary>
         public static string Breed_Boxer {
             get {
@@ -709,7 +709,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на Breton Epagnole.
         /// </summary>
         public static string Breed_BretonEpagnole {
             get {
@@ -718,7 +718,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на Briard.
         /// </summary>
         public static string Breed_Briard {
             get {
@@ -745,7 +745,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на Brussels Griffon.
         /// </summary>
         public static string Breed_BrusselsGriffon {
             get {
@@ -754,7 +754,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на Bullmastiff.
         /// </summary>
         public static string Breed_Bullmastiff {
             get {
@@ -763,7 +763,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на Bull Terrier.
         /// </summary>
         public static string Breed_BullTerrier {
             get {
@@ -772,7 +772,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на Bully Kutta.
         /// </summary>
         public static string Breed_BullyKutta {
             get {
@@ -808,7 +808,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на Buryat-Mongolian wolfhound.
         /// </summary>
         public static string Breed_BuryatMongolianWolfhound {
             get {
@@ -817,7 +817,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на Ca-de-bo .
         /// </summary>
         public static string Breed_Cadebo {
             get {
@@ -826,7 +826,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на Cairn Terrier.
         /// </summary>
         public static string Breed_CairnTerrier {
             get {
@@ -862,7 +862,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на Cane Corso.
         /// </summary>
         public static string Breed_CaneCorso {
             get {
@@ -880,7 +880,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на Caucasian Shepherd.
         /// </summary>
         public static string Breed_CaucasianShepherd {
             get {
@@ -889,7 +889,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на Cavalier King Charles Spaniel.
         /// </summary>
         public static string Breed_CavalierKingCharlesSpaniel {
             get {
@@ -898,7 +898,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на Central Asian Shepherd Dog.
         /// </summary>
         public static string Breed_CentralAsianShepherdDog {
             get {
@@ -934,7 +934,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на Chihuahua.
         /// </summary>
         public static string Breed_Chihuahua {
             get {
@@ -943,7 +943,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на Chinese Crested Dog.
         /// </summary>
         public static string Breed_ChineseCrestedDog {
             get {
@@ -952,7 +952,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на Chinook.
         /// </summary>
         public static string Breed_Chinook {
             get {
@@ -961,7 +961,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на Chongqing.
         /// </summary>
         public static string Breed_Chongqing {
             get {
@@ -970,7 +970,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на Chow Chow.
         /// </summary>
         public static string Breed_ChowChow {
             get {
@@ -979,7 +979,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на Cirneco del Etna.
         /// </summary>
         public static string Breed_CirnecoDelEtna {
             get {
@@ -988,7 +988,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на Clumber spaniel.
         /// </summary>
         public static string Breed_ClumberSpaniel {
             get {
@@ -997,7 +997,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на Collie.
         /// </summary>
         public static string Breed_Collie {
             get {
@@ -1006,7 +1006,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на Commons.
         /// </summary>
         public static string Breed_Commons {
             get {
@@ -1024,7 +1024,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на Coton de Tulear.
         /// </summary>
         public static string Breed_CotonDeTulear {
             get {
@@ -1033,7 +1033,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на Curly coated retriever.
         /// </summary>
         public static string Breed_CurlyCoatedRetriever {
             get {
@@ -1051,7 +1051,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на Czechoslovakian Wolfdog.
         /// </summary>
         public static string Breed_CzechoslovakianWolfdog {
             get {
@@ -1060,7 +1060,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на Dalmatian.
         /// </summary>
         public static string Breed_Dalmatian {
             get {
@@ -1069,7 +1069,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на Dandie Dinmont Terrier.
         /// </summary>
         public static string Breed_DandieDinmontTerrier {
             get {
@@ -1087,7 +1087,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на Doberman.
         /// </summary>
         public static string Breed_Doberman {
             get {
@@ -1096,7 +1096,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на Dogo Argentino.
         /// </summary>
         public static string Breed_DogoArgentino {
             get {
@@ -1105,7 +1105,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на Dogo Canario.
         /// </summary>
         public static string Breed_DogoCanario {
             get {
@@ -1114,7 +1114,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на Dogue de Bordeaux.
         /// </summary>
         public static string Breed_DogueDeBordeaux {
             get {
@@ -1132,7 +1132,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на Drathaar .
         /// </summary>
         public static string Breed_Drathaar {
             get {
@@ -1159,7 +1159,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на East European Shepherd.
         /// </summary>
         public static string Breed_EastEuropeanShepherd {
             get {
@@ -1168,7 +1168,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на East Siberian Laika.
         /// </summary>
         public static string Breed_EastSiberianLaika {
             get {
@@ -1195,7 +1195,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на English bulldog.
         /// </summary>
         public static string Breed_EnglishBulldog {
             get {
@@ -1204,7 +1204,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на English cocker spaniel.
         /// </summary>
         public static string Breed_EnglishCockerSpaniel {
             get {
@@ -1213,7 +1213,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на English Foxhound.
         /// </summary>
         public static string Breed_EnglishFoxhound {
             get {
@@ -1222,7 +1222,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на English pointer.
         /// </summary>
         public static string Breed_EnglishPointer {
             get {
@@ -1231,7 +1231,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на English Setter.
         /// </summary>
         public static string Breed_EnglishSetter {
             get {
@@ -1240,7 +1240,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на English Springer Spaniel.
         /// </summary>
         public static string Breed_EnglishSpringerSpaniel {
             get {
@@ -1249,7 +1249,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на English Toy Terrier.
         /// </summary>
         public static string Breed_EnglishToyTerrier {
             get {
@@ -1258,7 +1258,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на Entlebucher Zennenhund.
         /// </summary>
         public static string Breed_EntlebucherZennenhund {
             get {
@@ -1267,7 +1267,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на Estonian hound.
         /// </summary>
         public static string Breed_EstonianHound {
             get {
@@ -1276,7 +1276,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на Eurasier.
         /// </summary>
         public static string Breed_Euraiser {
             get {
@@ -1303,7 +1303,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на Fee.
         /// </summary>
         public static string Breed_Fee {
             get {
@@ -1312,7 +1312,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на Fila Brasileiro.
         /// </summary>
         public static string Breed_FilaBrasileiro {
             get {
@@ -1321,7 +1321,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на Finnish Laika .
         /// </summary>
         public static string Breed_FinnishLaika {
             get {
@@ -1330,7 +1330,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на Flat Retriever.
         /// </summary>
         public static string Breed_FlatRetriever {
             get {
@@ -1348,7 +1348,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на French bulldog.
         /// </summary>
         public static string Breed_FrenchBulldog {
             get {
@@ -1357,7 +1357,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на Gampr.
         /// </summary>
         public static string Breed_Gampr {
             get {
@@ -1366,7 +1366,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на German Pinscher.
         /// </summary>
         public static string Breed_GermanPinscher {
             get {
@@ -1384,7 +1384,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на German shepherd.
         /// </summary>
         public static string Breed_GermanShepherd {
             get {
@@ -1393,7 +1393,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на Golden Retriever.
         /// </summary>
         public static string Breed_GoldenRetriever {
             get {
@@ -1402,7 +1402,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на Great Dane.
         /// </summary>
         public static string Breed_GreatDane {
             get {
@@ -1411,7 +1411,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на Greater Swiss Mountain Dog.
         /// </summary>
         public static string Breed_GreaterSwissMountainDog {
             get {
@@ -1420,7 +1420,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на Greyhound.
         /// </summary>
         public static string Breed_Greyhound {
             get {
@@ -1429,7 +1429,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на Griffon de Nivernaise.
         /// </summary>
         public static string Breed_GriffonDeNivernaise {
             get {
@@ -1438,7 +1438,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на Griffon Kortalsa.
         /// </summary>
         public static string Breed_GriffonKortalsa {
             get {
@@ -1447,7 +1447,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на Harrier.
         /// </summary>
         public static string Breed_Harrier {
             get {
@@ -1465,7 +1465,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на Havanese Bichon.
         /// </summary>
         public static string Breed_HavaneseBichon {
             get {
@@ -1492,7 +1492,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на Hovawart.
         /// </summary>
         public static string Breed_Hovawart {
             get {
@@ -1501,7 +1501,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на Hungarian Greyhound.
         /// </summary>
         public static string Breed_HungarianGreyhound {
             get {
@@ -1510,7 +1510,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на Hungarian Vizsla.
         /// </summary>
         public static string Breed_HungarianVizsla {
             get {
@@ -1519,7 +1519,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на Husky .
         /// </summary>
         public static string Breed_Husky {
             get {
@@ -1528,7 +1528,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на Podenko ibičenko.
         /// </summary>
         public static string Breed_IbizanHound {
             get {
@@ -1537,7 +1537,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на Icelandic dog.
         /// </summary>
         public static string Breed_IcelandicDog {
             get {
@@ -1546,7 +1546,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на Irish Glen of Imaal Terrier.
         /// </summary>
         public static string Breed_IrishGlenOfImaalTerrier {
             get {
@@ -1555,7 +1555,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на Irish Red Setter.
         /// </summary>
         public static string Breed_IrishRedSetter {
             get {
@@ -1564,7 +1564,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на Irish Soft Coated Wheaten Terrier.
         /// </summary>
         public static string Breed_IrishSoftCoatedWheatenTerrier {
             get {
@@ -1573,7 +1573,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на Irish Terrier.
         /// </summary>
         public static string Breed_IrishTerrier {
             get {
@@ -1582,7 +1582,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на Irish Water Spaniel.
         /// </summary>
         public static string Breed_IrishWaterSpaniel {
             get {
@@ -1591,7 +1591,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на Irish Wolfhound.
         /// </summary>
         public static string Breed_IrishWolfhound {
             get {
@@ -1600,7 +1600,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на Italian Greyhound.
         /// </summary>
         public static string Breed_ItalianGreyhound {
             get {
@@ -1609,7 +1609,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на Jack Russell Terrier.
         /// </summary>
         public static string Breed_JackRussellTerrier {
             get {
@@ -1618,7 +1618,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на Jagdterrier.
         /// </summary>
         public static string Breed_Jagdterrier {
             get {
@@ -1636,7 +1636,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на Japanese Chin.
         /// </summary>
         public static string Breed_JapaneseChin {
             get {
@@ -1645,7 +1645,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на Japanese Spitz.
         /// </summary>
         public static string Breed_JapaneseSpitz {
             get {
@@ -1672,7 +1672,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на Karelian Bear Dog.
         /// </summary>
         public static string Breed_KarelianBearDog {
             get {
@@ -1690,7 +1690,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на Keeshond.
         /// </summary>
         public static string Breed_Keeshond {
             get {
@@ -1699,7 +1699,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на Kerry Blue Terrier.
         /// </summary>
         public static string Breed_KerryBlueTerrier {
             get {
@@ -1726,7 +1726,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на Kurzhaar.
         /// </summary>
         public static string Breed_Kurzhaar {
             get {
@@ -1735,7 +1735,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на Kuvasz.
         /// </summary>
         public static string Breed_Kuvasz {
             get {
@@ -1744,7 +1744,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на Labradoodle.
         /// </summary>
         public static string Breed_Labradoodle {
             get {
@@ -1753,7 +1753,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на Labrador retriever.
         /// </summary>
         public static string Breed_LabradorRetriever {
             get {
@@ -1762,7 +1762,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на Lakeland Terrier.
         /// </summary>
         public static string Breed_LakelandTerrier {
             get {
@@ -1771,7 +1771,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на Landseer.
         /// </summary>
         public static string Breed_Landseer {
             get {
@@ -1780,7 +1780,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на Langhaar .
         /// </summary>
         public static string Breed_Langhaar {
             get {
@@ -1807,7 +1807,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на Leonberger.
         /// </summary>
         public static string Breed_Leonberger {
             get {
@@ -1816,7 +1816,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на Lhasa Apso.
         /// </summary>
         public static string Breed_LhasaApso {
             get {
@@ -1834,7 +1834,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на Louchen.
         /// </summary>
         public static string Breed_Louchen {
             get {
@@ -1852,7 +1852,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на Maltese.
         /// </summary>
         public static string Breed_Maltese {
             get {
@@ -1861,7 +1861,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на Maltipu.
         /// </summary>
         public static string Breed_Maltipu {
             get {
@@ -1870,7 +1870,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на Manchester Terrier.
         /// </summary>
         public static string Breed_ManchesterTerrier {
             get {
@@ -1897,7 +1897,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на Mastiff.
         /// </summary>
         public static string Breed_Mastiff {
             get {
@@ -1915,7 +1915,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на Mexican Hairless Dog.
         /// </summary>
         public static string Breed_MexicanHairlessDog {
             get {
@@ -1924,7 +1924,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на Miniature Bull Terrier.
         /// </summary>
         public static string Breed_MiniatureBullTerrier {
             get {
@@ -1933,7 +1933,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на Miniature Pinscher.
         /// </summary>
         public static string Breed_MiniaturePinscher {
             get {
@@ -1951,7 +1951,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на Mittel Schnauzer.
         /// </summary>
         public static string Breed_MittelSchnauzer {
             get {
@@ -1960,7 +1960,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на Moscow watchdog.
         /// </summary>
         public static string Breed_MoscowWatchDog {
             get {
@@ -1987,7 +1987,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на Neapolitan Mastiff.
         /// </summary>
         public static string Breed_NeapolitainMastiff {
             get {
@@ -2005,7 +2005,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на Newfoundland.
         /// </summary>
         public static string Breed_Newfoundland {
             get {
@@ -2023,7 +2023,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на Norfolk Terrier.
         /// </summary>
         public static string Breed_NorfolkTerrier {
             get {
@@ -2032,7 +2032,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на Norwegian Buhund.
         /// </summary>
         public static string Breed_NorwegianBuhund {
             get {
@@ -2041,7 +2041,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на Norwegian Elkhound.
         /// </summary>
         public static string Breed_NorwegianElkhound {
             get {
@@ -2059,7 +2059,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на Norwich Terrier.
         /// </summary>
         public static string Breed_NorwichTerrier {
             get {
@@ -2068,7 +2068,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на Nova Scotia Duck Retriever.
         /// </summary>
         public static string Breed_NovaScotiaDuckRetriever {
             get {
@@ -2113,7 +2113,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на Otterhound.
         /// </summary>
         public static string Breed_Otterhound {
             get {
@@ -2122,7 +2122,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на Papillon.
         /// </summary>
         public static string Breed_Papillon {
             get {
@@ -2131,7 +2131,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на Parson Russell Terrier.
         /// </summary>
         public static string Breed_ParsonRussellTerrier {
             get {
@@ -2140,7 +2140,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на Pekingese.
         /// </summary>
         public static string Breed_Pekingese {
             get {
@@ -2149,7 +2149,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на Pembroke Welsh Corgi.
         /// </summary>
         public static string Breed_PembrokeWelshCorgi {
             get {
@@ -2167,7 +2167,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на Peruvian hairless dog.
         /// </summary>
         public static string Breed_PeruvianHairlessDog {
             get {
@@ -2185,7 +2185,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на Pharaoh Hound.
         /// </summary>
         public static string Breed_PharaohHound {
             get {
@@ -2194,7 +2194,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на Pig.
         /// </summary>
         public static string Breed_Pig {
             get {
@@ -2212,7 +2212,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на Polish Lowland Sheepdog.
         /// </summary>
         public static string Breed_PolishLowlandSheepDog {
             get {
@@ -2221,7 +2221,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на Polish Podgalian Shepherd Dog.
         /// </summary>
         public static string Breed_PolishPodgalianShepherdDog {
             get {
@@ -2230,7 +2230,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на Pomeranian Spitz.
         /// </summary>
         public static string Breed_PomeranianSpitz {
             get {
@@ -2239,7 +2239,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на Poodle.
         /// </summary>
         public static string Breed_Poodle {
             get {
@@ -2248,7 +2248,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на Portuguese water dog.
         /// </summary>
         public static string Breed_PortugueseWaterDog {
             get {
@@ -2257,7 +2257,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на The Prague Knight.
         /// </summary>
         public static string Breed_PragueKnight {
             get {
@@ -2266,7 +2266,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на Pug.
         /// </summary>
         public static string Breed_Pug {
             get {
@@ -2275,7 +2275,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на Puli.
         /// </summary>
         public static string Breed_Puli {
             get {
@@ -2284,7 +2284,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на Pyrenean Mastiff.
         /// </summary>
         public static string Breed_PyreneanMastiff {
             get {
@@ -2293,7 +2293,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на Pyrenean Shepherd.
         /// </summary>
         public static string Breed_PyreneanShepherd {
             get {
@@ -2302,7 +2302,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на Rafeira do Alentejo.
         /// </summary>
         public static string Breed_RafeiraDoAlentejo {
             get {
@@ -2329,7 +2329,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на Rat Terrier.
         /// </summary>
         public static string Breed_RatTerrier {
             get {
@@ -2338,7 +2338,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на Rhodesian Ridgeback.
         /// </summary>
         public static string Breed_RhodesianRidgeback {
             get {
@@ -2347,7 +2347,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на Riesenschnauzer.
         /// </summary>
         public static string Breed_Riesenschnauzer {
             get {
@@ -2356,7 +2356,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на Rottweiler.
         /// </summary>
         public static string Breed_Rottweiler {
             get {
@@ -2374,7 +2374,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на Russian-European Laika.
         /// </summary>
         public static string Breed_RussianEuropeanLaika {
             get {
@@ -2383,7 +2383,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на Russian Toy.
         /// </summary>
         public static string Breed_RussianToy {
             get {
@@ -2392,7 +2392,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на Saint Bernard.
         /// </summary>
         public static string Breed_SaintBernard {
             get {
@@ -2401,7 +2401,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на Saluki .
         /// </summary>
         public static string Breed_Saluki {
             get {
@@ -2410,7 +2410,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на Samoyed.
         /// </summary>
         public static string Breed_Samoyed {
             get {
@@ -2428,7 +2428,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на Schipperke.
         /// </summary>
         public static string Breed_Schipperke {
             get {
@@ -2437,7 +2437,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на Scotch Terrier.
         /// </summary>
         public static string Breed_ScotchTerrier {
             get {
@@ -2455,7 +2455,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на Scottish Greyhound.
         /// </summary>
         public static string Breed_ScottishGreyhound {
             get {
@@ -2464,7 +2464,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на Scottish Setter.
         /// </summary>
         public static string Breed_ScottishSetter {
             get {
@@ -2482,7 +2482,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на Sealyham Terrier.
         /// </summary>
         public static string Breed_SealyhamTerrier {
             get {
@@ -2518,7 +2518,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на Sharpey.
         /// </summary>
         public static string Breed_Sharpey {
             get {
@@ -2536,7 +2536,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на Sheltie.
         /// </summary>
         public static string Breed_Sheltie {
             get {
@@ -2545,7 +2545,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на Shiba Inu .
         /// </summary>
         public static string Breed_ShibaInu {
             get {
@@ -2554,7 +2554,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на Shih Tzu.
         /// </summary>
         public static string Breed_ShihTzu {
             get {
@@ -2590,7 +2590,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на Skye Terrier.
         /// </summary>
         public static string Breed_SkyeTerrier {
             get {
@@ -2599,7 +2599,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на Slovak watchman.
         /// </summary>
         public static string Breed_SlovakWatchman {
             get {
@@ -2608,7 +2608,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на Slugi .
         /// </summary>
         public static string Breed_Slugi {
             get {
@@ -2617,7 +2617,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на Smooth Fox Terrier.
         /// </summary>
         public static string Breed_SmoothFoxTerrier {
             get {
@@ -2653,7 +2653,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на South African Boerboel.
         /// </summary>
         public static string Breed_SouthAfricanBoerboel {
             get {
@@ -2662,7 +2662,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на South Russian Shepherd.
         /// </summary>
         public static string Breed_SouthRussianShepherd {
             get {
@@ -2671,7 +2671,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на Spanish Mastiff.
         /// </summary>
         public static string Breed_SpanishMastiff {
             get {
@@ -2680,7 +2680,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на Staffordshire bull terrier.
         /// </summary>
         public static string Breed_StaffordshireBullTerrier {
             get {
@@ -2689,7 +2689,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на Sussex Spaniel.
         /// </summary>
         public static string Breed_SussexSpaniel {
             get {
@@ -2698,7 +2698,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на Taigan.
         /// </summary>
         public static string Breed_Taigan {
             get {
@@ -2716,7 +2716,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на Thai Ridgeback.
         /// </summary>
         public static string Breed_ThaiRidgeback {
             get {
@@ -2725,7 +2725,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на Tibetan Mastiff.
         /// </summary>
         public static string Breed_TibetanMastiff {
             get {
@@ -2734,7 +2734,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на Tibetan Spaniel.
         /// </summary>
         public static string Breed_TibetanSpaniel {
             get {
@@ -2743,7 +2743,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на Tibetan Terrier.
         /// </summary>
         public static string Breed_TibetanTerrier {
             get {
@@ -2761,7 +2761,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на Tosa Inu.
         /// </summary>
         public static string Breed_TosaInu {
             get {
@@ -2824,7 +2824,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на Vendeen Basset Griffon.
         /// </summary>
         public static string Breed_VendeenBassetGriffon {
             get {
@@ -2833,7 +2833,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на Weimaraner.
         /// </summary>
         public static string Breed_Weimaraner {
             get {
@@ -2842,7 +2842,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на Welsh Corgi Cardigan.
         /// </summary>
         public static string Breed_WelshCorgiCardigan {
             get {
@@ -2851,7 +2851,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на Welsh Springer Spaniel.
         /// </summary>
         public static string Breed_WelshSpringerSpaniel {
             get {
@@ -2860,7 +2860,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на Welsh Terrier.
         /// </summary>
         public static string Breed_WelshTerrier {
             get {
@@ -2869,7 +2869,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на West Highland Terrier.
         /// </summary>
         public static string Breed_WestGighlandTerrier {
             get {
@@ -2878,7 +2878,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на West Siberian Laika.
         /// </summary>
         public static string Breed_WestSiberianLaika {
             get {
@@ -2887,7 +2887,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на Whippet.
         /// </summary>
         public static string Breed_Whippet {
             get {
@@ -2896,7 +2896,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на White Swiss Shepherd.
         /// </summary>
         public static string Breed_WhiteSwissShepherd {
             get {
@@ -2905,7 +2905,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на Wolfdog.
         /// </summary>
         public static string Breed_WolfDog {
             get {
@@ -2923,7 +2923,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на Yorkshire Terrier.
         /// </summary>
         public static string Breed_YorkshireTerrier {
             get {
@@ -2932,7 +2932,7 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на .
+        ///   Ищет локализованную строку, похожую на Zvergschnauzer.
         /// </summary>
         public static string Breed_Zvergschnauzer {
             get {

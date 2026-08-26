@@ -156,6 +156,9 @@
   <data name="Breed_AegeanCat" xml:space="preserve">
     <value>Егейська кішка</value>
   </data>
+  <data name="Breed_AkitaInu" xml:space="preserve">
+    <value>Акіта іну</value>
+  </data>
   <data name="Breed_AmericanBobtail" xml:space="preserve">
     <value>Американський бобтейл</value>
   </data>
@@ -183,8 +186,23 @@
   <data name="Breed_AsianTabby" xml:space="preserve">
     <value>Азіатська таббі</value>
   </data>
+  <data name="Breed_AustralianHeeler" xml:space="preserve">
+    <value>Австралійський хілер</value>
+  </data>
+  <data name="Breed_AustralianKelpie" xml:space="preserve">
+    <value>Австралійський келпі</value>
+  </data>
+  <data name="Breed_AustralianShepherd" xml:space="preserve">
+    <value>Австралійська вівчарка</value>
+  </data>
   <data name="Breed_AustralianSmoke" xml:space="preserve">
     <value>Австралійська димчаста</value>
+  </data>
+  <data name="Breed_AustralianTerrier" xml:space="preserve">
+    <value>Австралійський тер'єр</value>
+  </data>
+  <data name="Breed_Azawakh" xml:space="preserve">
+    <value>Азавак</value>
   </data>
   <data name="Breed_BalineseCat" xml:space="preserve">
     <value>Балінезійська кішка</value>
@@ -450,5 +468,161 @@
   </data>
   <data name="Yes" xml:space="preserve">
     <value>Так</value>
+  </data>
+  <data name="Breed_AlapahaBulldog" xml:space="preserve">
+    <value>Алапахський бульдог</value>
+  </data>
+  <data name="Breed_AlaskanMalamute" xml:space="preserve">
+    <value>Аляскінський маламут</value>
+  </data>
+  <data name="Breed_AmericanAkita" xml:space="preserve">
+    <value>Американська акіта</value>
+  </data>
+  <data name="Breed_AmericanBandog" xml:space="preserve">
+    <value>Американський бандог</value>
+  </data>
+  <data name="Breed_AmericanBulldog" xml:space="preserve">
+    <value>Американський бульдог</value>
+  </data>
+  <data name="Breed_AmericanWaterSpaniel" xml:space="preserve">
+    <value>Американський водяний спанієль</value>
+  </data>
+  <data name="Breed_AmericanHairlessTerrier" xml:space="preserve">
+    <value>Американський голий тер'єр</value>
+  </data>
+  <data name="Breed_AmericanCockerSpaniel" xml:space="preserve">
+    <value>Американський кокер спанієль</value>
+  </data>
+  <data name="Breed_AmericanPitBullTerrier" xml:space="preserve">
+    <value>Американський пітбультер'єр</value>
+  </data>
+  <data name="Breed_AmericanStaffordshireTerrier" xml:space="preserve">
+    <value>Американський стаффордширський тер'єр</value>
+  </data>
+  <data name="Breed_AmericanFoxhound" xml:space="preserve">
+    <value>Американський фоксхаунд</value>
+  </data>
+  <data name="Breed_AmericanEskimoSpitz" xml:space="preserve">
+    <value>Американський ескімоський шпіц</value>
+  </data>
+  <data name="Breed_AnatolianShepherd" xml:space="preserve">
+    <value>Анатолійська вівчарка</value>
+  </data>
+  <data name="Breed_EnglishBulldog" xml:space="preserve">
+    <value>Англійський бульдог</value>
+  </data>
+  <data name="Breed_EnglishCockerSpaniel" xml:space="preserve">
+    <value>Англійський кокер спанієль</value>
+  </data>
+  <data name="Breed_EnglishPointer" xml:space="preserve">
+    <value>Англійський пойнтер</value>
+  </data>
+  <data name="Breed_EnglishSetter" xml:space="preserve">
+    <value>Англійський сетер</value>
+  </data>
+  <data name="Breed_EnglishSpringerSpaniel" xml:space="preserve">
+    <value>Англійський спрингер-спанієль</value>
+  </data>
+  <data name="Breed_EnglishToyTerrier" xml:space="preserve">
+    <value>Англійська той-тер'єр </value>
+  </data>
+  <data name="Breed_EnglishFoxhound" xml:space="preserve">
+    <value>Англійський фоксхаунд</value>
+  </data>
+  <data name="Breed_AppenzellerSennenhund" xml:space="preserve">
+    <value>Аппенцеллер зенненхунд</value>
+  </data>
+  <data name="Breed_DogoArgentino" xml:space="preserve">
+    <value>Аргентинський дог</value>
+  </data>
+  <data name="Breed_AfghanHound" xml:space="preserve">
+    <value>Афганський хорт</value>
+  </data>
+  <data name="Breed_Affenpinscher" xml:space="preserve">
+    <value>Аффенпінчер</value>
+  </data>
+  <data name="Breed_Basenji" xml:space="preserve">
+    <value>Басенджі</value>
+  </data>
+  <data name="Breed_BassetHound" xml:space="preserve">
+    <value>бассет-хаунд</value>
+  </data>
+  <data name="Breed_BedlingtonTerrier" xml:space="preserve">
+    <value>Бедлінгтон тер'єр</value>
+  </data>
+  <data name="Breed_WhiteSwissShepherd" xml:space="preserve">
+    <value>Біла швейцарська вівчарка</value>
+  </data>
+  <data name="Breed_BelgianShepherdGroenendael" xml:space="preserve">
+    <value>Бельгійська вівчарка грюнендаль</value>
+  </data>
+  <data name="Breed_BelgianShepherdLaekenois" xml:space="preserve">
+    <value>Бельгійська вівчарка лакенуа</value>
+  </data>
+  <data name="Breed_BelgianMalinois" xml:space="preserve">
+    <value>Бельгійська вівчарка малинуа</value>
+  </data>
+  <data name="Breed_BelgianShepherdTervuren" xml:space="preserve">
+    <value>Бельгійська вівчарка тервюрен</value>
+  </data>
+  <data name="Breed_BerneseMountainDog" xml:space="preserve">
+    <value>Бернський зенненхунд</value>
+  </data>
+  <data name="Breed_BeaverYorkshireTerrier" xml:space="preserve">
+    <value>Бівер Йоркширський тер'єр </value>
+  </data>
+  <data name="Breed_Beagle" xml:space="preserve">
+    <value>Бігль</value>
+  </data>
+  <data name="Breed_BichonFrize" xml:space="preserve">
+    <value>Бішон фризе</value>
+  </data>
+  <data name="Breed_Bloodhound" xml:space="preserve">
+    <value>Бладхаунд</value>
+  </data>
+  <data name="Breed_Bobtail" xml:space="preserve">
+    <value>Бобтейл</value>
+  </data>
+  <data name="Breed_Boxer" xml:space="preserve">
+    <value>Боксер</value>
+  </data>
+  <data name="Breed_Bolognese" xml:space="preserve">
+    <value>Болоньєз</value>
+  </data>
+  <data name="Breed_GreaterSwissMountainDog" xml:space="preserve">
+    <value>Великий швейцарський зенненхунд</value>
+  </data>
+  <data name="Breed_BorderCollie" xml:space="preserve">
+    <value>Бордер коллі</value>
+  </data>
+  <data name="Breed_BorderrTerrier" xml:space="preserve">
+    <value>Бордер тер'єр</value>
+  </data>
+  <data name="Breed_DogueDeBordeaux" xml:space="preserve">
+    <value>Бордоський дог</value>
+  </data>
+  <data name="Breed_BeardedCollie" xml:space="preserve">
+    <value>Бородати коллі</value>
+  </data>
+  <data name="Breed_Beauceron" xml:space="preserve">
+    <value>Босерон</value>
+  </data>
+  <data name="Breed_Pug" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="Breed_NorwichTerrier" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="Breed_PyreneanMastiff" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="Breed_Riesenschnauzer" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="Breed_EstonianHound" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="Breed_JapaneseSpitz" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
   </data>
 </root>

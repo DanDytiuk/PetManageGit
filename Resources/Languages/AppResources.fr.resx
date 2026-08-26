@@ -156,6 +156,9 @@
   <data name="Breed_AegeanCat" xml:space="preserve">
     <value>Chat égéen</value>
   </data>
+  <data name="Breed_AkitaInu" xml:space="preserve">
+    <value>Akita Inu</value>
+  </data>
   <data name="Breed_AmericanBobtail" xml:space="preserve">
     <value>Bobtail américain</value>
   </data>
@@ -183,8 +186,23 @@
   <data name="Breed_AsianTabby" xml:space="preserve">
     <value>Asiatique tigré</value>
   </data>
+  <data name="Breed_AustralianHeeler" xml:space="preserve">
+    <value>Talonneur australien</value>
+  </data>
+  <data name="Breed_AustralianKelpie" xml:space="preserve">
+    <value>Kelpie australien</value>
+  </data>
+  <data name="Breed_AustralianShepherd" xml:space="preserve">
+    <value>Berger Australien</value>
+  </data>
   <data name="Breed_AustralianSmoke" xml:space="preserve">
     <value>Fumée australienne</value>
+  </data>
+  <data name="Breed_AustralianTerrier" xml:space="preserve">
+    <value>Terrier australien</value>
+  </data>
+  <data name="Breed_Azawakh" xml:space="preserve">
+    <value>Azawakh</value>
   </data>
   <data name="Breed_BalineseCat" xml:space="preserve">
     <value>Chat balinais</value>
@@ -449,5 +467,153 @@
   </data>
   <data name="Yes" xml:space="preserve">
     <value>Oui</value>
+  </data>
+  <data name="Breed_AlapahaBulldog" xml:space="preserve">
+    <value>Bouledogue Alapaha</value>
+  </data>
+  <data name="Breed_AlaskanMalamute" xml:space="preserve">
+    <value>Malamute Alaska</value>
+  </data>
+  <data name="Breed_AmericanAkita" xml:space="preserve">
+    <value>Akita américain</value>
+  </data>
+  <data name="Breed_AmericanBandog" xml:space="preserve">
+    <value>Chien de bande américain</value>
+  </data>
+  <data name="Breed_AmericanBulldog" xml:space="preserve">
+    <value>Bouledogue américain</value>
+  </data>
+  <data name="Breed_AmericanWaterSpaniel" xml:space="preserve">
+    <value>Épagneul eau américain</value>
+  </data>
+  <data name="Breed_AmericanHairlessTerrier" xml:space="preserve">
+    <value>Terrier américain sans poils</value>
+  </data>
+  <data name="Breed_AmericanCockerSpaniel" xml:space="preserve">
+    <value>Cocker américain</value>
+  </data>
+  <data name="Breed_AmericanPitBullTerrier" xml:space="preserve">
+    <value>Américain Pit Bull Terrier</value>
+  </data>
+  <data name="Breed_AmericanStaffordshireTerrier" xml:space="preserve">
+    <value>American Staffordshire Terrier</value>
+  </data>
+  <data name="Breed_AmericanFoxhound" xml:space="preserve">
+    <value>Foxhound américain</value>
+  </data>
+  <data name="Breed_AmericanEskimoSpitz" xml:space="preserve">
+    <value>Spitz esquimau américain</value>
+  </data>
+  <data name="Breed_AnatolianShepherd" xml:space="preserve">
+    <value>Berger Anatolie</value>
+  </data>
+  <data name="Breed_EnglishBulldog" xml:space="preserve">
+    <value>Bouledogue anglais</value>
+  </data>
+  <data name="Breed_EnglishCockerSpaniel" xml:space="preserve">
+    <value>Cocker anglais</value>
+  </data>
+  <data name="Breed_EnglishPointer" xml:space="preserve">
+    <value>pointeur anglais</value>
+  </data>
+  <data name="Breed_EnglishSetter" xml:space="preserve">
+    <value>Setter anglais</value>
+  </data>
+  <data name="Breed_EnglishSpringerSpaniel" xml:space="preserve">
+    <value>Épagneul springer anglais</value>
+  </data>
+  <data name="Breed_EnglishToyTerrier" xml:space="preserve">
+    <value>Toy Terrier anglais</value>
+  </data>
+  <data name="Breed_EnglishFoxhound" xml:space="preserve">
+    <value>Foxhound anglais</value>
+  </data>
+  <data name="Breed_AppenzellerSennenhund" xml:space="preserve">
+    <value>Appenzeller Zennenhund</value>
+  </data>
+  <data name="Breed_DogoArgentino" xml:space="preserve">
+    <value>Dogue Argentin</value>
+  </data>
+  <data name="Breed_AfghanHound" xml:space="preserve">
+    <value>Lévrier afghan</value>
+  </data>
+  <data name="Breed_Affenpinscher" xml:space="preserve">
+    <value>Affenpinscher</value>
+  </data>
+  <data name="Breed_Basenji" xml:space="preserve">
+    <value>Basenji</value>
+  </data>
+  <data name="Breed_BassetHound" xml:space="preserve">
+    <value>basset</value>
+  </data>
+  <data name="Breed_BedlingtonTerrier" xml:space="preserve">
+    <value>Bedlington Terrier</value>
+  </data>
+  <data name="Breed_WhiteSwissShepherd" xml:space="preserve">
+    <value>Berger Blanc Suisse</value>
+  </data>
+  <data name="Breed_BelgianShepherdGroenendael" xml:space="preserve">
+    <value>Berger Belge Groenendael</value>
+  </data>
+  <data name="Breed_BelgianShepherdLaekenois" xml:space="preserve">
+    <value>Berger Belge Laekenois</value>
+  </data>
+  <data name="Breed_BelgianMalinois" xml:space="preserve">
+    <value>Malinois belge</value>
+  </data>
+  <data name="Breed_BelgianShepherdTervuren" xml:space="preserve">
+    <value>Berger Belge Tervuren</value>
+  </data>
+  <data name="Breed_BerneseMountainDog" xml:space="preserve">
+    <value>Bouvier bernois</value>
+  </data>
+  <data name="Breed_BeaverYorkshireTerrier" xml:space="preserve">
+    <value>Castor Yorkshire Terrier</value>
+  </data>
+  <data name="Breed_Beagle" xml:space="preserve">
+    <value>Beagle</value>
+  </data>
+  <data name="Breed_BichonFrize" xml:space="preserve">
+    <value>Bichon Frise </value>
+  </data>
+  <data name="Breed_Bloodhound" xml:space="preserve">
+    <value>Limier</value>
+  </data>
+  <data name="Breed_Bobtail" xml:space="preserve">
+    <value>Bobtail</value>
+  </data>
+  <data name="Breed_Boxer" xml:space="preserve">
+    <value>Boxeur</value>
+  </data>
+  <data name="Breed_Bolognese" xml:space="preserve">
+    <value>Bolognese</value>
+  </data>
+  <data name="Breed_GreaterSwissMountainDog" xml:space="preserve">
+    <value>Grand Bouvier Suisse</value>
+  </data>
+  <data name="Breed_BorderCollie" xml:space="preserve">
+    <value>Border Collie</value>
+  </data>
+  <data name="Breed_BorderrTerrier" xml:space="preserve">
+    <value>Border Terrier</value>
+  </data>
+  <data name="Breed_DogueDeBordeaux" xml:space="preserve">
+    <value>Dogue de Bordeaux</value>
+  </data>
+  <data name="Breed_BeardedCollie" xml:space="preserve">
+    <value>Colley barbu</value>
+  </data>
+  <data name="Breed_Beauceron" xml:space="preserve">
+    <value>Beauceron</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Breed_LakelandTerrier" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="Breed_NorwichTerrier" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="Breed_FlatRetriever" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
   </data>
 </root>
