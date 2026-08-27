@@ -1004,10 +1004,6 @@
     <value>Norwegian Elkhound</value>
     <comment>138</comment>
   </data>
-  <data name="Breed_NorwichTerrier" xml:space="preserve">
-    <value>Norwich Terrier</value>
-    <comment>139</comment>
-  </data>
   <data name="Breed_NorfolkTerrier" xml:space="preserve">
     <value>Norfolk Terrier</value>
     <comment>140</comment>
@@ -1307,5 +1303,9 @@
   <data name="Breed_JapaneseSpitz" xml:space="preserve">
     <value>Japanese Spitz</value>
     <comment>214</comment>
+  </data>
+  <data name="Breed_NorwichTerrier" xml:space="preserve">
+    <value>Norwich Terrier</value>
+    <comment>139</comment>
   </data>
 </root>

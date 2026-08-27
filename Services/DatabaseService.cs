@@ -27,6 +27,7 @@ namespace PetManage.Services
 
             await InitializeAnimalTypesAsync();
             await InitializeAppetiteTypesAsync();
+            await InitializeBreedsAsync();
         }
 
         #region GetDataAsync
@@ -122,7 +123,7 @@ namespace PetManage.Services
 
             if (count > 0) return;
 
-            _ = new List<BreedModel>
+            var breeds = new List<BreedModel>
             {
                 new() {AnimalID = 1, LocalizationCode = "Breed_Abyssinan"},
                 new() {AnimalID = 1, LocalizationCode = "Breed_AustralianSmoke"},
@@ -509,6 +510,8 @@ namespace PetManage.Services
                 new() {AnimalID = 10, LocalizationCode = "Breed_CornSnake"},
                 new() {AnimalID = 10, LocalizationCode = "Breed_MilkSnake"},
             };
+
+            _ = await _database.InsertAllAsync(breeds);
         }
 
         #endregion

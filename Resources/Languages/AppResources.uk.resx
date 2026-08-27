@@ -610,9 +610,6 @@
   <data name="Breed_Pug" type="System.Resources.ResXNullRef, System.Windows.Forms">
     <value />
   </data>
-  <data name="Breed_NorwichTerrier" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
-  </data>
   <data name="Breed_PyreneanMastiff" type="System.Resources.ResXNullRef, System.Windows.Forms">
     <value />
   </data>

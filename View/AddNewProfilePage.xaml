@@ -68,6 +68,66 @@
 
                 </Border>
 
+                <Border StrokeThickness="1"
+                        Padding="15"
+                        Margin="0,5"
+                        Stroke="{AppThemeBinding Light=#D0D0D0, Dark=#404040}"
+                        BackgroundColor="{AppThemeBinding Light=#FFFFFF, Dark=#2C2C2C}">
+
+                    <Border.StrokeShape>
+                        <RoundRectangle CornerRadius="12"/>
+                    </Border.StrokeShape>
+
+                    <Grid ColumnDefinitions="*,Auto">
+
+                        <Label Grid.Column="0"
+                               Text="Выберите породу питомца"
+                               VerticalOptions="Center"
+                               HorizontalTextAlignment="Start"
+                               MinimumWidthRequest="100"
+                               MaximumWidthRequest="250"/>
+
+                        <Picker Grid.Column="1"
+                                ItemsSource="{Binding BreedTypes}"
+                                ItemDisplayBinding="{Binding DisplayName}"
+                                SelectedItem="{Binding NewBreedPet}"
+                                MinimumWidthRequest="150"
+                                MaximumWidthRequest="250"/>
+
+                    </Grid>
+
+                </Border>
+
+                <Border StrokeThickness="1"
+                        Padding="15"
+                        Margin="0,5"
+                        Stroke="{AppThemeBinding Light=#D0D0D0, Dark=#404040}"
+                        BackgroundColor="{AppThemeBinding Light=#FFFFFF, Dark=#2C2C2C}">
+
+                    <Border.StrokeShape>
+                        <RoundRectangle CornerRadius="12"/>
+                    </Border.StrokeShape>
+
+                    <Grid ColumnDefinitions="*,Auto">
+
+                        <Label Grid.Column="0"
+                               Text="Выберите гендер питомца"
+                               VerticalOptions="Center"
+                               HorizontalTextAlignment="Start"
+                               MinimumWidthRequest="100"
+                               MaximumWidthRequest="250"/>
+
+                        <Picker Grid.Column="1"
+                                ItemsSource="{Binding BreedTypes}"
+                                ItemDisplayBinding="{Binding DisplayName}"
+                                SelectedItem="{Binding NewBreedPet}"
+                                MinimumWidthRequest="150"
+                                MaximumWidthRequest="250"/>
+
+                    </Grid>
+
+                </Border>
+
             </VerticalStackLayout>
             
         </ScrollView>

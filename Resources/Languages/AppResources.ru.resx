@@ -319,7 +319,7 @@
     <value>Курильский бобтейл</value>
   </data>
   <data name="Breed_Laperm" xml:space="preserve">
-    <value>м</value>
+    <value>Лаперм</value>
   </data>
   <data name="Breed_LeeHua" xml:space="preserve">
     <value>Ли Хуа</value>
@@ -608,9 +608,6 @@
   </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="Breed_HungarianVizsla" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
-  </data>
-  <data name="Breed_NorwichTerrier" type="System.Resources.ResXNullRef, System.Windows.Forms">
     <value />
   </data>
 </root>

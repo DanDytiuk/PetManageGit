@@ -606,14 +606,353 @@
   <data name="Breed_Beauceron" xml:space="preserve">
     <value>Beauceron</value>
   </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="Breed_NorwichTerrier" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
+  <data name="Breed_BostonTerrier" xml:space="preserve">
+    <value>Boston Terrier</value>
   </data>
+  <data name="Breed_BretonEpagnole" xml:space="preserve">
+    <value>Bretonisches Epagnole </value>
+  </data>
+  <data name="Breed_Briard" xml:space="preserve">
+    <value>Briard</value>
+  </data>
+  <data name="Breed_BrusselsGriffon" xml:space="preserve">
+    <value>Brüsseler Griffon</value>
+  </data>
+  <data name="Breed_BullyKutta" xml:space="preserve">
+    <value>Bully Kutta</value>
+  </data>
+  <data name="Breed_Bullmastiff" xml:space="preserve">
+    <value>Bullmastiff</value>
+  </data>
+  <data name="Breed_BullTerrier" xml:space="preserve">
+    <value>Bullterrier</value>
+  </data>
+  <data name="Breed_MiniatureBullTerrier" xml:space="preserve">
+    <value>Miniatur-Bullterrier</value>
+  </data>
+  <data name="Breed_BuryatMongolianWolfhound" xml:space="preserve">
+    <value>Burjatisch-mongolischer Wolfshund</value>
+  </data>
+  <data name="Breed_VendeenBassetGriffon" xml:space="preserve">
+    <value>Vendeen Basset Griffon</value>
+  </data>
+  <data name="Breed_Weimaraner" xml:space="preserve">
+    <value>Weimaraner</value>
+  </data>
+  <data name="Breed_WelshCorgiCardigan" xml:space="preserve">
+    <value>Walisischer Corgi-Cardigan</value>
+  </data>
+  <data name="Breed_PembrokeWelshCorgi" xml:space="preserve">
+    <value>Pembroke Welsh Corgi</value>
+  </data>
+  <data name="Breed_WelshSpringerSpaniel" xml:space="preserve">
+    <value>Welsh Springer Spaniel</value>
+  </data>
+  <data name="Breed_WelshTerrier" xml:space="preserve">
+    <value>Welsh Terrier</value>
+  </data>
+  <data name="Breed_HungarianGreyhound" xml:space="preserve">
+    <value>Ungarischer Windhund</value>
+  </data>
+  <data name="Breed_HungarianVizsla" xml:space="preserve">
+    <value>Ungarischer Vizsla</value>
+  </data>
+  <data name="Breed_WestGighlandTerrier" xml:space="preserve">
+    <value>West Highland Terrier</value>
+  </data>
+  <data name="Breed_WolfDog" xml:space="preserve">
+    <value>Wolfshund</value>
+  </data>
+  <data name="Breed_EastEuropeanShepherd" xml:space="preserve">
+    <value>Osteuropäischer Schäferhund</value>
+  </data>
+  <data name="Breed_EastSiberianLaika" xml:space="preserve">
+    <value>Ostsibirische Laika</value>
+  </data>
+  <data name="Breed_HavaneseBichon" xml:space="preserve">
+    <value>Havaneser Bichon</value>
+  </data>
+  <data name="Breed_Gampr" xml:space="preserve">
+    <value>Gampr</value>
+  </data>
+  <data name="Breed_SmoothFoxTerrier" xml:space="preserve">
+    <value>Glatter Foxterrier</value>
+  </data>
+  <data name="Breed_Greyhound" xml:space="preserve">
+    <value>Windhund</value>
+  </data>
+  <data name="Breed_GriffonKortalsa" xml:space="preserve">
+    <value>Griffon Kortalsa</value>
+  </data>
+  <data name="Breed_Dalmatian" xml:space="preserve">
+    <value>Dalmatiner</value>
+  </data>
+  <data name="Breed_DandieDinmontTerrier" xml:space="preserve">
+    <value>Dandie Dinmont Terrier</value>
+  </data>
+  <data name="Breed_JackRussellTerrier" xml:space="preserve">
+    <value>Jack Russell Terrier</value>
+  </data>
+  <data name="Breed_Doberman" xml:space="preserve">
+    <value>Dobermann</value>
+  </data>
+  <data name="Breed_Drathaar" xml:space="preserve">
+    <value>Drathaar</value>
+  </data>
+  <data name="Breed_Euraiser" xml:space="preserve">
+    <value>Eurasier</value>
+  </data>
+  <data name="Breed_WestSiberianLaika" xml:space="preserve">
+    <value>Westsibirische Laika</value>
+  </data>
+  <data name="Breed_GoldenRetriever" xml:space="preserve">
+    <value>Golden Retriever</value>
+  </data>
+  <data name="Breed_IrishWaterSpaniel" xml:space="preserve">
+    <value>Irischer Wasserspaniel</value>
+  </data>
+  <data name="Breed_IrishWolfhound" xml:space="preserve">
+    <value>Irischer Wolfshund</value>
+  </data>
+  <data name="Breed_IrishRedSetter" xml:space="preserve">
+    <value>Irischer Roter Setter</value>
+  </data>
+  <data name="Breed_IrishSoftCoatedWheatenTerrier" xml:space="preserve">
+    <value>Irish Soft Coated Wheaten Terrier</value>
+  </data>
+  <data name="Breed_IrishTerrier" xml:space="preserve">
+    <value>Irischer Terrier</value>
+  </data>
+  <data name="Breed_IrishGlenOfImaalTerrier" xml:space="preserve">
+    <value>Irish Glen of Imaal Terrier</value>
+  </data>
+  <data name="Breed_IcelandicDog" xml:space="preserve">
+    <value>Isländischer Hund</value>
+  </data>
+  <data name="Breed_SpanishMastiff" xml:space="preserve">
+    <value>Spanischer Mastiff</value>
+  </data>
+  <data name="Breed_YorkshireTerrier" xml:space="preserve">
+    <value>Yorkshire Terrier</value>
+  </data>
+  <data name="Breed_Cadebo" xml:space="preserve">
+    <value>Ca-de-bo</value>
+  </data>
+  <data name="Breed_CavalierKingCharlesSpaniel" xml:space="preserve">
+    <value>Cavalier King Charles Spaniel</value>
+  </data>
+  <data name="Breed_CaucasianShepherd" xml:space="preserve">
+    <value>Kaukasischer Schäferhund</value>
+  </data>
+  <data name="Breed_DogoCanario" xml:space="preserve">
+    <value>Dogo Canario</value>
+  </data>
+  <data name="Breed_CaneCorso" xml:space="preserve">
+    <value>Cane Corso</value>
+  </data>
+  <data name="Breed_KarelianBearDog" xml:space="preserve">
+    <value>Karelischer Bärenhund</value>
+  </data>
+  <data name="Breed_MiniaturePinscher" xml:space="preserve">
+    <value>Zwergpinscher</value>
+  </data>
+  <data name="Breed_Keeshond" xml:space="preserve">
+    <value>Keeshond</value>
+  </data>
+  <data name="Breed_CairnTerrier" xml:space="preserve">
+    <value>Cairn Terrier</value>
+  </data>
+  <data name="Breed_KerryBlueTerrier" xml:space="preserve">
+    <value>Kerry Blue Terrier</value>
+  </data>
+  <data name="Breed_ChineseCrestedDog" xml:space="preserve">
+    <value>Chinesischer Schopfhund</value>
+  </data>
+  <data name="Breed_ClumberSpaniel" xml:space="preserve">
+    <value>Clumber Spaniel</value>
+  </data>
+  <data name="Breed_Collie" xml:space="preserve">
+    <value>Collie</value>
+  </data>
+  <data name="Breed_Commons" xml:space="preserve">
+    <value>Commons</value>
+  </data>
+  <data name="Breed_CotonDeTulear" xml:space="preserve">
+    <value>Coton de Tulear</value>
+  </data>
+  <data name="Breed_Kuvasz" xml:space="preserve">
+    <value>Kuvasz</value>
+  </data>
+  <data name="Breed_Kurzhaar" xml:space="preserve">
+    <value>Kurzhaar</value>
+  </data>
+  <data name="Breed_CurlyCoatedRetriever" xml:space="preserve">
+    <value>Curly Coated Retriever</value>
+  </data>
+  <data name="Breed_LabradorRetriever" xml:space="preserve">
+    <value>Labrador-Retriever</value>
+  </data>
+  <data name="Breed_Labradoodle" xml:space="preserve">
+    <value>Labradoodle</value>
+  </data>
+  <data name="Breed_Langhaar" xml:space="preserve">
+    <value>Deutscher Langhaar</value>
+  </data>
+  <data name="Breed_Landseer" xml:space="preserve">
+    <value>Landseher</value>
+  </data>
+  <data name="Breed_ItalianGreyhound" xml:space="preserve">
+    <value>Italienischer Windhund</value>
+  </data>
+  <data name="Breed_LakelandTerrier" xml:space="preserve">
+    <value>Lakeland Terrier</value>
+  </data>
+  <data name="Breed_Leonberger" xml:space="preserve">
+    <value>Leonberger</value>
+  </data>
+  <data name="Breed_Louchen" xml:space="preserve">
+    <value>Louchen</value>
+  </data>
+  <data name="Breed_LhasaApso" xml:space="preserve">
+    <value>Lhasa Apso</value>
+  </data>
+  <data name="Breed_Maltese" xml:space="preserve">
+    <value>Maltesisch</value>
+  </data>
+  <data name="Breed_Maltipu" xml:space="preserve">
+    <value>Maltipu</value>
+  </data>
+  <data name="Breed_ManchesterTerrier" xml:space="preserve">
+    <value>Manchester Terrier</value>
+  </data>
+  <data name="Breed_Mastiff" xml:space="preserve">
+    <value>Dogge</value>
+  </data>
+  <data name="Breed_MexicanHairlessDog" xml:space="preserve">
+    <value>Mexikanischer Nackthund</value>
+  </data>
+  <data name="Breed_MittelSchnauzer" xml:space="preserve">
+    <value>Mittelschnauzer</value>
+  </data>
+  <data name="Breed_Pug" xml:space="preserve">
+    <value>Mops</value>
+  </data>
+  <data name="Breed_MoscowWatchDog" xml:space="preserve">
+    <value>Moskauer Wachhund</value>
+  </data>
+  <data name="Breed_NeapolitainMastiff" xml:space="preserve">
+    <value>Neapolitanischer Mastiff</value>
+  </data>
+  <data name="Breed_GermanShepherd" xml:space="preserve">
+    <value>Deutscher Schäferhund</value>
+  </data>
+  <data name="Breed_GreatDane" xml:space="preserve">
+    <value>Deutsche Dogge</value>
+  </data>
+  <data name="Breed_GermanPinscher" xml:space="preserve">
+    <value>Deutscher Pinscher</value>
+  </data>
+  <data name="Breed_GriffonDeNivernaise" xml:space="preserve">
+    <value>Griffon de Nivernaise</value>
+  </data>
+  <data name="Breed_NovaScotiaDuckRetriever" xml:space="preserve">
+    <value>Nova Scotia Duck Retriever</value>
+  </data>
+  <data name="Breed_NorwegianBuhund" xml:space="preserve">
+    <value>Norwegischer Buhund</value>
+  </data>
+  <data name="Breed_NorwegianElkhound" xml:space="preserve">
+    <value>Norwegischer Elchhund</value>
+  </data>
+  <data name="Breed_NorfolkTerrier" xml:space="preserve">
+    <value>Norfolk Terrier</value>
+  </data>
+  <data name="Breed_Newfoundland" xml:space="preserve">
+    <value>Neufundland</value>
+  </data>
+  <data name="Breed_Otterhound" xml:space="preserve">
+    <value>Otterhound</value>
+  </data>
+  <data name="Breed_Pig" xml:space="preserve">
+    <value>Schwein</value>
+  </data>
+  <data name="Breed_Papillon" xml:space="preserve">
+    <value>Papillon</value>
+  </data>
+  <data name="Breed_ParsonRussellTerrier" xml:space="preserve">
+    <value>Parson-Russell-Terrier</value>
+  </data>
+  <data name="Breed_Pekingese" xml:space="preserve">
+    <value>Pekinese</value>
+  </data>
+  <data name="Breed_PeruvianHairlessDog" xml:space="preserve">
+    <value>Peruanischer haarloser Hund</value>
+  </data>
+  <data name="Breed_PyreneanShepherd" xml:space="preserve">
+    <value>Pyrenäenhirte</value>
+  </data>
+  <data name="Breed_PyreneanMastiff" xml:space="preserve">
+    <value>Pyrenäenmastiff</value>
+  </data>
+  <data name="Breed_IbizanHound" xml:space="preserve">
+    <value>Podenko ibičenko</value>
+  </data>
+  <data name="Breed_PolishLowlandSheepDog" xml:space="preserve">
+    <value>Polnischer Tiefland-Schäferhund</value>
+  </data>
+  <data name="Breed_PolishPodgalianShepherdDog" xml:space="preserve">
+    <value>Polnischer Podgalischer Schäferhund</value>
+  </data>
+  <data name="Breed_PomeranianSpitz" xml:space="preserve">
+    <value>Pommerscher Spitz</value>
+  </data>
+  <data name="Breed_PortugueseWaterDog" xml:space="preserve">
+    <value>Portugiesischer Wasserhund</value>
+  </data>
+  <data name="Breed_PragueKnight" xml:space="preserve">
+    <value>Der Prager Ritter</value>
+  </data>
+  <data name="Breed_Poodle" xml:space="preserve">
+    <value>Pudel</value>
+  </data>
+  <data name="Breed_Puli" xml:space="preserve">
+    <value>Puli </value>
+  </data>
+  <data name="Breed_RafeiraDoAlentejo" xml:space="preserve">
+    <value>Rafeira do Alentejo</value>
+  </data>
+  <data name="Breed_Riesenschnauzer" xml:space="preserve">
+    <value>Riesenschnauzer</value>
+  </data>
+  <data name="Breed_RhodesianRidgeback" xml:space="preserve">
+    <value>Rhodesian Ridgeback</value>
+  </data>
+  <data name="Breed_Rottweiler" xml:space="preserve">
+    <value>Rottweiler</value>
+  </data>
+  <data name="Breed_RussianToy" xml:space="preserve">
+    <value>Russischer Jagdhund</value>
+  </data>
+  <data name="Breed_BlackRussianTerrier" xml:space="preserve">
+    <value>Russischer Windhund</value>
+  </data>
+  <data name="Breed_RussianEuropeanLaika" xml:space="preserve">
+    <value>Russischer Zwetnaja-Schoßhund</value>
+  </data>
+  <data name="Breed_RatTerrier" xml:space="preserve">
+    <value>Russischer Jagdspaniel</value>
+  </data>
+  <data name="Breed_Saluki" xml:space="preserve">
+    <value>Russisches Spielzeug</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="Breed_SaintBernard" type="System.Resources.ResXNullRef, System.Windows.Forms">
     <value />
   </data>
   <data name="Breed_ThaiRidgeback" type="System.Resources.ResXNullRef, System.Windows.Forms">
     <value />
+  </data>
+  <data name="Breed_NorwichTerrier" xml:space="preserve">
+    <value>Norwich Terrier</value>
   </data>
 </root>
