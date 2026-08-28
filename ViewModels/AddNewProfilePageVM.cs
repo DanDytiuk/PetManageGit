@@ -1,4 +1,5 @@
 ﻿using CommunityToolkit.Mvvm.ComponentModel;
+using CommunityToolkit.Mvvm.Input;
 using PetManage.Models;
 using PetManage.Models.ModelViewPicker;
 using PetManage.Services;
@@ -13,10 +14,25 @@ public partial class AddNewProfilePageVM : ObservableObject
     #region ObservableProperty
 
     [ObservableProperty]
+    public partial string NewNamePet { get; set; } = string.Empty;
+
+    [ObservableProperty]
     public partial BreedModelPicker? NewBreedPet { get; set; }
 
     [ObservableProperty]
     public partial AnimalModelPicker? NewAnimalPet { get; set; }
+
+    [ObservableProperty]
+    public partial GenderTypeModelPicker? NewGenderPet { get; set; }
+
+    [ObservableProperty]
+    public partial float NewWeightPet { get; set; }
+
+    [ObservableProperty]
+    public partial float NewAgePet { get; set; }
+
+    [ObservableProperty]
+    public partial string NotesPet { get; set; } = string.Empty;
 
     #endregion
 
@@ -26,6 +42,8 @@ public partial class AddNewProfilePageVM : ObservableObject
 
     public ObservableCollection<BreedModelPicker> BreedTypes { get; } = [];
 
+    public ObservableCollection<GenderTypeModelPicker> GenderTypes { get; } = [];
+    
     #endregion
 
     #region Constructor
@@ -33,6 +51,7 @@ public partial class AddNewProfilePageVM : ObservableObject
     public AddNewProfilePageVM(DatabaseService database)
     {
         _database = database;
+        _ = LoadGenderASync();
     }
 
     #endregion
@@ -86,5 +105,52 @@ public partial class AddNewProfilePageVM : ObservableObject
         }
     }
 
+    private async Task LoadGenderASync()
+    {
+        GenderTypes.Clear();
+
+        NewGenderPet = null;
+
+        var gender = await _database.GetGenderTypesAsync();
+
+        foreach (var g in gender)
+        {
+            GenderTypes.Add(new GenderTypeModelPicker
+            {
+                ID = g.Id,
+                LocalizationKey = g.LocalizationName
+            });
+
+        }
+    }
+
     #endregion
+
+    #region RelayCommand
+
+    [RelayCommand]
+    private async Task Cancel()
+    {
+        await Shell.Current.GoToAsync("..");
+    }
+
+    [RelayCommand]
+    private async Task SaveNewProfile()
+    {
+        ProfileModel profile = new()
+        {
+            Name = NewNamePet,
+            Breed = NewBreedPet?.LocalizationKey,
+            TypeOfPet = NewAnimalPet?.LocalizationKey,
+            Gender = NewGenderPet?.LocalizationKey,
+            Weight = NewWeightPet,
+            Age = NewAgePet,
+            Notes = NotesPet ?? string.Empty
+        };
+
+        await _database.SaveProfileAsync(profile);
+    }
+
+    #endregion
+
 }

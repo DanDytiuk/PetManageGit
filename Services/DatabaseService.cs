@@ -1,4 +1,5 @@
 ﻿using PetManage.Models;
+using PetManage.Models.ModelViewPicker;
 using SQLite;
 
 namespace PetManage.Services
@@ -24,10 +25,12 @@ namespace PetManage.Services
             _ = await _database.CreateTableAsync<AnimalTypeModel>();
             _ = await _database.CreateTableAsync<BreedModel>();
             _ = await _database.CreateTableAsync<AppetiteModel>();
+            _ = await _database.CreateTableAsync<GenderModel>();
 
             await InitializeAnimalTypesAsync();
             await InitializeAppetiteTypesAsync();
             await InitializeBreedsAsync();
+            await InitializeGenderAsync();
         }
 
         #region GetDataAsync
@@ -70,6 +73,31 @@ namespace PetManage.Services
                 .Table<BreedModel>()
                 .Where(x => x.AnimalID == animalTypeId)
                 .ToListAsync();
+        }
+
+        public async Task<List<GenderModel>> GetGenderTypesAsync()
+        {
+            return await _database
+                .Table<GenderModel>()
+                .ToListAsync();
+        }
+
+        #region Initialize Collections
+
+        public async Task InitializeGenderAsync()
+        {
+            var count = await _database.Table<GenderModel>().CountAsync();
+
+            if (count > 0) return;
+
+            var genderTypes = new List<GenderModel>
+            {
+                new() { LocalizationName = "Gender_Male" },
+                new() { LocalizationName = "Gender_Female"},
+                new() { LocalizationName = "Gender_Other" }
+            };
+
+            _ = await _database.InsertAllAsync(genderTypes);
         }
 
         public async Task InitializeAnimalTypesAsync()
@@ -475,7 +503,7 @@ namespace PetManage.Services
                 new() {AnimalID = 5, LocalizationCode = "Breed_GrayParrot"},
                 new() {AnimalID = 5, LocalizationCode = "Breed_CockatielParrot"},
                 new() {AnimalID = 5, LocalizationCode = "Breed_KalitaParrot"},
-                
+
                 new() {AnimalID = 6, LocalizationCode = "Breed_RedEaredTurtle"},
                 new() {AnimalID = 6, LocalizationCode = "Breed_TrionicsChineseTurtle"},
                 new() {AnimalID = 6, LocalizationCode = "Breed_EuropeanMarshTurtle"},
@@ -512,7 +540,9 @@ namespace PetManage.Services
             };
 
             _ = await _database.InsertAllAsync(breeds);
-        }
+        } 
+
+        #endregion
 
         #endregion
 
@@ -529,6 +559,12 @@ namespace PetManage.Services
         {
             await InitializeAsync();
             return await _database.InsertAsync(food);
+        }
+
+        public async Task SaveProfileAsync(ProfileModel profile)
+        {
+            await InitializeAsync();
+            _ = await _database.InsertOrReplaceAsync(profile);
         }
 
         #endregion

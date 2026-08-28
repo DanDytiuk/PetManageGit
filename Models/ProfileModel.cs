@@ -7,6 +7,8 @@ namespace PetManage.Models
     {
         [PrimaryKey, AutoIncrement]
         public int Id { get; set; } = 1;
+
+        [AutoIncrement]
         public int PetID { get; set; } = 1;
         public string Name { get; set; } = string.Empty;
         public string Breed { get; set; } = string.Empty;

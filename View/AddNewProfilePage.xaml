@@ -30,7 +30,7 @@
                                MaximumWidthRequest="250"/>
 
                         <Entry Grid.Column="1"
-                               Text="{Binding NewPetname}"
+                               Text="{Binding NewNamePet}"
                                MinimumWidthRequest="150"
                                MaximumWidthRequest="250"/>
 
@@ -118,9 +118,9 @@
                                MaximumWidthRequest="250"/>
 
                         <Picker Grid.Column="1"
-                                ItemsSource="{Binding BreedTypes}"
+                                ItemsSource="{Binding GenderTypes}"
                                 ItemDisplayBinding="{Binding DisplayName}"
-                                SelectedItem="{Binding NewBreedPet}"
+                                SelectedItem="{Binding NewGenderPet}"
                                 MinimumWidthRequest="150"
                                 MaximumWidthRequest="250"/>
 
@@ -128,9 +128,130 @@
 
                 </Border>
 
+                <Border StrokeThickness="1"
+                        Padding="15"
+                        Margin="0,5"
+                        Stroke="{AppThemeBinding Light=#D0D0D0, Dark=#404040}"
+                        BackgroundColor="{AppThemeBinding Light=#FFFFFF, Dark=#2C2C2C}">
+
+                    <Border.StrokeShape>
+                        <RoundRectangle CornerRadius="12"/>
+                    </Border.StrokeShape>
+
+                    <Grid ColumnDefinitions="*,Auto">
+
+                        <Label Grid.Column="0"
+                               Text="Введите вес питомца"
+                               VerticalOptions="Center"
+                               HorizontalTextAlignment="Start"
+                               MinimumWidthRequest="100"
+                               MaximumWidthRequest="250"/>
+
+                        <Entry Grid.Column="1"
+                               Text="{Binding NewWeightPet}"
+                               MinimumWidthRequest="150"
+                               MaximumWidthRequest="250"/>
+
+                    </Grid>
+
+                </Border>
+
+                <Border StrokeThickness="1"
+                        Padding="15"
+                        Margin="0,5"
+                        Stroke="{AppThemeBinding Light=#D0D0D0, Dark=#404040}"
+                        BackgroundColor="{AppThemeBinding Light=#FFFFFF, Dark=#2C2C2C}">
+
+                    <Border.StrokeShape>
+                        <RoundRectangle CornerRadius="12"/>
+                    </Border.StrokeShape>
+
+                    <Grid ColumnDefinitions="*,Auto">
+
+                        <Label Grid.Column="0"
+                               Text="Введите возраст питомца"
+                               VerticalOptions="Center"
+                               HorizontalTextAlignment="Start"
+                               MinimumWidthRequest="100"
+                               MaximumWidthRequest="250"/>
+
+                        <Entry Grid.Column="1"
+                               Text="{Binding NewAgePet}"
+                               Keyboard="Numeric"
+                               MinimumWidthRequest="150"
+                               MaximumWidthRequest="250"/>
+
+                    </Grid>
+
+                </Border>
+
+                <Border StrokeThickness="1"
+        Padding="15"
+        Margin="0,5"
+        Stroke="{AppThemeBinding Light=#D0D0D0, Dark=#404040}"
+        BackgroundColor="{AppThemeBinding Light=#FFFFFF, Dark=#2C2C2C}">
+
+                    <Border.StrokeShape>
+                        <RoundRectangle CornerRadius="12"/>
+                    </Border.StrokeShape>
+
+                    <Grid ColumnDefinitions="*,Auto">
+
+                        <Label Grid.Column="0"
+               Text="Введите заметки о питомце"
+               VerticalOptions="Center"
+               HorizontalTextAlignment="Start"
+               MinimumWidthRequest="100"
+               MaximumWidthRequest="250"/>
+
+                        <Entry Grid.Column="1"
+               Text="{Binding NotesPet}"
+               Keyboard="Numeric"
+               MinimumWidthRequest="150"
+               MaximumWidthRequest="250"/>
+
+                    </Grid>
+
+                </Border>
+
+                
+
             </VerticalStackLayout>
             
         </ScrollView>
-        
+
+        <!--#region Кнопки S/C -->
+        <Grid Grid.Row="2"
+              ColumnDefinitions="4.5*, 1*, 4.5*">
+
+            <Button ImageSource="iconfloppydisk.png"
+                    BackgroundColor="SpringGreen"
+                    FontSize="17"
+                    Text="Сохранить"
+                    Grid.Column="0"
+                    HorizontalOptions="Center"
+                    BorderColor="Black"
+                    BorderWidth="1"
+                    WidthRequest="175"
+                    HeightRequest="50"
+                    CornerRadius="25"
+                    Command="{Binding SaveNewProfileCommand}"/>
+
+            <Button ImageSource="iconcancelbutton.png"
+                    BackgroundColor="LightSalmon"
+                    FontSize="17"
+                    Text="Отмена"
+                    Grid.Column="2"
+                    HorizontalOptions="Center"
+                    BorderColor="Black"
+                    BorderWidth="1"
+                    WidthRequest="175"
+                    HeightRequest="50"
+                    CornerRadius="25"
+                    Command="{Binding CancelCommand}"/>
+
+        </Grid>
+        <!--#endregion-->
+
     </Grid>
 </ContentPage>
