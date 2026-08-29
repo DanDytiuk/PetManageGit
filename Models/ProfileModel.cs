@@ -14,8 +14,8 @@ namespace PetManage.Models
         public string Breed { get; set; } = string.Empty;
         public string TypeOfPet { get; set; } = string.Empty;
         public string Gender { get; set; } = string.Empty;
-        public float Weight { get; set; } = 0;
-        public float Age { get; set; } = 0;
+        public double Weight { get; set; } = 0;
+        public double Age { get; set; } = 0;
         public string Notes { get; set; } = string.Empty;
 
     }

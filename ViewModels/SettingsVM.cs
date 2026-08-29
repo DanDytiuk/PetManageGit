@@ -15,90 +15,90 @@ namespace PetManage.ViewModels
         #region Observable Property
 
         [ObservableProperty]
-        private LanguageModel selectedLanguage;
+        public partial LanguageModel? SelectedLanguage { get; set; }
 
         [ObservableProperty]
-        private Themes selectedTheme;
+        public partial Themes SelectedTheme { get; set; }
 
         #region Food
 
         [ObservableProperty]
-        private bool isEventFoodEnabled;
+        public partial bool IsEventFoodEnabled { get; set; }
 
         [ObservableProperty]
-        private TimeSpan fromTimeEat;
+        public partial TimeSpan FromTimeEat { get; set; }
 
         [ObservableProperty]
-        private TimeSpan toTimeEat;
+        public partial TimeSpan ToTimeEat { get; set; }
 
         [ObservableProperty]
-        private TimeSpan stepTimeEat;
+        public partial TimeSpan StepTimeEat { get; set; }
 
         #endregion
 
         #region Walk
 
         [ObservableProperty]
-        private bool isEventWalkEnabled;
+        public partial bool IsEventWalkEnabled { get; set; }
 
         [ObservableProperty]
-        private TimeSpan fromTimeWalk;
+        public partial TimeSpan FromTimeWalk { get; set; }
 
         [ObservableProperty]
-        private TimeSpan toTimeWalk;
+        public partial TimeSpan ToTimeWalk { get; set; }
 
         [ObservableProperty]
-        private TimeSpan stepTimeWalk;
+        public partial TimeSpan StepTimeWalk { get; set; }
 
         #endregion
 
         #region Vaccination
 
         [ObservableProperty]
-        private bool isEventVacEnabled;
+        public partial bool IsEventVacEnabled { get; set; }
 
         [ObservableProperty]
-        private DateTime dateVaccination;
+        public partial DateTime DateVaccination { get; set; }
 
         #endregion
 
         #region Pill
 
         [ObservableProperty]
-        private bool isEventHealthCareEnabled;
+        public partial bool IsEventHealthCareEnabled { get; set; }
 
         [ObservableProperty]
-        private TimeSpan fromTimePill;
+        public partial TimeSpan FromTimePill { get; set; }
 
         [ObservableProperty]
-        private TimeSpan toTimePill;
+        public partial TimeSpan ToTimePill { get; set; }
 
         [ObservableProperty]
-        private TimeSpan stepTimePill;
+        public partial TimeSpan StepTimePill { get; set; }
 
         #endregion
 
         [ObservableProperty]
-        private bool isVibroEnabled;
+        public partial bool IsVibroEnabled { get; set; }
 
         #region DonutDisturb
 
         [ObservableProperty]
-        private bool isDisturbEnabled;
+        public partial bool IsDisturbEnabled { get; set; }
 
         [ObservableProperty]
-        private TimeSpan fromDonutDisturb;
+        public partial TimeSpan FromDonutDisturb { get; set; }
 
         [ObservableProperty]
-        private TimeSpan toDonutDisturb;
+        public partial TimeSpan ToDonutDisturb { get; set; }
 
         #endregion
 
         [ObservableProperty]
-        private string valueOfCurrency;
+        public partial string ValueOfCurrency { get; set; } = string.Empty;
 
         [ObservableProperty]
-        private string valueOfVersion;
+        public partial string ValueOfVersion { get; set; } = string.Empty;
 
         #endregion
 
@@ -110,7 +110,7 @@ namespace PetManage.ViewModels
 
         #endregion
 
-        private SettingsModel Settings;
+        private SettingsModel Settings = new();
 
         public DateTime MinDate { get; } = new DateTime(2020, 1, 1);
         public DateTime MaxDate { get; } = new DateTime(2099, 12, 31);
@@ -129,7 +129,6 @@ namespace PetManage.ViewModels
         {
             Settings = await _database.GetSettingsAsync() ?? new SettingsModel
             {
-                // Подставьте реальные значения по умолчанию для вашей модели
                 Language = Languages.First().LanguageCode,
                 Theme = ThemesPicker.FirstOrDefault(),
 

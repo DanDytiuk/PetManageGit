@@ -38,12 +38,12 @@ public partial class AddNewProfilePageVM : ObservableObject
 
     #region ObservableCollection
 
-    public ObservableCollection<AnimalModelPicker> AnimalTypes { get; } = [];
+    public ObservableCollection<AnimalModelPicker> AnimalTypes { get; } = new ObservableCollection<AnimalModelPicker>();
 
-    public ObservableCollection<BreedModelPicker> BreedTypes { get; } = [];
+    public ObservableCollection<BreedModelPicker> BreedTypes { get; } = new ObservableCollection<BreedModelPicker>();
 
-    public ObservableCollection<GenderTypeModelPicker> GenderTypes { get; } = [];
-    
+    public ObservableCollection<GenderTypeModelPicker> GenderTypes { get; } = new ObservableCollection<GenderTypeModelPicker>();
+
     #endregion
 
     #region Constructor
@@ -140,9 +140,9 @@ public partial class AddNewProfilePageVM : ObservableObject
         ProfileModel profile = new()
         {
             Name = NewNamePet,
-            Breed = NewBreedPet?.LocalizationKey,
-            TypeOfPet = NewAnimalPet?.LocalizationKey,
-            Gender = NewGenderPet?.LocalizationKey,
+            Breed = NewBreedPet?.LocalizationKey ?? string.Empty,
+            TypeOfPet = NewAnimalPet?.LocalizationKey ?? string.Empty,
+            Gender = NewGenderPet?.LocalizationKey ?? string.Empty,
             Weight = NewWeightPet,
             Age = NewAgePet,
             Notes = NotesPet ?? string.Empty

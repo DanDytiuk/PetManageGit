@@ -10,21 +10,20 @@ namespace PetManage.ViewModels
     public partial class AddInfoFoodVM : ObservableObject
     {
         private readonly DatabaseService _database;
-        private FoodModel FoodModel;
-
+        
         #region Observable Property
 
         [ObservableProperty]
-        private NameOfCatFood selectedFood;
+        public partial NameOfCatFood SelectedFood { get; set; }
 
         [ObservableProperty]
-        private double selectedWeight;
+        public partial double SelectedWeight { get; set; }
 
         [ObservableProperty]
-        private string selectedNotes;
+        public partial string SelectedNotes { get; set; }
 
         [ObservableProperty]
-        private TypeOfAppetite selectedAppetite;
+        public partial TypeOfAppetite SelectedAppetite { get; set; }
 
         #endregion
 

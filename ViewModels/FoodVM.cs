@@ -15,22 +15,22 @@ namespace PetManage.ViewModels
         #region ObservableProperty
 
         [ObservableProperty]
-        private string foodName; 
+        public partial string FoodName { get; set; } = string.Empty;
 
         [ObservableProperty]
-        private string typeOfFood;
+        public partial string TypeOfFood { get; set; } = string.Empty;
 
         [ObservableProperty]
-        private double weight;
+        public partial double Weight { get; set; }
 
         [ObservableProperty]
-        private DateTime foodDate;
+        public partial DateTime FoodDate { get; set; }
 
         #endregion
 
         #region ObservableCollection
 
-        public ObservableCollection<FoodModel> FoodList { get; } = new();
+        public ObservableCollection<FoodModel> FoodList { get; } = [];
 
         #endregion
 

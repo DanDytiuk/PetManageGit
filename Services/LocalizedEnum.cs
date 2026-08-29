@@ -6,7 +6,7 @@ namespace PetManage.Services
 {
     public class LocalizedEnum<T> where T : Enum
     {
-        public T Value { get; set; }
+        public required T Value { get; set; }
 
         public string Name => EnumLocalizationHelper.GetLocalized(Value);
     }

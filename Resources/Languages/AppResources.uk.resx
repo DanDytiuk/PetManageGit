@@ -622,4 +622,7 @@
   <data name="Breed_JapaneseSpitz" type="System.Resources.ResXNullRef, System.Windows.Forms">
     <value />
   </data>
+  <data name="Back" xml:space="preserve">
+    <value>Назад</value>
+  </data>
 </root>

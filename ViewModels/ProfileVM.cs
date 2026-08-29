@@ -12,34 +12,57 @@ namespace PetManage.ViewModels
         #region Observable Property
 
         [ObservableProperty]
-        private int profilePetID;
+        public partial int ProfilePetID { get; set; }
 
         [ObservableProperty]
-        private string profileNamePet;
+        public partial string ProfileNamePet { get; set; } = string.Empty;
 
         [ObservableProperty]
-        private string profileBreedPet;
+        public partial string ProfileBreedPet { get; set; } = string.Empty;
 
         [ObservableProperty]
-        private string profileTypeOfPet;
+        public partial string ProfileTypeOfPet { get; set; } = string.Empty;
 
         [ObservableProperty]
-        private string profileGenderPet;
+        public partial string ProfileGenderPet { get; set; } = string.Empty;
 
         [ObservableProperty]
-        private float profileWeightPet;
+        public partial double ProfileWeightPet { get; set; }
 
         [ObservableProperty]
-        private float profileAgePet;
+        public partial double ProfileAgePet { get; set; }
 
         [ObservableProperty]
-        private string profileNotesPet;
+        public partial string ProfileNotesPet { get; set; } = string.Empty;
 
         #endregion
 
         #region Observable Collection
 
 
+
+        #endregion
+
+        #region Functions
+
+        private async Task LoadProfileAsync()
+        {
+            var profile = await _database.GetProfileAsync();
+
+            if (profile != null) 
+            {
+                ProfilePetID = profile.PetID;
+                ProfileNamePet = profile.Name;
+                ProfileBreedPet = profile.Breed;
+                ProfileTypeOfPet = profile.TypeOfPet;
+                ProfileGenderPet = profile.Gender;
+                ProfileWeightPet = profile.Weight;
+                ProfileAgePet = profile.Age;
+                ProfileNotesPet = profile.Notes;
+            }
+
+
+        }
 
         #endregion
 
@@ -70,6 +93,8 @@ namespace PetManage.ViewModels
         public ProfileVM(DatabaseService database)
         {
             _database = database;
+
+            _ = LoadProfileAsync();
         }
 
         #endregion

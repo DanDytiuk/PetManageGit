@@ -51,6 +51,21 @@ namespace PetManage.Services
             return settings;
         }
 
+        public async Task<ProfileModel> GetProfileAsync()
+        {
+            await InitializeAsync();
+
+            var profile = await _database.Table<ProfileModel>().FirstOrDefaultAsync();
+
+            if (profile != null) return profile;
+
+            profile = new ProfileModel();
+
+            _ = await _database.InsertAsync(profile);
+
+            return profile;
+        }
+
         public async Task<List<FoodModel>> GetFoodAsync()
         {
             await InitializeAsync();

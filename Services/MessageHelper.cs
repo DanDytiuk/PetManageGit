@@ -7,8 +7,6 @@ namespace PetManage.Services
 {
     public class MessageHelper
     {
-        private readonly SettingsVM _settings;
-
         public static async Task ShowError(
             string messageKey,
             string titleKey)

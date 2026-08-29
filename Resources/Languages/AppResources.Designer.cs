@@ -160,6 +160,15 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
+        ///   Ищет локализованную строку, похожую на Back.
+        /// </summary>
+        public static string Back {
+            get {
+                return ResourceManager.GetString("Back", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Ищет локализованную строку, похожую на Abyssinian cat.
         /// </summary>
         public static string Breed_Abyssinan {
