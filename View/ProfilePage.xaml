@@ -112,7 +112,7 @@
                                MaximumWidthRequest="250"/>
 
                         <Label Grid.Column="1"
-                               Text="{Binding ProfileBreedPet}"
+                               Text="{Binding BreedDisplayName}"
                                VerticalOptions="Center"
                                HorizontalTextAlignment="Start"
                                MinimumWidthRequest="100"
@@ -142,7 +142,7 @@
                                MaximumWidthRequest="250"/>
 
                         <Label Grid.Column="1"
-                               Text="{Binding ProfileTypeOfPet}"
+                               Text="{Binding AnimalTypeDisplayName}"
                                VerticalOptions="Center"
                                HorizontalTextAlignment="Start"
                                MinimumWidthRequest="100"
@@ -172,7 +172,7 @@
                                MaximumWidthRequest="250"/>
 
                         <Label Grid.Column="1"
-                                Text="{Binding ProfileGenderPet}"
+                                Text="{Binding GenderDisplayName}"
                                 VerticalOptions="Center"
                                 HorizontalTextAlignment="Start"
                                 MinimumWidthRequest="100"
@@ -195,7 +195,7 @@
                     <Grid ColumnDefinitions="*,*">
 
                         <Label Grid.Column="0"
-                               Text="Вес питомца:"
+                               Text="Вес питомца (г):"
                                VerticalOptions="Center"
                                HorizontalTextAlignment="Start"
                                MinimumWidthRequest="100"

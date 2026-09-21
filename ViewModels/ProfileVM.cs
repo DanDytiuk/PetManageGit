@@ -8,6 +8,7 @@ namespace PetManage.ViewModels
     public partial class ProfileVM : ObservableObject
     {
         private readonly DatabaseService _database;
+        private readonly LocalizationManager _loc = LocalizationManager.Instance;
 
         #region Observable Property
 
@@ -35,6 +36,11 @@ namespace PetManage.ViewModels
         [ObservableProperty]
         public partial string ProfileNotesPet { get; set; } = string.Empty;
 
+        public string BreedDisplayName => LocalizationManager.Instance[ProfileBreedPet];
+        public string AnimalTypeDisplayName => LocalizationManager.Instance[ProfileTypeOfPet];
+        public string GenderDisplayName => LocalizationManager.Instance[ProfileGenderPet];
+        
+
         #endregion
 
         #region Observable Collection
@@ -59,10 +65,14 @@ namespace PetManage.ViewModels
                 ProfileWeightPet = profile.Weight;
                 ProfileAgePet = profile.Age;
                 ProfileNotesPet = profile.Notes;
+                OnPropertyChanged(nameof(BreedDisplayName));
+                OnPropertyChanged(nameof(AnimalTypeDisplayName));
+                OnPropertyChanged(nameof(GenderDisplayName));
             }
 
-
         }
+
+         
 
         #endregion
 
@@ -94,7 +104,19 @@ namespace PetManage.ViewModels
         {
             _database = database;
 
+            _loc.PropertyChanged += OnLocalizationChanged;
+
             _ = LoadProfileAsync();
+        }
+
+        private void OnLocalizationChanged(object? sender, System.ComponentModel.PropertyChangedEventArgs e)
+        {
+            if (e.PropertyName == "Item[]")
+            {
+                OnPropertyChanged(nameof(BreedDisplayName));
+                OnPropertyChanged(nameof(AnimalTypeDisplayName));
+                OnPropertyChanged(nameof(GenderDisplayName));
+            }
         }
 
         #endregion

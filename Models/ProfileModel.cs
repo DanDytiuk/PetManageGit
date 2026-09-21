@@ -1,4 +1,5 @@
-﻿using SQLite;
+﻿using PetManage.Services;
+using SQLite;
 
 namespace PetManage.Models
 {
@@ -17,6 +18,12 @@ namespace PetManage.Models
         public double Weight { get; set; } = 0;
         public double Age { get; set; } = 0;
         public string Notes { get; set; } = string.Empty;
+        public string LocalizationName { get; set; } = string.Empty;
+
+        [Ignore]
+        public string BreedDisplayName => LocalizationManager.Instance[Breed];
+        [Ignore]
+        public string AnimalTypeDisplayName => LocalizationManager.Instance[TypeOfPet];
 
     }
 }
