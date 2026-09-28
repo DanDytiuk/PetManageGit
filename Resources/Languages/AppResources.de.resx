@@ -949,8 +949,95 @@
   <data name="Breed_SaintBernard" type="System.Resources.ResXNullRef, System.Windows.Forms">
     <value />
   </data>
-  <data name="Breed_ThaiRidgeback" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
+  <data name="Breed_ShibaInu" xml:space="preserve">
+    <value>Shiba Inu</value>
+  </data>
+  <data name="Breed_SealyhamTerrier" xml:space="preserve">
+    <value>Sealyham Terrier</value>
+  </data>
+  <data name="Breed_SkyeTerrier" xml:space="preserve">
+    <value>Skye Terrier</value>
+  </data>
+  <data name="Breed_ScotchTerrier" xml:space="preserve">
+    <value>Schottischer Terrier</value>
+  </data>
+  <data name="Breed_SlovakWatchman" xml:space="preserve">
+    <value>slowakischer Wachmann</value>
+  </data>
+  <data name="Breed_Slugi" xml:space="preserve">
+    <value>Diener</value>
+  </data>
+  <data name="Breed_CentralAsianShepherdDog" xml:space="preserve">
+    <value>Zentralasiatischer Owtscharka</value>
+  </data>
+  <data name="Breed_StaffordshireBullTerrier" xml:space="preserve">
+    <value>Staffordshire Bullterrier</value>
+  </data>
+  <data name="Breed_Taigan" xml:space="preserve">
+    <value>Taigan</value>
+  </data>
+  <data name="Breed_ThaiRidgeback" xml:space="preserve">
+    <value>Thai Ridgeback</value>
+  </data>
+  <data name="Breed_Fee" xml:space="preserve">
+    <value>Gebühr</value>
+  </data>
+  <data name="Breed_TibetanMastiff" xml:space="preserve">
+    <value>Tibetdogge</value>
+  </data>
+  <data name="Breed_TibetanSpaniel" xml:space="preserve">
+    <value>Tibet-Spaniel</value>
+  </data>
+  <data name="Breed_TibetanTerrier" xml:space="preserve">
+    <value>Tibet-Terrier</value>
+  </data>
+  <data name="Breed_TosaInu" xml:space="preserve">
+    <value>Tosa Inu</value>
+  </data>
+  <data name="Breed_Whippet" xml:space="preserve">
+    <value>Whippet</value>
+  </data>
+  <data name="Breed_PharaohHound" xml:space="preserve">
+    <value>Pharaonenhund</value>
+  </data>
+  <data name="Breed_FilaBrasileiro" xml:space="preserve">
+    <value>Fila Brasileiro</value>
+  </data>
+  <data name="Breed_FinnishLaika" xml:space="preserve">
+    <value>Finnische Laika</value>
+  </data>
+  <data name="Breed_FlatRetriever" xml:space="preserve">
+    <value>Flat Retriever</value>
+  </data>
+  <data name="Breed_FrenchBulldog" xml:space="preserve">
+    <value>Französische Bulldogge</value>
+  </data>
+  <data name="Breed_Harrier" xml:space="preserve">
+    <value>Harrier</value>
+  </data>
+  <data name="Breed_Husky" xml:space="preserve">
+    <value>Husky</value>
+  </data>
+  <data name="Breed_Hovawart" xml:space="preserve">
+    <value>Hovawart</value>
+  </data>
+  <data name="Breed_Zvergschnauzer" xml:space="preserve">
+    <value>Zwergschnauzer</value>
+  </data>
+  <data name="Breed_ChowChow" xml:space="preserve">
+    <value>Chow Chow</value>
+  </data>
+  <data name="Breed_CzechoslovakianWolfdog" xml:space="preserve">
+    <value>Tschechoslowakischer Wolfshund</value>
+  </data>
+  <data name="Breed_Chinook" xml:space="preserve">
+    <value>Chinook</value>
+  </data>
+  <data name="Breed_CirnecoDelEtna" xml:space="preserve">
+    <value>Cirneco del Etna</value>
+  </data>
+  <data name="Breed_Chihuahua" xml:space="preserve">
+    <value>Chihuahua</value>
   </data>
   <data name="Breed_NorwichTerrier" xml:space="preserve">
     <value>Norwich Terrier</value>

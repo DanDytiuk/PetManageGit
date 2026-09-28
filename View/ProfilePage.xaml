@@ -75,14 +75,14 @@
                     <Grid ColumnDefinitions="*,*">
 
                         <Label Grid.Column="0"
-                                Text="Возраст :"
+                                Text="День рождения :"
                                 VerticalOptions="Center"
                                 HorizontalTextAlignment="Start"
                                 MinimumWidthRequest="100"
                                 MaximumWidthRequest="250"/>
 
                         <Label Grid.Column="1"
-                               Text="{Binding ProfileAgePet}"
+                               Text="{Binding ProfileBirthPet}"
                                VerticalOptions="Center"
                                HorizontalTextAlignment="Start"
                                MinimumWidthRequest="100"

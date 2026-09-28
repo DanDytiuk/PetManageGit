@@ -13,6 +13,7 @@ public partial class AddNewProfilePageVM : ObservableObject
 
     #region ObservableProperty
 
+
     [ObservableProperty]
     public partial string NewNamePet { get; set; } = string.Empty;
 
@@ -29,10 +30,13 @@ public partial class AddNewProfilePageVM : ObservableObject
     public partial float NewWeightPet { get; set; }
 
     [ObservableProperty]
-    public partial float NewAgePet { get; set; }
+    public partial DateTime NewBirthPet { get; set; }
 
     [ObservableProperty]
     public partial string NotesPet { get; set; } = string.Empty;
+
+    public DateTime MinDate { get; } = new DateTime(2010, 1, 1);
+    public DateTime MaxDate { get; } = new DateTime(2099, 12, 31);
 
     #endregion
 
@@ -144,7 +148,7 @@ public partial class AddNewProfilePageVM : ObservableObject
             TypeOfPet = NewAnimalPet?.LocalizationKey ?? string.Empty,
             Gender = NewGenderPet?.LocalizationKey ?? string.Empty,
             Weight = NewWeightPet,
-            Age = NewAgePet,
+            Birth = NewBirthPet,
             Notes = NotesPet ?? string.Empty
         };
 

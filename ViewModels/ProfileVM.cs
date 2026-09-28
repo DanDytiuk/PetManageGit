@@ -31,7 +31,7 @@ namespace PetManage.ViewModels
         public partial double ProfileWeightPet { get; set; }
 
         [ObservableProperty]
-        public partial double ProfileAgePet { get; set; }
+        public partial DateTime ProfileBirthPet { get; set; }
 
         [ObservableProperty]
         public partial string ProfileNotesPet { get; set; } = string.Empty;
@@ -39,7 +39,9 @@ namespace PetManage.ViewModels
         public string BreedDisplayName => LocalizationManager.Instance[ProfileBreedPet];
         public string AnimalTypeDisplayName => LocalizationManager.Instance[ProfileTypeOfPet];
         public string GenderDisplayName => LocalizationManager.Instance[ProfileGenderPet];
-        
+
+        public DateTime MinDate { get; } = new DateTime(2020, 1, 1);
+        public DateTime MaxDate { get; } = new DateTime(2099, 12, 31);
 
         #endregion
 
@@ -63,7 +65,7 @@ namespace PetManage.ViewModels
                 ProfileTypeOfPet = profile.TypeOfPet;
                 ProfileGenderPet = profile.Gender;
                 ProfileWeightPet = profile.Weight;
-                ProfileAgePet = profile.Age;
+                ProfileBirthPet = profile.Birth;
                 ProfileNotesPet = profile.Notes;
                 OnPropertyChanged(nameof(BreedDisplayName));
                 OnPropertyChanged(nameof(AnimalTypeDisplayName));
@@ -72,7 +74,16 @@ namespace PetManage.ViewModels
 
         }
 
-         
+        private async Task DeleteProfileAsync()
+        {
+            
+        }
+
+        private async Task ChangeProfileAsync()
+        {
+             
+        }
+
 
         #endregion
 

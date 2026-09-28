@@ -45,6 +45,12 @@ namespace PetManage.ViewModels
         [RelayCommand]
         private async Task SaveInfoFood()
         {
+            if (SelectedFood == null || SelectedWeight <= 0 || SelectedAppetite == null)
+            {
+                await Shell.Current.DisplayAlert("Error", "Please fill in all required fields.", "OK");
+                return;
+            }   
+
             FoodModel food = new()
             {
                 PetID = 0,

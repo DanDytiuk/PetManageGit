@@ -1,0 +1,16 @@
+﻿using SQLite;
+using System;
+using System.Collections.Generic;
+using System.Text;
+
+namespace PetManage.Models
+{
+    [Table("FoodSeriesName")]
+    public class FoodSeriesName
+    {
+        [AutoIncrement, PrimaryKey]
+        public int ID { get; set; }
+        public int FoodNameID { get; set; }
+        public string LocalizationCode { get; set; } = string.Empty;
+    }
+}

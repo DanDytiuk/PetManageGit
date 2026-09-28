@@ -26,6 +26,7 @@ namespace PetManage.Services
             _ = await _database.CreateTableAsync<BreedModel>();
             _ = await _database.CreateTableAsync<AppetiteModel>();
             _ = await _database.CreateTableAsync<GenderModel>();
+            _ = await _database.CreateTableAsync<FoodNames>();
 
             await InitializeAnimalTypesAsync();
             await InitializeAppetiteTypesAsync();

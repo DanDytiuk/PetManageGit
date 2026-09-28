@@ -610,6 +610,9 @@
   <data name="Breed_HungarianVizsla" type="System.Resources.ResXNullRef, System.Windows.Forms">
     <value />
   </data>
+  <data name="Breed_Harrier" xml:space="preserve">
+    <value>&#x8;</value>
+  </data>
   <data name="Back" xml:space="preserve">
     <value>Назад</value>
   </data>
