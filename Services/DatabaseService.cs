@@ -27,6 +27,7 @@ namespace PetManage.Services
             _ = await _database.CreateTableAsync<AppetiteModel>();
             _ = await _database.CreateTableAsync<GenderModel>();
             _ = await _database.CreateTableAsync<FoodNames>();
+            _ = await _database.CreateTableAsync<FoodSeriesName>();
 
             await InitializeAnimalTypesAsync();
             await InitializeAppetiteTypesAsync();
@@ -99,6 +100,80 @@ namespace PetManage.Services
         }
 
         #region Initialize Collections
+
+        public async Task InitializeNameOfFoodAsync()
+        {
+            var count = await _database.Table<FoodNames>().CountAsync();
+
+            if (count > 0)
+                return;
+
+            var foodNames = new List<FoodNames>
+            {
+                new() {FoodID = 1, LocalizationCode = "FoodName_1stChoice"},
+                new() {FoodID = 2, LocalizationCode = "FoodName_ACANA"},
+                new() {FoodID = 3, LocalizationCode = "FoodName_ARATON"},
+                new() {FoodID = 4, LocalizationCode = "FoodName_AlphaSpirit"},
+                new() {FoodID = 5, LocalizationCode = "FoodName_Amity"},
+                new() {FoodID = 6, LocalizationCode = "FoodName_AnimAll"},
+                new() {FoodID = 7, LocalizationCode = "FoodName_Animonda"},
+                new() {FoodID = 8, LocalizationCode = "FoodName_BRAVERY"},
+                new() {FoodID = 9, LocalizationCode = "FoodName_Bastteto"},
+                new() {FoodID = 10, LocalizationCode = "FoodName_Beaphar"},
+                new() {FoodID = 11, LocalizationCode = "FoodName_BonaCibo"},
+                new() {FoodID = 12, LocalizationCode = "FoodName_BritCare"},
+                new() {FoodID = 13, LocalizationCode = "FoodName_BritPremium"},
+                new() {FoodID = 14, LocalizationCode = "FoodName_BritVD"},
+                new() {FoodID = 15, LocalizationCode = "FoodName_Canina"},
+                new() {FoodID = 16, LocalizationCode = "FoodName_Carnie"},
+                new() {FoodID = 17, LocalizationCode = "FoodName_Carnilove"},
+                new() {FoodID = 18, LocalizationCode = "FoodName_CarpathianPetFood"},
+                new() {FoodID = 19, LocalizationCode = "FoodName_Catch!"},
+                new() {FoodID = 20, LocalizationCode = "FoodName_Cherie"},
+                new() {FoodID = 21, LocalizationCode = "FoodName_Chicopee"},
+                new() {FoodID = 22, LocalizationCode = "FoodName_Club4Paws"},
+                new() {FoodID = 23, LocalizationCode = "FoodName_Delickcious"},
+                new() {FoodID = 24, LocalizationCode = "FoodName_Diamond"},
+                new() {FoodID = 25, LocalizationCode = "FoodName_DolinaNoteciPremium"},
+                new() {FoodID = 26, LocalizationCode = "FoodName_DolinaNoteciRafi"},
+                new() {FoodID = 27, LocalizationCode = "FoodName_Eukanuba"},
+                new() {FoodID = 28, LocalizationCode = "FoodName_Exclusion"},
+                new() {FoodID = 29, LocalizationCode = "FoodName_Farmina"},
+                new() {FoodID = 30, LocalizationCode = "FoodName_Felix"},
+                new() {FoodID = 31, LocalizationCode = "FoodName_Gemon"},
+                new() {FoodID = 32, LocalizationCode = "FoodName_Gheda"},
+                new() {FoodID = 33, LocalizationCode = "FoodName_GimbornGimCat"},
+                new() {FoodID = 34, LocalizationCode = "FoodName_GoldenCat"},
+                new() {FoodID = 35, LocalizationCode = "FoodName_Gourmet"},
+                new() {FoodID = 36, LocalizationCode = "FoodName_Half&Half"},
+                new() {FoodID = 37, LocalizationCode = "FoodName_"},
+                new() {FoodID = 38, LocalizationCode = "FoodName_"},
+                new() {FoodID = 39, LocalizationCode = "FoodName_"},
+                new() {FoodID = 40, LocalizationCode = "FoodName_"},
+                new() {FoodID = 41, LocalizationCode = "FoodName_"},
+                new() {FoodID = 42, LocalizationCode = "FoodName_"},
+                new() {FoodID = 43, LocalizationCode = "FoodName_"},
+                new() {FoodID = 44, LocalizationCode = "FoodName_"},
+                new() {FoodID = 45, LocalizationCode = "FoodName_"},
+                new() {FoodID = 46, LocalizationCode = "FoodName_"},
+                new() {FoodID = 47, LocalizationCode = "FoodName_"},
+                new() {FoodID = 48, LocalizationCode = "FoodName_"},
+                new() {FoodID = 49, LocalizationCode = "FoodName_"},
+                new() {FoodID = 50, LocalizationCode = "FoodName_"},
+                new() {FoodID = 51, LocalizationCode = "FoodName_"},
+                new() {FoodID = 52, LocalizationCode = "FoodName_"},
+                new() {FoodID = 53, LocalizationCode = "FoodName_"},
+                new() {FoodID = 54, LocalizationCode = "FoodName_"},
+                new() {FoodID = 55, LocalizationCode = "FoodName_"},
+                new() {FoodID = 56, LocalizationCode = "FoodName_"},
+                new() {FoodID = 57, LocalizationCode = "FoodName_"},
+                new() {FoodID = 58, LocalizationCode = "FoodName_"},
+                new() {FoodID = 59, LocalizationCode = "FoodName_"},
+                new() {FoodID = 60, LocalizationCode = "FoodName_"},
+            };
+
+            _ = await _database.InsertAllAsync(foodNames);
+        }
 
         public async Task InitializeGenderAsync()
         {
