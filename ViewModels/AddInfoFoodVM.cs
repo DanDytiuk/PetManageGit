@@ -2,6 +2,7 @@
 using CommunityToolkit.Mvvm.Input;
 using PetManage.Infrastructure;
 using PetManage.Models;
+using PetManage.Models.ModelViewPicker;
 using PetManage.Services;
 using System.Collections.ObjectModel;
 
@@ -29,8 +30,29 @@ namespace PetManage.ViewModels
 
         #region Observable Collection
 
-        public ObservableCollection<NameOfCatFood> CatFoodPicker { get; }
+        public ObservableCollection<FoodNamesPicker> FoodNamesPicker { get; }
         public ObservableCollection<TypeOfAppetite> TypeOfAppetitePicker { get; }
+        public ObservableCollection<FoodSeriesPicker> FoodSeriesPicker { get; }
+
+        #endregion
+
+        #region Functions
+
+        public async Task LoadNameFoodAsync()
+        {
+            FoodNamesPicker.Clear();
+
+            var foodNames = await _database.GetNameFoodsAsync();
+
+            foreach (var foodName in foodNames)
+            {
+                FoodNamesPicker.Add(new FoodNamesPicker
+                {
+                    ID = foodName.FoodID,
+                    LocalizationKey = foodName.LocalizationCode
+                });
+            }
+        }
 
         #endregion
 

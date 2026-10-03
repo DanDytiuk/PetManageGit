@@ -5,7 +5,7 @@ using System.Text;
 
 namespace PetManage.Models.ModelViewPicker
 {
-    internal class FoodNamesPicker
+    public class FoodNamesPicker
     {
         public int ID { get; set; }
         public string LocalizationKey { get; set; } = string.Empty;
