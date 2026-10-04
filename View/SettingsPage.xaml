@@ -392,8 +392,10 @@
                            VerticalOptions="Center"/>
 
                     <Picker Grid.Column="1"
+                            VerticalOptions="End"
                             ItemsSource="{Binding CurrencyTypes}"
-                            SelectedItem="{Binding ValueOfCurrency}"/>
+                            SelectedItem="{Binding ValueOfCurrency, Mode=TwoWay}"
+                            />
 
                 </Grid>
 

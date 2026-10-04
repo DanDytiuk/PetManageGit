@@ -59,7 +59,7 @@
                                MaximumWidthRequest="250"/>
 
                         <Picker Grid.Column="1"
-                                ItemsSource="{Binding CatFoodPicker}"
+                                ItemsSource="{Binding FoodNamesPicker}"
                                 MinimumWidthRequest="150"
                                 MaximumWidthRequest="200"
                                 SelectedItem="{Binding SelectedFood}"/>

@@ -30,7 +30,7 @@ namespace PetManage.ViewModels
 
         #region Observable Collection
 
-        public ObservableCollection<FoodNamesPicker> FoodNamesPicker { get; }
+        public ObservableCollection<FoodNamesPicker> FoodNamesPicker { get; } = new ObservableCollection<FoodNamesPicker>();
         public ObservableCollection<TypeOfAppetite> TypeOfAppetitePicker { get; }
         public ObservableCollection<FoodSeriesPicker> FoodSeriesPicker { get; }
 
@@ -94,7 +94,7 @@ namespace PetManage.ViewModels
         {
             _database = database;
 
-            CatFoodPicker = new ObservableCollection<NameOfCatFood>(Enum.GetValues<NameOfCatFood>());
+            _ = LoadNameFoodAsync();
             TypeOfAppetitePicker = new ObservableCollection<TypeOfAppetite>(Enum.GetValues<TypeOfAppetite>());
         }
 
