@@ -4,6 +4,7 @@ using PetManage.Models;
 using PetManage.Models.ModelViewPicker;
 using PetManage.Services;
 using System.Collections.ObjectModel;
+using System.Diagnostics;
 
 namespace PetManage.ViewModels;
 
@@ -141,18 +142,28 @@ public partial class AddNewProfilePageVM : ObservableObject
     [RelayCommand]
     private async Task SaveNewProfile()
     {
-        ProfileModel profile = new()
+        if (NewWeightPet < 0)
         {
-            Name = NewNamePet,
-            Breed = NewBreedPet?.LocalizationKey ?? string.Empty,
-            TypeOfPet = NewAnimalPet?.LocalizationKey ?? string.Empty,
-            Gender = NewGenderPet?.LocalizationKey ?? string.Empty,
-            Weight = NewWeightPet,
-            Birth = NewBirthPet,
-            Notes = NotesPet ?? string.Empty
-        };
+            await Shell.Current.DisplayAlert("Неправильна вага", "Введіть коректну вагу", "ОК");
+            return;
 
-        await _database.SaveProfileAsync(profile);
+        } else {
+
+            ProfileModel profile = new()
+            {
+                Name = NewNamePet,
+                Breed = NewBreedPet?.LocalizationKey ?? string.Empty,
+                TypeOfPet = NewAnimalPet?.LocalizationKey ?? string.Empty,
+                Gender = NewGenderPet?.LocalizationKey ?? string.Empty,
+                Weight = NewWeightPet,
+                Birth = NewBirthPet,
+                Notes = NotesPet ?? string.Empty
+            };
+
+            await _database.SaveProfileAsync(profile);
+        } 
+        
+        
     }
 
     #endregion

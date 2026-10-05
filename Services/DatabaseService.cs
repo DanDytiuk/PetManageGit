@@ -69,6 +69,52 @@ namespace PetManage.Services
             return profile;
         }
 
+        public async Task UpdateProfileAsync(int petId, string field, object value)
+        {
+            await InitializeAsync();
+
+            var profile = await _database.Table<ProfileModel>()
+                .FirstOrDefaultAsync(p => p.PetID == petId);
+
+            if (profile == null)
+                return;
+
+            switch (field)
+            {
+                case "Name":
+                    profile.Name = value?.ToString() ?? string.Empty;
+                    break;
+                case "Breed":
+                    profile.Breed = value?.ToString() ?? string.Empty;
+                    break;
+                case "TypeOfPet":
+                    profile.TypeOfPet = value?.ToString() ?? string.Empty;
+                    break;
+                case "Gender":
+                    profile.Gender = value?.ToString() ?? string.Empty;
+                    break;
+                case "Weight":
+                    if (value is double dv)
+                        profile.Weight = dv;
+                    else if (double.TryParse(value?.ToString(), out var parsedW))
+                        profile.Weight = parsedW;
+                    break;
+                case "Birth":
+                    if (value is DateTime dt)
+                        profile.Birth = dt;
+                    else if (DateTime.TryParse(value?.ToString(), out var parsedD))
+                        profile.Birth = parsedD;
+                    break;
+                case "Notes":
+                    profile.Notes = value?.ToString() ?? string.Empty;
+                    break;
+                default:
+                    return;
+            }
+
+            await _database.UpdateAsync(profile);
+        }
+
         public async Task<List<FoodModel>> GetFoodAsync()
         {
             await InitializeAsync();

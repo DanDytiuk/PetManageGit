@@ -179,7 +179,7 @@
                                     Date="{Binding NewBirthPet}"
                                     MinimumDate="{Binding MinDate}"
                                     MaximumDate="{Binding MaxDate}"
-                                    Format="D"/>
+                                    Format="d"/>
 
                     </Grid>
 

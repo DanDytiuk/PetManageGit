@@ -82,7 +82,7 @@
                                 MaximumWidthRequest="250"/>
 
                         <Label Grid.Column="1"
-                               Text="{Binding ProfileBirthPet}"
+                               Text="{Binding ProfileBirthPet, StringFormat='{0:dd.MM.yyyy}'}"
                                VerticalOptions="Center"
                                HorizontalTextAlignment="Start"
                                MinimumWidthRequest="100"

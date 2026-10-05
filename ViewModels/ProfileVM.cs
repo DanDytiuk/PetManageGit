@@ -74,17 +74,13 @@ namespace PetManage.ViewModels
 
         }
 
+        
+
         private async Task DeleteProfileAsync()
         {
             
         }
-
-        private async Task ChangeProfileAsync()
-        {
-             
-        }
-
-
+        
         #endregion
 
         #region Commands
@@ -102,9 +98,107 @@ namespace PetManage.ViewModels
         }
 
         [RelayCommand]
+        private async Task DeleteProfile()
+        {
+
+        }
+
+        [RelayCommand]
         private async Task EditProfile()
         {
-            await Shell.Current.GoToAsync(nameof(ChangeInfoProfilePage));
+            string request = await Shell.Current.DisplayActionSheet("Зміна даних", "Відміна", null, "Ім'я", "День народження", "Порода", "Тип пітомця", "Стать улюбленця", "Вага", "Замітки");
+
+            if (string.IsNullOrEmpty(request) || request == "Відміна")
+                return;
+
+            switch (request)
+            {
+                case "Ім'я":
+                {
+                    string newName = await Shell.Current.DisplayPromptAsync("Зміна імені", "Введіть нове ім'я", initialValue: ProfileNamePet, accept: "ОК", cancel: "Відміна");
+                    if (!string.IsNullOrWhiteSpace(newName))
+                    {
+                        ProfileNamePet = newName;
+                        await _database.UpdateProfileAsync(ProfilePetID, "Name", newName);
+                    }
+
+                    break;
+                }
+
+                case "День народження":
+                {
+                    string initial = ProfileBirthPet != default ? ProfileBirthPet.ToString("yyyy-MM-dd") : string.Empty;
+                    string dateInput = await Shell.Current.DisplayPromptAsync("Зміна дати народження", "Введіть дату у форматі yyyy-MM-dd", initialValue: initial, accept: "ОК", cancel: "Відміна");
+                    if (!string.IsNullOrWhiteSpace(dateInput) && DateTime.TryParse(dateInput, out var newDate))
+                    {
+                        ProfileBirthPet = newDate;
+                        await _database.UpdateProfileAsync(ProfilePetID, "Birth", newDate);
+                    }
+
+                    break;
+                }
+
+                case "Порода":
+                {
+                    string newBreed = await Shell.Current.DisplayPromptAsync("Зміна породи", "Введіть породу", initialValue: ProfileBreedPet, accept: "ОК", cancel: "Відміна");
+                    if (!string.IsNullOrWhiteSpace(newBreed))
+                    {
+                        ProfileBreedPet = newBreed;
+                        await _database.UpdateProfileAsync(ProfilePetID, "Breed", newBreed);
+                    }
+
+                    break;
+                }
+
+                case "Тип пітомця":
+                {
+                    string newType = await Shell.Current.DisplayPromptAsync("Зміна типу", "Введіть тип пiтомця", initialValue: ProfileTypeOfPet, accept: "ОК", cancel: "Відміна");
+                    if (!string.IsNullOrWhiteSpace(newType))
+                    {
+                        ProfileTypeOfPet = newType;
+                        await _database.UpdateProfileAsync(ProfilePetID, "TypeOfPet", newType);
+                    }
+
+                    break;
+                }
+
+                case "Стать улюбленця":
+                {
+                    string newGender = await Shell.Current.DisplayPromptAsync("Зміна статі", "Введіть стать улюбленця", initialValue: ProfileGenderPet, accept: "ОК", cancel: "Відміна");
+                    if (!string.IsNullOrWhiteSpace(newGender))
+                    {
+                        ProfileGenderPet = newGender;
+                        await _database.UpdateProfileAsync(ProfilePetID, "Gender", newGender);
+                    }
+
+                    break;
+                }
+
+                case "Вага":
+                {
+                    string initialWeight = ProfileWeightPet > 0 ? ProfileWeightPet.ToString() : string.Empty;
+                    string weightInput = await Shell.Current.DisplayPromptAsync("Зміна ваги", "Введіть вагу (ціле або дробне число)", initialValue: initialWeight, accept: "ОК", cancel: "Відміна");
+                    if (!string.IsNullOrWhiteSpace(weightInput) && double.TryParse(weightInput, out var newWeight))
+                    {
+                        ProfileWeightPet = newWeight;
+                        await _database.UpdateProfileAsync(ProfilePetID, "Weight", newWeight);
+                    }
+
+                    break;
+                }
+
+                case "Замітки":
+                {
+                    string newNotes = await Shell.Current.DisplayPromptAsync("Зміна заміток", "Введіть замітки", initialValue: ProfileNotesPet, accept: "ОК", cancel: "Відміна");
+                    if (newNotes != null)
+                    {
+                        ProfileNotesPet = newNotes;
+                        await _database.UpdateProfileAsync(ProfilePetID, "Notes", newNotes);
+                    }
+
+                    break;
+                }
+            }
         }
 
         #endregion
