@@ -69,6 +69,26 @@ namespace PetManage.Services
             return profile;
         }
 
+        public async Task DeleteProfileAsync(int petId)
+        {
+            await InitializeAsync();
+
+            var profile = await _database.Table<ProfileModel>().FirstOrDefaultAsync(p => p.PetID == petId);
+            
+            if (profile != null)
+            {
+                await _database.DeleteAsync(profile);
+            }
+        }
+
+        public async Task<ProfileModel?> GetProfileByIdAsync(int id)
+        {
+            if (id <= 0) return null;
+            return await _database.Table<ProfileModel>()
+                                  .Where(p => p.Id == id)
+                                  .FirstOrDefaultAsync();
+        }
+
         public async Task UpdateProfileAsync(int petId, string field, object value)
         {
             await InitializeAsync();

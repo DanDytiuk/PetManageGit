@@ -18,7 +18,6 @@ namespace PetManage
             Routing.RegisterRoute(nameof(ProfilePage), typeof(ProfilePage));
 
             Routing.RegisterRoute(nameof(AddNewProfilePage), typeof(AddNewProfilePage));
-            Routing.RegisterRoute(nameof(ChangeInfoProfilePage), typeof(ChangeInfoProfilePage));
         }
     }
 }
