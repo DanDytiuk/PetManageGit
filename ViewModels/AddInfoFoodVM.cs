@@ -15,7 +15,10 @@ namespace PetManage.ViewModels
         #region Observable Property
 
         [ObservableProperty]
-        public partial NameOfCatFood SelectedFood { get; set; }
+        public partial FoodNames SelectedNameOfFood { get; set; }
+
+        [ObservableProperty]
+        public partial FoodSeriesName SelectedFoodSeries { get; set; }
 
         [ObservableProperty]
         public partial double SelectedWeight { get; set; }
@@ -31,8 +34,8 @@ namespace PetManage.ViewModels
         #region Observable Collection
 
         public ObservableCollection<FoodNamesPicker> FoodNamesPicker { get; } = new ObservableCollection<FoodNamesPicker>();
-        public ObservableCollection<TypeOfAppetite> TypeOfAppetitePicker { get; }
-        public ObservableCollection<FoodSeriesPicker> FoodSeriesPicker { get; }
+        public ObservableCollection<TypeOfAppetite> TypeOfAppetitePicker { get; } = new ObservableCollection<TypeOfAppetite>();
+        public ObservableCollection<FoodSeriesPicker> FoodSeriesPicker { get; } = new ObservableCollection<FoodSeriesPicker>();
 
         #endregion
 
@@ -54,6 +57,22 @@ namespace PetManage.ViewModels
             }
         }
 
+        public async Task LoadFoodSeriesAsync()
+        {
+            FoodSeriesPicker.Clear();
+
+            var foodSeries = await _database.GetFoodSeriesAsync(SelectedNameOfFood.FoodID);
+
+            foreach (var series in foodSeries)
+            {
+                FoodSeriesPicker.Add(new FoodSeriesPicker
+                {
+                    ID = series.FoodID,
+                    LocalizationKey = series.LocalizationCode
+                });
+            }
+        }
+
         #endregion
 
         #region Commands
@@ -67,16 +86,17 @@ namespace PetManage.ViewModels
         [RelayCommand]
         private async Task SaveInfoFood()
         {
-            if (SelectedFood == null || SelectedWeight <= 0 || SelectedAppetite == null)
+            if (SelectedNameOfFood == null || SelectedFoodSeries == null || SelectedWeight <= 0 || SelectedAppetite == null)
             {
-                await Shell.Current.DisplayAlert("Error", "Please fill in all required fields.", "OK");
+                await Shell.Current.DisplayAlertAsync("Error", "Please fill in all required fields.", "OK");
                 return;
             }   
 
             FoodModel food = new()
             {
                 PetID = 0,
-                FoodName = SelectedFood.ToString(),
+                FoodName = SelectedNameOfFood.ToString(),
+                FoodSeries = SelectedFoodSeries.ToString(),
                 Weight = SelectedWeight,
                 Notes = SelectedNotes,
                 Appetite = SelectedAppetite.ToString(),
@@ -95,6 +115,7 @@ namespace PetManage.ViewModels
             _database = database;
 
             _ = LoadNameFoodAsync();
+            _ = LoadFoodSeriesAsync();
             TypeOfAppetitePicker = new ObservableCollection<TypeOfAppetite>(Enum.GetValues<TypeOfAppetite>());
         }
 

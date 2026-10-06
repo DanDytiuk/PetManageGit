@@ -2950,6 +2950,15 @@ namespace PetManage.Resources.Languages {
         }
         
         /// <summary>
+        ///   Ищет локализованную строку, похожую на 1stChoice.
+        /// </summary>
+        public static string FoodName_1stChoice {
+            get {
+                return ResourceManager.GetString("FoodName_1stChoice", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Ищет локализованную строку, похожую на Language.
         /// </summary>
         public static string Language {

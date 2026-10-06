@@ -144,6 +144,14 @@ namespace PetManage.Services
                                   .ToListAsync();
         }
 
+        public async Task<List<FoodSeriesName>> GetFoodSeriesAsync(int foodId)
+        {
+            return await _database
+                .Table<FoodSeriesName>()
+                .Where(x => x.FoodID == foodId)
+                .ToListAsync();
+        }
+
         public async Task<List<AnimalTypeModel>> GetAnimalTypesAsync()
         {
             return await _database
@@ -309,6 +317,28 @@ namespace PetManage.Services
             };
 
             _ = await _database.InsertAllAsync(foodNames);
+        }
+
+        public async Task InitializeFoodSeriesAsync()
+        {
+            var count = await _database.Table<FoodSeriesName>().CountAsync();
+
+            if (count > 0) return;
+
+            var foodseries = new List<FoodSeriesName>
+            {
+                new() {FoodID = 1, LocalizationCode = "FoodSeries_1stChoice"},
+                new() {FoodID = 2, LocalizationCode = "FoodSeries_ACANA"},
+                new() {FoodID = 3, LocalizationCode = "FoodSeries_ARATON"},
+                new() {FoodID = 4, LocalizationCode = "FoodSeries_AlphaSpirit"},
+                new() {FoodID = 5, LocalizationCode = "FoodSeries_Amity"},
+                new() {FoodID = 6, LocalizationCode = "FoodSeries_AnimAll"},
+                new() {FoodID = 7, LocalizationCode = "FoodSeries_Animonda"},
+                new() {FoodID = 8, LocalizationCode = "FoodSeries_BRAVERY"},
+                new() {FoodID = 9, LocalizationCode = "FoodSeries_Bastteto"},
+                new() {FoodID = 10, LocalizationCode = "FoodSeries_Beaphar"},
+            };
+        }
         }
 
         public async Task InitializeGenderAsync()

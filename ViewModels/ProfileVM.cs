@@ -97,23 +97,17 @@ namespace PetManage.ViewModels
             await Shell.Current.GoToAsync(nameof(AddNewProfilePage));
         }
 
-        /*[RelayCommand]
-        private async Task NewProfile()
-        {
-            string request = 
-        }*/
-
         [RelayCommand]
         private async Task DeleteProfile()
         {
             var existing = await _database.GetProfileByIdAsync(ProfilePetID);
             if (existing == null)
             {
-                await Shell.Current.DisplayAlert("Помилка", "Профіль не знайдено в базі.", "OK");
+                await Shell.Current.DisplayAlertAsync("Помилка", "Профіль не знайдено в базі.", "OK");
                 return;
             }
 
-            string request = await Shell.Current.DisplayActionSheet("Видалити профіль?", "Відміна", null, "Так", "Ні");
+            string request = await Shell.Current.DisplayActionSheetAsync("Видалити профіль?", "Відміна", null, "Так", "Ні");
             
             if (request == "Так")
             {
@@ -133,7 +127,7 @@ namespace PetManage.ViewModels
             var existing = await _database.GetProfileByIdAsync(ProfilePetID);
             if (existing == null)
             {
-                await Shell.Current.DisplayAlert("Помилка", "Профіль не знайдено в базі.", "OK");
+                await Shell.Current.DisplayAlertAsync("Помилка", "Профіль не знайдено в базі.", "OK");
                 return;
             }
 
