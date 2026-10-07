@@ -34,6 +34,7 @@ namespace PetManage.Services
             await InitializeBreedsAsync();
             await InitializeGenderAsync();
             await InitializeNameOfFoodAsync();
+            await InitializeFoodSeriesAsync();
         }
 
         #region GetDataAsync
@@ -327,19 +328,21 @@ namespace PetManage.Services
 
             var foodseries = new List<FoodSeriesName>
             {
-                new() {FoodID = 1, LocalizationCode = "FoodSeries_1stChoice"},
-                new() {FoodID = 2, LocalizationCode = "FoodSeries_ACANA"},
-                new() {FoodID = 3, LocalizationCode = "FoodSeries_ARATON"},
-                new() {FoodID = 4, LocalizationCode = "FoodSeries_AlphaSpirit"},
-                new() {FoodID = 5, LocalizationCode = "FoodSeries_Amity"},
-                new() {FoodID = 6, LocalizationCode = "FoodSeries_AnimAll"},
-                new() {FoodID = 7, LocalizationCode = "FoodSeries_Animonda"},
-                new() {FoodID = 8, LocalizationCode = "FoodSeries_BRAVERY"},
-                new() {FoodID = 9, LocalizationCode = "FoodSeries_Bastteto"},
-                new() {FoodID = 10, LocalizationCode = "FoodSeries_Beaphar"},
+                new() {FoodID = 1, LocalizationCode = "FoodSeries_1stChoiceSterilised", TypeOfFood = "Dry"},
+                new() {FoodID = 1, LocalizationCode = "FoodSeries_1stChoiceAdultWeightControl", TypeOfFood = "Dry"},
+                new() {FoodID = 1, LocalizationCode = "FoodSeries_1stChoiceCatAdultIndoorVitality", TypeOfFood = "Dry"},
+                new() {FoodID = 1, LocalizationCode = "FoodSeries_1stChoiceChoiceSeniorChicken", TypeOfFood = "Dry"},
+                new() {FoodID = 1, LocalizationCode = "FoodSeries_1stChoiceUrinaryHealthAdult", TypeOfFood = "Dry"},
+                new() {FoodID = 1, LocalizationCode = "FoodSeries_1stChoiceAdultHypoallergenic", TypeOfFood = "Dry"},
+                new() {FoodID = 1, LocalizationCode = "FoodSeries_1stChoiceAdultFinicky", TypeOfFood = "Dry"},
+                new() {FoodID = 1, LocalizationCode = "FoodSeries_1stChoiceAdultHealthySkin&Coat", TypeOfFood = "Dry"},
+                new() {FoodID = 1, LocalizationCode = "FoodSeries_1stChoiceKittenChicken", TypeOfFood = "Dry"},
+                //new() {FoodID = 1, LocalizationCode = "FoodSeries_1stChoice", TypeOfFood = "Dry"},
             };
+
+            _ = await _database.InsertAllAsync(foodseries);
         }
-        }
+        
 
         public async Task InitializeGenderAsync()
         {

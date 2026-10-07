@@ -15,10 +15,10 @@ namespace PetManage.ViewModels
         #region Observable Property
 
         [ObservableProperty]
-        public partial FoodNames SelectedNameOfFood { get; set; }
+        public partial FoodNamesPicker SelectedNameOfFood { get; set; }
 
         [ObservableProperty]
-        public partial FoodSeriesName SelectedFoodSeries { get; set; }
+        public partial FoodSeriesPicker SelectedFoodSeries { get; set; }
 
         [ObservableProperty]
         public partial double SelectedWeight { get; set; }
@@ -61,16 +61,28 @@ namespace PetManage.ViewModels
         {
             FoodSeriesPicker.Clear();
 
-            var foodSeries = await _database.GetFoodSeriesAsync(SelectedNameOfFood.FoodID);
+            if (SelectedNameOfFood == null)
+                return;
+
+            var foodSeries = await _database.GetFoodSeriesAsync(SelectedNameOfFood.ID);
 
             foreach (var series in foodSeries)
             {
                 FoodSeriesPicker.Add(new FoodSeriesPicker
                 {
-                    ID = series.FoodID,
+                    ID = series.ID,
+                    FoodNameID = series.FoodID,
+                    TypeOfFood = series.TypeOfFood,
                     LocalizationKey = series.LocalizationCode
                 });
             }
+        }
+
+        // Called automatically by CommunityToolkit when SelectedNameOfFood changes
+        partial void OnSelectedNameOfFoodChanged(FoodNamesPicker value)
+        {
+            if (value != null)
+                _ = LoadFoodSeriesAsync();
         }
 
         #endregion
@@ -95,8 +107,8 @@ namespace PetManage.ViewModels
             FoodModel food = new()
             {
                 PetID = 0,
-                FoodName = SelectedNameOfFood.ToString(),
-                FoodSeries = SelectedFoodSeries.ToString(),
+                FoodName = SelectedNameOfFood?.DisplayName ?? string.Empty,
+                FoodSeries = SelectedFoodSeries?.DisplayName ?? string.Empty,
                 Weight = SelectedWeight,
                 Notes = SelectedNotes,
                 Appetite = SelectedAppetite.ToString(),
@@ -115,7 +127,6 @@ namespace PetManage.ViewModels
             _database = database;
 
             _ = LoadNameFoodAsync();
-            _ = LoadFoodSeriesAsync();
             TypeOfAppetitePicker = new ObservableCollection<TypeOfAppetite>(Enum.GetValues<TypeOfAppetite>());
         }
 

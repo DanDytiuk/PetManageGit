@@ -9,6 +9,7 @@ namespace PetManage.Models.ModelViewPicker
     {
         public int ID { get; set; }
         public int FoodNameID { get; set; }
+        public string TypeOfFood { get; set; } = string.Empty;
         public string LocalizationKey { get; set; } = string.Empty;
         public string DisplayName => LocalizationManager.Get(LocalizationKey);
     }

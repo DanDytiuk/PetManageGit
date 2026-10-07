@@ -62,7 +62,7 @@
                                 ItemsSource="{Binding FoodNamesPicker}"
                                 MinimumWidthRequest="150"
                                 MaximumWidthRequest="200"
-                                SelectedItem="{Binding SelectedFood}"
+                                SelectedItem="{Binding SelectedNameOfFood}"
                                 ItemDisplayBinding="{Binding DisplayName}"/>
 
                     </Grid>
