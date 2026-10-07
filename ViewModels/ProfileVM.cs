@@ -100,12 +100,37 @@ namespace PetManage.ViewModels
         [RelayCommand]
         private async Task DeleteProfile()
         {
+            var existing = await _database.GetProfileByIdAsync(ProfilePetID);
+            if (existing == null)
+            {
+                await Shell.Current.DisplayAlertAsync("Помилка", "Профіль не знайдено в базі.", "OK");
+                return;
+            }
 
+            string request = await Shell.Current.DisplayActionSheetAsync("Видалити профіль?", "Відміна", null, "Так", "Ні");
+            
+            if (request == "Так")
+            {
+                string confirmation = await Shell.Current.DisplayPromptAsync("Підтвердження видалення", "Введіть 'Видалити' для підтвердження", accept: "ОК", cancel: "Відміна");
+                
+                if (confirmation == "Видалити")
+                {
+                    await _database.DeleteProfileAsync(ProfilePetID);
+                    await Shell.Current.GoToAsync("..");
+                }
+            } 
         }
 
         [RelayCommand]
         private async Task EditProfile()
         {
+            var existing = await _database.GetProfileByIdAsync(ProfilePetID);
+            if (existing == null)
+            {
+                await Shell.Current.DisplayAlertAsync("Помилка", "Профіль не знайдено в базі.", "OK");
+                return;
+            }
+
             string request = await Shell.Current.DisplayActionSheet("Зміна даних", "Відміна", null, "Ім'я", "День народження", "Порода", "Тип пітомця", "Стать улюбленця", "Вага", "Замітки");
 
             if (string.IsNullOrEmpty(request) || request == "Відміна")
