@@ -1311,4 +1311,7 @@
   <data name="Back" xml:space="preserve">
     <value>Back</value>
   </data>
+  <data name="FoodName_1stChoice" xml:space="preserve">
+    <value>1stChoice</value>
+  </data>
 </root>

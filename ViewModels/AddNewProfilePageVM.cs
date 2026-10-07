@@ -144,7 +144,7 @@ public partial class AddNewProfilePageVM : ObservableObject
     {
         if (NewWeightPet < 0)
         {
-            await Shell.Current.DisplayAlert("Неправильна вага", "Введіть коректну вагу", "ОК");
+            await Shell.Current.DisplayAlertAsync("Неправильна вага", "Введіть коректну вагу", "ОК");
             return;
 
         } else {
