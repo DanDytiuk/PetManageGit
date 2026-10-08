@@ -12,6 +12,7 @@ namespace PetManage.Models
         public int ID { get; set; }
         public int FoodID { get; set; }
         public string TypeOfFood { get; set; } = string.Empty;
+        public string ForAnimalType { get; set; } = string.Empty;
         public string LocalizationCode { get; set; } = string.Empty;
     }
 }
