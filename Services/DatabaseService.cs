@@ -355,10 +355,10 @@ namespace PetManage.Services
                 new() { FoodID = 3, LocalizationCode = " FoodSeries_AratonSalmonAdultAllBreeds", TypeOfFood = "Dry", ForAnimalType = "Cat" },
                 new() { FoodID = 3, LocalizationCode = "FoodSeries_AratonOutdoorAdultAllBreeds", TypeOfFood = "Dry", ForAnimalType = "Cat"},
                 new() { FoodID = 3, LocalizationCode = "FoodSeries_AratonKitten", TypeOfFood = "Dry", ForAnimalType = "Cat"},
-               
+
                 new() { FoodID = 4, LocalizationCode = "FoodSeries_AlphaSpiritIbericoAdultCats", TypeOfFood = "Dry"},
                 new() { FoodID = 4, LocalizationCode = "FoodSeries_AlphaSpiritSardineWithBanana", TypeOfFood = "Dry"},
-                
+
                 new() { FoodID = 5, LocalizationCode = "FoodSeries_AmitySterilisedChicken", TypeOfFood = "Dry", ForAnimalType = "Chicken"},
                 new() { FoodID = 5, LocalizationCode = "FoodSeries_AmitySalmon&Rice", TypeOfFood = "Dry", ForAnimalType = "Salmon"},
                 new() { FoodID = 5, LocalizationCode = "FoodSeries_AmitySuperPremiumSterilisedSalmon", TypeOfFood = "Dry", ForAnimalType = "Salmon"},
@@ -375,7 +375,7 @@ namespace PetManage.Services
                 new() { FoodID = 6, LocalizationCode = "FoodSeries_AnimAllMilkShakeBanana", TypeOfFood = "Milk", ForAnimalType = "Cat" },
                 new() { FoodID = 6, LocalizationCode = "FoodSeries_AnimAllMilkShakeRaspberry", TypeOfFood = "Milk", ForAnimalType = "Cat" },
                 new() { FoodID = 6, LocalizationCode = "FoodSeries_AnimAllMilkShakeMango", TypeOfFood = "Milk", ForAnimalType = "Cat" },
-                
+
                 new() { FoodID = 7, LocalizationCode = "FoodSeries_AnimondaCarnyAdultBeefTurkey&Shrimps", TypeOfFood = "Wet", ForAnimalType = "Cat" },
                 new() { FoodID = 7, LocalizationCode = "FoodSeries_AnimondaCarnyAdultBeef&Chicken", TypeOfFood = "Wet", ForAnimalType = "Cat" },
                 new() { FoodID = 7, LocalizationCode = "FoodSeries_AnimondaVomFeinstenAdultBeef&Rabbit", TypeOfFood = "Wet", ForAnimalType = "Cat" },
@@ -388,18 +388,18 @@ namespace PetManage.Services
                 new() { FoodID = 7, LocalizationCode = "FoodSeries_AnimondaVomFeinstenAdultTurkeyTrout", TypeOfFood = "Wet", ForAnimalType = "Cat" },
                 new() { FoodID = 7, LocalizationCode = "FoodSeries_AnimondaVomFeinstenAdultTurkey&Tomato", TypeOfFood = "Wet", ForAnimalType = "Cat" },
                 new() { FoodID = 7, LocalizationCode = "FoodSeries_AnimondaVomFeinstenKittenPoultry", TypeOfFood = "Wet", ForAnimalType = "Cat" },
-                
+
                 new() { FoodID = 7, LocalizationCode = "FoodSeries_AnimondaVomFeinstenBabyPate", TypeOfFood = "Wet", ForAnimalType = "Cat" },
                 new() { FoodID = 7, LocalizationCode = "FoodSeries_AnimondaVomFeinstenBeef&RoeDeer", TypeOfFood = "Wet", ForAnimalType = "Cat" },
                 new() { FoodID = 7, LocalizationCode = "FoodSeries_AnimondaVomFeinstenKittenLamb", TypeOfFood = "Wet", ForAnimalType = "Cat" },
                 new() { FoodID = 7, LocalizationCode = "FoodSeries_AnimondaVomFeinstenAdultRabbit&CreamSauce", TypeOfFood = "Wet", ForAnimalType = "Cat" },
                 new() { FoodID = 7, LocalizationCode = "FoodSeries_AnimondaVomFeinstenAdultChickenSeasoning", TypeOfFood = "Wet", ForAnimalType = "Cat" },
                 new() { FoodID = 7, LocalizationCode = "FoodSeries_AnimondaVomFeinstenAdultBeef&Codfish&ParsleyRoots", TypeOfFood = "Wet", ForAnimalType = "Cat" },
-                
+
                 new() { FoodID = 8, LocalizationCode = "FoodSeries_BraveryKittenChicken", TypeOfFood = "Dry", ForAnimalType = "Cat" },
                 new() { FoodID = 8, LocalizationCode = "FoodSeries_BraveryAdultHerring", TypeOfFood = "Dry", ForAnimalType = "Cat" },
                 new() { FoodID = 8, LocalizationCode = "FoodSeries_BraveryAdultSterilisedHerring", TypeOfFood = "Dry", ForAnimalType = "Cat" },
-                
+
                 new() { FoodID = 9, LocalizationCode = "FoodSeries_BasttetoOriginalBeef&HeartInJelly", TypeOfFood = "Wet", ForAnimalType = "Cat" },
                 new() { FoodID = 9, LocalizationCode = "FoodSeries_BasttetoMousse&SalmonAndVegetables", TypeOfFood = "Wet", ForAnimalType = "Cat" },
                 new() { FoodID = 9, LocalizationCode = "FoodSeries_BasttetoSilverBeefPate", TypeOfFood = "Wet", ForAnimalType = "Cat" },
@@ -407,14 +407,14 @@ namespace PetManage.Services
                 new() { FoodID = 9, LocalizationCode = "FoodSeries_BasttetoPateWithChicken&Vegetables", TypeOfFood = "Wet", ForAnimalType = "Cat" },
                 new() { FoodID = 9, LocalizationCode = "FoodSeries_BasttetoMousse&SalmonAndVegetables", TypeOfFood = "Wet", ForAnimalType = "Cat" },
                 new() { FoodID = 9, LocalizationCode = "FoodSeries_BasttetoPateForAdultBeef", TypeOfFood = "Wet", ForAnimalType = "Cat" },
-                
+
                 new() { FoodID = 10, LocalizationCode = "FoodSeries_BeapharLactolKittyMilk", TypeOfFood = "Milk", ForAnimalType = "Cat" },
-                
+
                 new() { FoodID = 11, LocalizationCode = "FoodSeries_BonaCiboAdultLight&Sterilised", TypeOfFood = "Wet", ForAnimalType = "Cat" },
                 new() { FoodID = 11, LocalizationCode = "FoodSeries_BonaCiboAdultLamb&Rice", TypeOfFood = "Wet", ForAnimalType = "Cat" },
                 new() { FoodID = 11, LocalizationCode = "FoodSeries_BonaCiboAdultChickenAncovy&Rice", TypeOfFood = "Wet", ForAnimalType = "Cat" },
                 new() { FoodID = 11, LocalizationCode = "FoodSeries_BonaCiboKittenChickenAnchovy&Rice", TypeOfFood = "Wet", ForAnimalType = "Cat" },
-                
+
                 new() { FoodID = 12, LocalizationCode = "FoodSeries_BritCareSterilisedUrinaryHealth", TypeOfFood = "Dry", ForAnimalType = "Cat" },
                 new() { FoodID = 12, LocalizationCode = "FoodSeries_BritCareSterilisedWeightControl", TypeOfFood = "Dry", ForAnimalType = "Cat" },
                 new() { FoodID = 12, LocalizationCode = "FoodSeries_BritCareHaircareHealthy&ShineCoat", TypeOfFood = "Dry", ForAnimalType = "Cat" },
@@ -422,51 +422,55 @@ namespace PetManage.Services
                 new() { FoodID = 12, LocalizationCode = "FoodSeries_BritCareIndoorAntistress", TypeOfFood = "Dry", ForAnimalType = "Cat" },
                 new() { FoodID = 12, LocalizationCode = "FoodSeries_BritCareKittenGrowth&Development", TypeOfFood = "Dry", ForAnimalType = "Cat" },
                 new() { FoodID = 12, LocalizationCode = "FoodSeries_BritCareSensitiveDigestion&Delicate", TypeOfFood = "Dry", ForAnimalType = "Cat" },
-                new() { FoodID = 12, LocalizationCode = "FoodSeries_BritCare", TypeOfFood = "Dry", ForAnimalType = "Cat" },
-                new() { FoodID = 12, LocalizationCode = "FoodSeries_BritCare", TypeOfFood = "Dry", ForAnimalType = "Cat" },
-                new() { FoodID = 12, LocalizationCode = "FoodSeries_BritCare", TypeOfFood = "Dry", ForAnimalType = "Cat" },
-                new() { FoodID = 12, LocalizationCode = "FoodSeries_BritCare", TypeOfFood = "Dry", ForAnimalType = "Cat" },
-                new() { FoodID = 12, LocalizationCode = "FoodSeries_BritCare", TypeOfFood = "Dry", ForAnimalType = "Cat" },
-                new() { FoodID = 12, LocalizationCode = "FoodSeries_BritCare", TypeOfFood = "Dry", ForAnimalType = "Cat" },
-                new() { FoodID = 12, LocalizationCode = "FoodSeries_BritCare", TypeOfFood = "Dry", ForAnimalType = "Cat" },
-                new() { FoodID = 12, LocalizationCode = "FoodSeries_BritCare", TypeOfFood = "Dry", ForAnimalType = "Cat" },
-                new() { FoodID = 12, LocalizationCode = "FoodSeries_BritCare", TypeOfFood = "Dry", ForAnimalType = "Cat" },
-                new() { FoodID = 12, LocalizationCode = "FoodSeries_BritCare", TypeOfFood = "Dry", ForAnimalType = "Cat" },
-                new() { FoodID = 12, LocalizationCode = "FoodSeries_BritCare", TypeOfFood = "Dry", ForAnimalType = "Cat" },
-                new() { FoodID = 12, LocalizationCode = "FoodSeries_BritCare", TypeOfFood = "Dry", ForAnimalType = "Cat" },
-                new() { FoodID = 12, LocalizationCode = "FoodSeries_BritCare", TypeOfFood = "Dry", ForAnimalType = "Cat" },
-                new() { FoodID = 12, LocalizationCode = "FoodSeries_BritCare", TypeOfFood = "Dry", ForAnimalType = "Cat" },
-                new() { FoodID = 12, LocalizationCode = "FoodSeries_BritCare", TypeOfFood = "Dry", ForAnimalType = "Cat" },
-                new() { FoodID = 12, LocalizationCode = "FoodSeries_BritCare", TypeOfFood = "Dry", ForAnimalType = "Cat" },
-                new() { FoodID = 12, LocalizationCode = "FoodSeries_BritCare", TypeOfFood = "Dry", ForAnimalType = "Cat" },
-                new() { FoodID = 12, LocalizationCode = "FoodSeries_BritCare", TypeOfFood = "Dry", ForAnimalType = "Cat" },
-                new() { FoodID = 12, LocalizationCode = "FoodSeries_BritCare", TypeOfFood = "Dry", ForAnimalType = "Cat" },
-                new() { FoodID = 12, LocalizationCode = "FoodSeries_BritCare", TypeOfFood = "Dry", ForAnimalType = "Cat" },
-                new() { FoodID = 12, LocalizationCode = "FoodSeries_BritCare", TypeOfFood = "Dry", ForAnimalType = "Cat" },
-                new() { FoodID = 12, LocalizationCode = "FoodSeries_BritCare", TypeOfFood = "Dry", ForAnimalType = "Cat" },
-                new() { FoodID = 12, LocalizationCode = "FoodSeries_BritCare", TypeOfFood = "Dry", ForAnimalType = "Cat" },
-                new() { FoodID = 12, LocalizationCode = "FoodSeries_BritCare", TypeOfFood = "Dry", ForAnimalType = "Cat" },
-                new() { FoodID = 12, LocalizationCode = "FoodSeries_BritCare", TypeOfFood = "Dry", ForAnimalType = "Cat" },
-                new() { FoodID = 12, LocalizationCode = "FoodSeries_BritCare", TypeOfFood = "Dry", ForAnimalType = "Cat" },
-                new() { FoodID = 12, LocalizationCode = "FoodSeries_BritCare", TypeOfFood = "Dry", ForAnimalType = "Cat" },
-                new() { FoodID = 12, LocalizationCode = "FoodSeries_BritCare", TypeOfFood = "Dry", ForAnimalType = "Cat" },
-                new() { FoodID = 12, LocalizationCode = "FoodSeries_BritCare", TypeOfFood = "Dry", ForAnimalType = "Cat" },
-                new() { FoodID = 12, LocalizationCode = "FoodSeries_BritCare", TypeOfFood = "Dry", ForAnimalType = "Cat" },
-                new() { FoodID = 12, LocalizationCode = "FoodSeries_BritCare", TypeOfFood = "Dry", ForAnimalType = "Cat" },
-                new() { FoodID = 12, LocalizationCode = "FoodSeries_BritCare", TypeOfFood = "Dry", ForAnimalType = "Cat" },
-                new() { FoodID = 12, LocalizationCode = "FoodSeries_BritCare", TypeOfFood = "Dry", ForAnimalType = "Cat" },
-                new() { FoodID = 12, LocalizationCode = "FoodSeries_BritCare", TypeOfFood = "Dry", ForAnimalType = "Cat" },
-                new() { FoodID = 12, LocalizationCode = "FoodSeries_BritCare", TypeOfFood = "Dry", ForAnimalType = "Cat" },
-                new() { FoodID = 12, LocalizationCode = "FoodSeries_BritCare", TypeOfFood = "Dry", ForAnimalType = "Cat" },
-                new() { FoodID = 12, LocalizationCode = "FoodSeries_BritCare", TypeOfFood = "Dry", ForAnimalType = "Cat" },
-                new() { FoodID = 12, LocalizationCode = "FoodSeries_BritCare", TypeOfFood = "Dry", ForAnimalType = "Cat" },
-                new() { FoodID = 12, LocalizationCode = "FoodSeries_BritCare", TypeOfFood = "Dry", ForAnimalType = "Cat" },
-                new() { FoodID = 12, LocalizationCode = "FoodSeries_BritCare", TypeOfFood = "Dry", ForAnimalType = "Cat" },
-                new() { FoodID = 12, LocalizationCode = "FoodSeries_BritCare", TypeOfFood = "Dry", ForAnimalType = "Cat" },
-                new() { FoodID = 12, LocalizationCode = "FoodSeries_BritCare", TypeOfFood = "Dry", ForAnimalType = "Cat" },
-                new() { FoodID = 12, LocalizationCode = "FoodSeries_BritCare", TypeOfFood = "Dry", ForAnimalType = "Cat" },
+                new() { FoodID = 12, LocalizationCode = "FoodSeries_BritCareSterilisedImmunitySupport", TypeOfFood = "Dry", ForAnimalType = "Cat" },
+                new() { FoodID = 12, LocalizationCode = "FoodSeries_BritCareKittenGentleDigestionStrongImmunity", TypeOfFood = "Dry", ForAnimalType = "Cat" },
+                new() { FoodID = 12, LocalizationCode = "FoodSeries_BritCareLargePowerVitality", TypeOfFood = "Dry", ForAnimalType = "Cat" },
+                new() { FoodID = 12, LocalizationCode = "FoodSeries_BritCareSeniorWeightControl", TypeOfFood = "Dry", ForAnimalType = "Cat" },
+                new() { FoodID = 12, LocalizationCode = "FoodSeries_BritCareInsect", TypeOfFood = "Dry", ForAnimalType = "Cat" },
+                new() { FoodID = 12, LocalizationCode = "FoodSeries_BritCareGrainFreeAdultActivitySupport", TypeOfFood = "Dry", ForAnimalType = "Cat" },
+                new() { FoodID = 12, LocalizationCode = "FoodSeries_BritCareFlavourSterilised", TypeOfFood = "Wet", ForAnimalType = "Cat" },
+                new() { FoodID = 12, LocalizationCode = "FoodSeries_BritCareSoupSalmon", TypeOfFood = "Wet", ForAnimalType = "Cat" },
+                new() { FoodID = 12, LocalizationCode = "FoodSeries_BritCareAdultSterilisedHeartyDuck&Turkey", TypeOfFood = "Wet", ForAnimalType = "Cat" },
+                new() { FoodID = 12, LocalizationCode = "FoodSeries_BritCareSoupDuck", TypeOfFood = "Wet", ForAnimalType = "Cat" },
+                new() { FoodID = 12, LocalizationCode = "FoodSeries_BritCareSoupTurkey", TypeOfFood = "Wet", ForAnimalType = "Cat" },
+                new() { FoodID = 12, LocalizationCode = "FoodSeries_BritCareFilletsInGravyHeartyDuck", TypeOfFood = "Wet", ForAnimalType = "Cat" },
+                new() { FoodID = 12, LocalizationCode = "FoodSeries_BritCareFilletsInGravyTenderTurkey&SavorySalmon", TypeOfFood = "Wet", ForAnimalType = "Cat" },
+                new() { FoodID = 12, LocalizationCode = "FoodSeries_BritCareSoupChicken", TypeOfFood = "Wet", ForAnimalType = "Cat" },
+                new() { FoodID = 12, LocalizationCode = "FoodSeries_BritCareSoupTuna", TypeOfFood = "Wet", ForAnimalType = "Cat" },
+                new() { FoodID = 12, LocalizationCode = "FoodSeries_BritCareChristmasSoup", TypeOfFood = "Wet", ForAnimalType = "Cat" },
 
-};
+
+                new() { FoodID = 13, LocalizationCode = "FoodSeries_BritPremiumSterilisedSalmon", TypeOfFood = "Dry", ForAnimalType = "Cat" },
+                new() { FoodID = 13, LocalizationCode = "FoodSeries_BritPremiumSterilisedLamb", TypeOfFood = "Dry", ForAnimalType = "Cat" },
+                new() { FoodID = 13, LocalizationCode = "FoodSeries_BritPremiumSterilisedChicken", TypeOfFood = "Dry", ForAnimalType = "Cat" },
+                new() { FoodID = 13, LocalizationCode = "FoodSeries_BritPremiumSterilisedSalmon", TypeOfFood = "Dry", ForAnimalType = "Cat" },
+                new() { FoodID = 13, LocalizationCode = "FoodSeries_BritPremiumAdultChicken", TypeOfFood = "Dry", ForAnimalType = "Cat" },
+                new() { FoodID = 13, LocalizationCode = "FoodSeries_BritPremiumKittenChicken", TypeOfFood = "Dry", ForAnimalType = "Cat" },
+                new() { FoodID = 13, LocalizationCode = "FoodSeries_BritPremiumAdultSalmon", TypeOfFood = "Dry", ForAnimalType = "Cat" },
+                new() { FoodID = 13, LocalizationCode = "FoodSeries_BritPremiumIndoorChicken", TypeOfFood = "Dry", ForAnimalType = "Cat" },
+                new() { FoodID = 13, LocalizationCode = "FoodSeries_BritPremiumSensitiveLamb", TypeOfFood = "Dry", ForAnimalType = "Cat" },
+                new() { FoodID = 13, LocalizationCode = "FoodSeries_BritPremiumSterilisedChicken100g", TypeOfFood = "Wet", ForAnimalType = "Cat" },
+                new() { FoodID = 13, LocalizationCode = "FoodSeries_BritPremiumPouchChickenChunksKitten", TypeOfFood = "Wet", ForAnimalType = "Cat" },
+                new() { FoodID = 13, LocalizationCode = "FoodSeries_BritPremiumFishPlateGravy", TypeOfFood = "Wet", ForAnimalType = "Cat" },
+                new() { FoodID = 13, LocalizationCode = "FoodSeries_BritPremiumSalmonSterilised100g", TypeOfFood = "Wet", ForAnimalType = "Cat" },
+                new() { FoodID = 13, LocalizationCode = "FoodSeries_BritPremiumMeatPlateGravy", TypeOfFood = "Dry", ForAnimalType = "Cat" },
+
+
+                new() { FoodID = 13, LocalizationCode = "FoodSeries_BritVDIntoleranceDrySalmon&Peas", TypeOfFood = "Dry", ForAnimalType = "Cat" },
+                new() { FoodID = 13, LocalizationCode = "FoodSeries_BritVDStruviteTypeOfCKDPeasChicken", TypeOfFood = "Dry", ForAnimalType = "Cat" },
+                new() { FoodID = 13, LocalizationCode = "FoodSeries_BritVDDiabetesChickenPeas", TypeOfFood = "Dry", ForAnimalType = "Cat" },
+                new() { FoodID = 13, LocalizationCode = "FoodSeries_BritVD", TypeOfFood = "Dry", ForAnimalType = "Cat" },
+                new() { FoodID = 13, LocalizationCode = "FoodSeries_BritVD", TypeOfFood = "Dry", ForAnimalType = "Cat" },
+                new() { FoodID = 13, LocalizationCode = "FoodSeries_BritVD", TypeOfFood = "Dry", ForAnimalType = "Cat" },
+                new() { FoodID = 13, LocalizationCode = "FoodSeries_BritVD", TypeOfFood = "Dry", ForAnimalType = "Cat" },
+                new() { FoodID = 13, LocalizationCode = "FoodSeries_BritVD", TypeOfFood = "Dry", ForAnimalType = "Cat" },
+                new() { FoodID = 13, LocalizationCode = "FoodSeries_BritVD", TypeOfFood = "Wet", ForAnimalType = "Cat" },
+                new() { FoodID = 13, LocalizationCode = "FoodSeries_BritVD", TypeOfFood = "Wet", ForAnimalType = "Cat" },
+                new() { FoodID = 13, LocalizationCode = "FoodSeries_BritVD", TypeOfFood = "Wet", ForAnimalType = "Cat" },
+                new() { FoodID = 13, LocalizationCode = "FoodSeries_BritVD", TypeOfFood = "Wet", ForAnimalType = "Cat" },
+            
+            
+            };
 
             _ = await _database.InsertAllAsync(foodseries);
         }
