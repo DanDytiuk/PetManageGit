@@ -135,12 +135,22 @@ namespace PetManage.Services
             await _database.UpdateAsync(profile);
         }
 
-        public async Task<List<FoodModel>> GetFoodAsync()
+        public async Task<List<FoodModel>> GetFoodAsync(int petID)
         {
             await InitializeAsync();
 
             return await _database.Table<FoodModel>()
+                                  .Where(x => x.PetID == petID)
                                   .OrderByDescending(x => x.DateOfEat)
+                                  .ToListAsync();
+        }
+
+        public async Task<List<HealthModel>> GetHealthAsync(int petID)
+        {
+            await InitializeAsync();
+            return await _database.Table<HealthModel>()
+                                  .Where(x => x.PetID == petID)
+                                  .OrderByDescending(x => x.HealthOperationDate)
                                   .ToListAsync();
         }
 
@@ -945,6 +955,12 @@ namespace PetManage.Services
             await InitializeAsync();
 
             _ = await _database.InsertOrReplaceAsync(settings);
+        }
+
+        public async Task SaveHealthAsync(HealthModel health)
+        {
+            await InitializeAsync();
+            _ = await _database.InsertOrReplaceAsync(health);
         }
 
         public async Task<int> SaveFoodAsync(FoodModel food)
