@@ -2,6 +2,7 @@
 using CommunityToolkit.Mvvm.Input;
 using PetManage.Models;
 using PetManage.Services;
+using PetManage.View;
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
@@ -46,7 +47,7 @@ namespace PetManage.ViewModels
         [RelayCommand]
         private async Task OpenAddInfoHealthPage()
         {
-            //await Shell.Current.GoToAsync(nameof(AddInfoHealthPage));
+            await Shell.Current.GoToAsync(nameof(AddHealthInfoPage));
         }
 
         [RelayCommand]

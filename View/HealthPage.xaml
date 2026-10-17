@@ -104,7 +104,7 @@
                     WidthRequest="175"
                     HeightRequest="50"
                     CornerRadius="25"
-                    Command="{Binding OpenAddInfoFoodPageCommand}"/>
+                    Command="{Binding OpenAddInfoHealthPageCommand}"/>
 
             <Button ImageSource="iconcancelbutton.png"
                     BackgroundColor="LightSalmon"
