@@ -1,4 +1,5 @@
 ﻿using PetManage.Models;
+using PetManage.Models.ModelViewPicker;
 using SQLite;
 
 namespace PetManage.Services
@@ -28,6 +29,8 @@ namespace PetManage.Services
             _ = await _database.CreateTableAsync<FoodNames>();
             _ = await _database.CreateTableAsync<FoodSeriesName>();
             _ = await _database.CreateTableAsync<HealthModel>();
+            _ = await _database.CreateTableAsync<TypeHealthOperationModelPicker>();
+            _ = await _database.CreateTableAsync<NameHealthOperationModelPicker>();
 
             await InitializeAnimalTypesAsync();
             await InitializeAppetiteTypesAsync();
@@ -35,6 +38,7 @@ namespace PetManage.Services
             await InitializeGenderAsync();
             await InitializeNameOfFoodAsync();
             await InitializeFoodSeriesAsync();
+            await InitializeTypeHealthOperationAsync();
         }
 
         #region GetDataAsync
@@ -153,6 +157,20 @@ namespace PetManage.Services
                                   //.Where(x => x.PetID == petID)
                                   .OrderByDescending(x => x.HealthOperationDate)
                                   .ToListAsync();
+        }
+
+        public async Task<List<TypeHealthOperationModelPicker>> GetTypeHealthOperationsAsync()
+        {
+            return await _database
+                .Table<TypeHealthOperationModelPicker>()
+                .ToListAsync();
+        }
+
+        public async Task<List<NameHealthOperationModelPicker>> GetNameHealthOperationsAsync()
+        {
+            return await _database
+                .Table<NameHealthOperationModelPicker>()
+                .ToListAsync();
         }
 
         public async Task<List<FoodSeriesName>> GetFoodSeriesAsync(int foodId)
@@ -508,6 +526,122 @@ namespace PetManage.Services
             };
 
             _ = await _database.InsertAllAsync(genderTypes);
+        }
+
+        public async Task InitializeTypeHealthOperationAsync()
+        {
+            var count = await _database.Table<TypeHealthOperationModelPicker>().CountAsync();
+
+            if (count > 0) return;
+
+            var typeHealthOperations = new List<TypeHealthOperationModelPicker>
+            {
+                new() { Id = 1, LocalizationKey = "TypeHealthOperation_Physiological" },
+                new() { Id = 2, LocalizationKey = "TypeHealthOperation_Symptoms"},
+                new() { Id = 3, LocalizationKey = "TypeHealthOperation_Diagnostic" },
+                new() { Id = 4, LocalizationKey = "TypeHealthOperation_Vaccination&Prevention" },
+                new() { Id = 5, LocalizationKey = "TypeHealthOperation_Pills&Healthy" },
+                new() { Id = 6, LocalizationKey = "TypeHealthOperation_Hygiene" },
+                new() { Id = 7, LocalizationKey = "TypeHealthOperation_Skin&Fur&Parasites" },
+                new() { Id = 8, LocalizationKey = "TypeHealthOperation_Teeth&Mouth" },
+                new() { Id = 9, LocalizationKey = "TypeHealthOperation_Injuries&First_Aid" },
+                new() { Id = 10, LocalizationKey = "TypeHealthOperation_Therapeutic" },
+                new() { Id = 11, LocalizationKey = "TypeHealthOperation_Surgical" },
+                new() { Id = 12, LocalizationKey = "TypeHealthOperation_Recovery" },
+                new() { Id = 13, LocalizationKey = "TypeHealthOperation_Reproductive_Health" },
+                new() { Id = 14, LocalizationKey = "TypeHealthOperation_Age&ChronicConditions" },
+                new() { Id = 15, LocalizationKey = "TypeHealthOperation_Veterinary_Visits&documents" },
+                new() { Id = 16, LocalizationKey = "TypeHealthOperation_Other" }
+            };
+
+            _ = await _database.InsertAllAsync(typeHealthOperations);
+        }
+
+        public async Task InitializeNameHealthOperationAsync()
+        {
+            var count = await _database.Table<NameHealthOperationModelPicker>().CountAsync();
+
+            if (count > 0) return;
+
+            var nameHealthOperations = new List<NameHealthOperationModelPicker>
+            {
+                new() { TypeHealthOperationId = 1, LocalizationKey = "NameHealthOperation_Urination"},
+                new() { TypeHealthOperationId = 1, LocalizationKey = "NameHealthOperation_Defecation" },
+                new() { TypeHealthOperationId = 1, LocalizationKey = "NameHealthOperation_Diarrhea" },
+                new() { TypeHealthOperationId = 1, LocalizationKey = "NameHealthOperation_Constipation" },
+                new() { TypeHealthOperationId = 1, LocalizationKey = "NameHealthOperation_Vomiting" },
+                new() { TypeHealthOperationId = 1, LocalizationKey = "NameHealthOperation_Passing_gas" },
+                new() { TypeHealthOperationId = 1, LocalizationKey = "NameHealthOperation_ChangesColor or consistency of urine and stool" },
+                new() { TypeHealthOperationId = 1, LocalizationKey = "NameHealthOperation_" },
+                new() { TypeHealthOperationId = 1, LocalizationKey = "NameHealthOperation_" },
+                new() { TypeHealthOperationId = 1, LocalizationKey = "NameHealthOperation_" },
+                new() { TypeHealthOperationId = 1, LocalizationKey = "NameHealthOperation_" },
+                new() { TypeHealthOperationId = 1, LocalizationKey = "NameHealthOperation_" },
+                new() { TypeHealthOperationId = 1, LocalizationKey = "NameHealthOperation_" },
+                new() { TypeHealthOperationId = 1, LocalizationKey = "NameHealthOperation_" },
+                new() { TypeHealthOperationId = 1, LocalizationKey = "NameHealthOperation_" },
+                new() { TypeHealthOperationId = 1, LocalizationKey = "NameHealthOperation_" },
+                new() { TypeHealthOperationId = 1, LocalizationKey = "NameHealthOperation_" },
+                new() { TypeHealthOperationId = 1, LocalizationKey = "NameHealthOperation_" },
+                new() { TypeHealthOperationId = 1, LocalizationKey = "NameHealthOperation_" },
+                new() { TypeHealthOperationId = 1, LocalizationKey = "NameHealthOperation_" },
+                new() { TypeHealthOperationId = 1, LocalizationKey = "NameHealthOperation_" },
+                new() { TypeHealthOperationId = 1, LocalizationKey = "NameHealthOperation_" },
+                new() { TypeHealthOperationId = 1, LocalizationKey = "NameHealthOperation_" },
+                new() { TypeHealthOperationId = 1, LocalizationKey = "NameHealthOperation_" },
+                new() { TypeHealthOperationId = 1, LocalizationKey = "NameHealthOperation_" },
+                new() { TypeHealthOperationId = 1, LocalizationKey = "NameHealthOperation_" },
+                new() { TypeHealthOperationId = 1, LocalizationKey = "NameHealthOperation_" },
+                new() { TypeHealthOperationId = 1, LocalizationKey = "NameHealthOperation_" },
+                new() { TypeHealthOperationId = 1, LocalizationKey = "NameHealthOperation_" },
+                new() { TypeHealthOperationId = 1, LocalizationKey = "NameHealthOperation_" },
+                new() { TypeHealthOperationId = 1, LocalizationKey = "NameHealthOperation_" },
+                new() { TypeHealthOperationId = 1, LocalizationKey = "NameHealthOperation_" },
+                new() { TypeHealthOperationId = 1, LocalizationKey = "NameHealthOperation_" },
+                new() { TypeHealthOperationId = 1, LocalizationKey = "NameHealthOperation_" },
+                new() { TypeHealthOperationId = 1, LocalizationKey = "NameHealthOperation_" },
+                new() { TypeHealthOperationId = 1, LocalizationKey = "NameHealthOperation_" },
+                new() { TypeHealthOperationId = 1, LocalizationKey = "NameHealthOperation_" },
+                new() { TypeHealthOperationId = 1, LocalizationKey = "NameHealthOperation_" },
+                new() { TypeHealthOperationId = 1, LocalizationKey = "NameHealthOperation_" },
+                new() { TypeHealthOperationId = 1, LocalizationKey = "NameHealthOperation_" },
+                new() { TypeHealthOperationId = 1, LocalizationKey = "NameHealthOperation_" },
+                new() { TypeHealthOperationId = 1, LocalizationKey = "NameHealthOperation_" },
+                new() { TypeHealthOperationId = 1, LocalizationKey = "NameHealthOperation_" },
+                new() { TypeHealthOperationId = 1, LocalizationKey = "NameHealthOperation_" },
+                new() { TypeHealthOperationId = 1, LocalizationKey = "NameHealthOperation_" },
+                new() { TypeHealthOperationId = 1, LocalizationKey = "NameHealthOperation_" },
+                new() { TypeHealthOperationId = 1, LocalizationKey = "NameHealthOperation_" },
+                new() { TypeHealthOperationId = 1, LocalizationKey = "NameHealthOperation_" },
+                new() { TypeHealthOperationId = 1, LocalizationKey = "NameHealthOperation_" },
+                new() { TypeHealthOperationId = 1, LocalizationKey = "NameHealthOperation_" },
+                new() { TypeHealthOperationId = 1, LocalizationKey = "NameHealthOperation_" },
+                new() { TypeHealthOperationId = 1, LocalizationKey = "NameHealthOperation_" },
+                new() { TypeHealthOperationId = 1, LocalizationKey = "NameHealthOperation_" },
+                new() { TypeHealthOperationId = 1, LocalizationKey = "NameHealthOperation_" },
+                new() { TypeHealthOperationId = 1, LocalizationKey = "NameHealthOperation_" },
+                new() { TypeHealthOperationId = 1, LocalizationKey = "NameHealthOperation_" },
+                new() { TypeHealthOperationId = 1, LocalizationKey = "NameHealthOperation_" },
+                new() { TypeHealthOperationId = 1, LocalizationKey = "NameHealthOperation_" },
+                new() { TypeHealthOperationId = 1, LocalizationKey = "NameHealthOperation_" },
+                new() { TypeHealthOperationId = 1, LocalizationKey = "NameHealthOperation_" },
+                new() { TypeHealthOperationId = 1, LocalizationKey = "NameHealthOperation_" },
+                new() { TypeHealthOperationId = 1, LocalizationKey = "NameHealthOperation_" },
+                new() { TypeHealthOperationId = 1, LocalizationKey = "NameHealthOperation_" },
+                new() { TypeHealthOperationId = 1, LocalizationKey = "NameHealthOperation_" },
+                new() { TypeHealthOperationId = 1, LocalizationKey = "NameHealthOperation_" },
+                new() { TypeHealthOperationId = 1, LocalizationKey = "NameHealthOperation_" },
+                new() { TypeHealthOperationId = 1, LocalizationKey = "NameHealthOperation_" },
+                new() { TypeHealthOperationId = 1, LocalizationKey = "NameHealthOperation_" },
+                new() { TypeHealthOperationId = 1, LocalizationKey = "NameHealthOperation_" },
+                new() { TypeHealthOperationId = 1, LocalizationKey = "NameHealthOperation_" },
+                new() { TypeHealthOperationId = 1, LocalizationKey = "NameHealthOperation_" },
+                new() { TypeHealthOperationId = 1, LocalizationKey = "NameHealthOperation_" },
+                new() { TypeHealthOperationId = 1, LocalizationKey = "NameHealthOperation_" },
+            }
+            ;
+
+            _ = await _database.InsertAllAsync(nameHealthOperations);
         }
 
         public async Task InitializeAnimalTypesAsync()

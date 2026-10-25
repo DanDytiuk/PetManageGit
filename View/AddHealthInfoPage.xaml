@@ -59,10 +59,10 @@
                            MaximumWidthRequest="250"/>
 
                         <Picker Grid.Column="1"
-                            ItemsSource="{Binding FoodNamesPicker}"
+                            ItemsSource="{Binding TypeHealthOperationPicker}"
                             MinimumWidthRequest="150"
                             MaximumWidthRequest="200"
-                            SelectedItem="{Binding SelectedNameOfFood}"
+                            SelectedItem="{Binding NewTypeHealthOperation}"
                             ItemDisplayBinding="{Binding DisplayName}"/>
 
                     </Grid>
@@ -82,17 +82,17 @@
                     <Grid ColumnDefinitions="*,Auto">
 
                         <Label Grid.Column="0"
-                           Text="Наименование серии корма"
+                           Text="Имя операции"
                            VerticalOptions="Center"
                            HorizontalTextAlignment="Start"
                            MinimumWidthRequest="100"
                            MaximumWidthRequest="250"/>
 
                         <Picker Grid.Column="1"
-                            ItemsSource="{Binding FoodSeriesPicker}"
+                            ItemsSource="{Binding NameHealthOperationPicker}"
                             MinimumWidthRequest="150"
                             MaximumWidthRequest="200"
-                            SelectedItem="{Binding SelectedFoodSeries}"
+                            SelectedItem="{Binding NewNameHealthOperations}"
                             ItemDisplayBinding="{Binding DisplayName}"/>
 
                     </Grid>
@@ -111,17 +111,16 @@
                     <Grid ColumnDefinitions="*, Auto">
 
                         <Label Grid.Column="0"
-                           Text="Вес корма (г)"
+                           Text="Дата операции"
                            VerticalOptions="Center"
                            VerticalTextAlignment="Start"
                            MinimumWidthRequest="100"
                            MaximumWidthRequest="250"/>
 
-                        <Entry Grid.Column="1"
-                           MinimumWidthRequest="150"
-                           MaximumWidthRequest="250"
-                           Text="{Binding SelectedWeight}"
-                           Keyboard="Numeric"/>
+                        <DatePicker Grid.Column="1"
+                            MinimumWidthRequest="150"
+                            MaximumWidthRequest="250"
+                            Date="{Binding NewHealthOperationDate}"/>
 
                     </Grid>
 
@@ -149,37 +148,8 @@
                         <Entry Grid.Column="1"
                            MinimumWidthRequest="150"
                            MaximumWidthRequest="250"
-                           Text="{Binding SelectedNotes}"
+                           Text="{Binding NewNotes}"
                            Keyboard="Chat"/>
-
-                    </Grid>
-
-                </Border>
-
-                <Border StrokeThickness="1"
-                    Padding="15"
-                    Margin="0,5"
-                    Stroke="{AppThemeBinding Light=#D0D0D0, Dark=#404040}"
-                    BackgroundColor="{AppThemeBinding Light=#FFFFFF, Dark=#2C2C2C}">
-
-                    <Border.StrokeShape>
-                        <RoundRectangle CornerRadius="12"/>
-                    </Border.StrokeShape>
-
-                    <Grid ColumnDefinitions="*, Auto">
-
-                        <Label Grid.Column="0"
-                           Text="Тип аппетита"
-                           VerticalOptions="Center"
-                           HorizontalTextAlignment="Start"
-                           MinimumWidthRequest="100"
-                           MaximumWidthRequest="250"/>
-
-                        <Picker Grid.Column="1"
-                            MinimumWidthRequest="150"
-                            MaximumWidthRequest="250"
-                            ItemsSource="{Binding TypeOfAppetitePicker}"
-                            SelectedItem="{Binding SelectedAppetite}"/>
 
                     </Grid>
 

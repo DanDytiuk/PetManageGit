@@ -24,22 +24,32 @@ namespace PetManage
     		builder.Logging.AddDebug();
 #endif
             builder.Services.AddSingleton<DatabaseService>();
+
             builder.Services.AddTransient<SettingsVM>();
             builder.Services.AddTransient<SettingsPage>();
+
             builder.Services.AddSingleton<LocalizationManager>();
+
             builder.Services.AddTransient<MainPage>();
             builder.Services.AddTransient<MainVM>();
+
             builder.Services.AddTransient<FoodVM>();
             builder.Services.AddTransient<FoodPage>();
             builder.Services.AddTransient<AddInfoFoodVM>();
             builder.Services.AddTransient<AddInfoFoodPage>();
+
             builder.Services.AddTransient<ProfileVM>();
             builder.Services.AddTransient<ProfilePage>();
+
             builder.Services.AddTransient<HealthPage>();
             builder.Services.AddTransient<HealthVM>();
+            builder.Services.AddTransient<AddHealthInfoPage>();
+            builder.Services.AddTransient<AddHealthInfoVM>();
 
             builder.Services.AddTransient<AddNewProfilePage>();
             builder.Services.AddTransient<AddNewProfilePageVM>();
+
+            
 
             return builder.Build();
         }

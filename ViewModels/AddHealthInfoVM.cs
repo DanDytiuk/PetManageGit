@@ -15,25 +15,96 @@ namespace PetManage.ViewModels
         #region Observable Property
 
         [ObservableProperty]
-        public partial 
+        public partial TypeHealthOperationModelPicker NewTypeHealthOperation { get; set; }
+        [ObservableProperty]
+        public partial NameHealthOperationModelPicker NewNameHealthOperations { get; set; }
+        [ObservableProperty]
+        public partial DateTime NewHealthOperationDate { get; set; }
+        [ObservableProperty]
+        public partial string NewNotes { get; set; } = string.Empty;
 
         #endregion
 
         #region Observable Collection
 
-
+        public ObservableCollection<TypeHealthOperationModelPicker> TypeHealthOperationPicker { get; } = [];
+        public ObservableCollection<NameHealthOperationModelPicker> NameHealthOperationPicker { get; } = [];
+        public ObservableCollection<HealthModel> HealthList { get; } = [];
 
         #endregion
 
         #region Functions
 
+        public async Task LoadTypeHealthOperationAsync()
+        {
+            TypeHealthOperationPicker.Clear();
 
+            var typeHealthOperations = await _database.GetTypeHealthOperationsAsync();
+
+            foreach (var typeHealthOperation in typeHealthOperations)
+            {
+                TypeHealthOperationPicker.Add(new TypeHealthOperationModelPicker
+                {
+                    Id = typeHealthOperation.Id,
+                    LocalizationKey = typeHealthOperation.LocalizationKey
+                });
+            }
+        }
+
+        public async Task LoadNameHealthOperationAsync()
+        {
+            NameHealthOperationPicker.Clear();
+
+            var nameHealthOperations = await _database.GetNameHealthOperationsAsync();
+
+            foreach (var nameHealthOperation in nameHealthOperations)
+            {
+                NameHealthOperationPicker.Add(new NameHealthOperationModelPicker
+                {
+                    Id = nameHealthOperation.Id,
+                    LocalizationKey = nameHealthOperation.LocalizationKey
+                });
+            }
+        }
 
         #endregion
 
         #region Commands
 
+        [RelayCommand]
+        private async Task Cancel()
+        {
+            await Shell.Current.GoToAsync("..");
+        }
 
+        [RelayCommand]
+        private async Task SaveInfoHealth()
+        {
+            if (NewTypeHealthOperation == null || NewHealthOperationDate == null || NewNameHealthOperations == null || NewNotes == null)
+            {
+                await Shell.Current.DisplayAlertAsync("Error", "Please fill in all required fields.", "OK");
+                return;
+            }
+
+            HealthModel health = new()
+            {
+                PetID = 0,
+                NameOfHealthOperation = NewNameHealthOperations?.DisplayName ?? string.Empty,
+                TypeHealthOperation = NewTypeHealthOperation?.DisplayName ?? string.Empty,
+                Notes = NewNotes,
+                HealthOperationDate = DateTime.Now
+            };
+
+            await _database.SaveHealthAsync(health);
+        }
+
+        partial void OnNewTypeHealthOperationChanged(TypeHealthOperationModelPicker value)
+        {
+            if (value != null)
+            {
+                _ = LoadNameHealthOperationAsync();
+            }
+        }
 
         #endregion
 
@@ -42,6 +113,8 @@ namespace PetManage.ViewModels
         public AddHealthInfoVM(DatabaseService database)
         {
             _database = database;
+            _ = LoadTypeHealthOperationAsync();
+            
         }
 
         #endregion
