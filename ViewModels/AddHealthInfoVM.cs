@@ -24,7 +24,7 @@ namespace PetManage.ViewModels
         public partial NameHealthOperationModelPicker NewNameHealthOperations { get; set; }
 
         [ObservableProperty]
-        public partial DateTime NewHealthOperationDate { get; set; }
+        public partial DateTime NewHealthOperationDate { get; set; } = DateTime.Today;
 
         [ObservableProperty]
         public partial TimeSpan NewHealthOperationTime { get; set; }
@@ -91,7 +91,6 @@ namespace PetManage.ViewModels
         {
             if (NewTypeHealthOperation == null
                 || NewNameHealthOperations == null
-                || string.IsNullOrWhiteSpace(NewNotes)
                 || NewHealthOperationDate == default)
             {
                 await Shell.Current.DisplayAlertAsync("Error", "Please fill in all required fields.", "OK");

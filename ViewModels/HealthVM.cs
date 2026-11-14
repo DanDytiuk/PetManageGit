@@ -73,6 +73,7 @@ namespace PetManage.ViewModels
         public HealthVM(DatabaseService database)
         {
             _database = database;
+
         }
 
         #endregion

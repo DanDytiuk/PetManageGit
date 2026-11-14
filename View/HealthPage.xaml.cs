@@ -4,9 +4,20 @@ namespace PetManage.View;
 
 public partial class HealthPage : ContentPage
 {
-	public HealthPage(HealthVM healthVM)
-	{
-		BindingContext = healthVM;
-		InitializeComponent();
-	}
+    private readonly HealthVM _healthVM;
+
+    public HealthPage(HealthVM healthVM)
+    {
+        InitializeComponent();
+
+        _healthVM = healthVM;
+        BindingContext = _healthVM;
+    }
+
+    protected override async void OnAppearing()
+    {
+        base.OnAppearing();
+
+        await _healthVM.LoadInfoHealth();
+    }
 }
