@@ -14,12 +14,21 @@ namespace PetManage.ViewModels
 
         #region Observable Property
 
+        public DateTime MinDate { get; } = new DateTime(2025, 1, 1);
+        public DateTime MaxDate { get; } = new DateTime(2050, 12, 31);
+
         [ObservableProperty]
         public partial TypeHealthOperationModelPicker NewTypeHealthOperation { get; set; }
+
         [ObservableProperty]
         public partial NameHealthOperationModelPicker NewNameHealthOperations { get; set; }
+
         [ObservableProperty]
         public partial DateTime NewHealthOperationDate { get; set; }
+
+        [ObservableProperty]
+        public partial TimeSpan NewHealthOperationTime { get; set; }
+
         [ObservableProperty]
         public partial string NewNotes { get; set; } = string.Empty;
 
@@ -55,7 +64,7 @@ namespace PetManage.ViewModels
         {
             NameHealthOperationPicker.Clear();
 
-            var nameHealthOperations = await _database.GetNameHealthOperationsAsync();
+            var nameHealthOperations = await _database.GetNameHealthOperationsAsync(NewTypeHealthOperation?.Id ?? 0);
 
             foreach (var nameHealthOperation in nameHealthOperations)
             {
@@ -80,7 +89,10 @@ namespace PetManage.ViewModels
         [RelayCommand]
         private async Task SaveInfoHealth()
         {
-            if (NewTypeHealthOperation == null || NewHealthOperationDate == null || NewNameHealthOperations == null || NewNotes == null)
+            if (NewTypeHealthOperation == null
+                || NewNameHealthOperations == null
+                || string.IsNullOrWhiteSpace(NewNotes)
+                || NewHealthOperationDate == default)
             {
                 await Shell.Current.DisplayAlertAsync("Error", "Please fill in all required fields.", "OK");
                 return;
@@ -88,11 +100,11 @@ namespace PetManage.ViewModels
 
             HealthModel health = new()
             {
-                PetID = 0,
                 NameOfHealthOperation = NewNameHealthOperations?.DisplayName ?? string.Empty,
                 TypeHealthOperation = NewTypeHealthOperation?.DisplayName ?? string.Empty,
                 Notes = NewNotes,
-                HealthOperationDate = DateTime.Now
+                HealthOperationDate = NewHealthOperationDate,
+                HealthOperationTime = NewHealthOperationTime
             };
 
             await _database.SaveHealthAsync(health);

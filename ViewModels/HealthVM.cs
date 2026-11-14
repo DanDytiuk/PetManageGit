@@ -24,6 +24,9 @@ namespace PetManage.ViewModels
         
         [ObservableProperty]
         public partial DateTime HealthOperationDate { get; set; }
+
+        [ObservableProperty]
+        public partial TimeSpan HealthOperationTime { get; set; }
         
         [ObservableProperty]
         public partial string Notes { get; set; } = string.Empty;

@@ -120,7 +120,40 @@
                         <DatePicker Grid.Column="1"
                             MinimumWidthRequest="150"
                             MaximumWidthRequest="250"
+                            MinimumDate="{Binding MinDate}"
+                            MaximumDate="{Binding MaxDate}"
+                            Format="d"
                             Date="{Binding NewHealthOperationDate}"/>
+
+                    </Grid>
+
+                </Border>
+
+                <Border StrokeThickness="1"
+                        Padding="15"
+                        Margin="0,5"
+                        Stroke="{AppThemeBinding Light=#D0D0D0, Dark=#404040}"
+                        BackgroundColor="{AppThemeBinding Light=#FFFFFF, Dark=#2C2C2C}">
+
+                    <Border.StrokeShape>
+                        <RoundRectangle CornerRadius="12"/>
+                    </Border.StrokeShape>
+
+                    <Grid ColumnDefinitions="*, Auto">
+
+                        <Label Grid.Column="0"
+                               Text="Время операции"
+                               VerticalOptions="Center"
+                               HorizontalTextAlignment="Start"
+                               MinimumWidthRequest="100"
+                               MaximumWidthRequest="250"/>
+
+                        <TimePicker Grid.Column="1"
+                                    MinimumWidthRequest="150"
+                                    MaximumWidthRequest="250"
+                                    Time="{Binding NewHealthOperationTime}"
+                                    Format="HH:mm"
+                                    />
 
                     </Grid>
 
@@ -174,7 +207,7 @@
                 WidthRequest="175"
                 HeightRequest="50"
                 CornerRadius="25"
-                Command="{Binding SaveInfoFoodCommand}"/>
+                Command="{Binding SaveInfoHealthCommand}"/>
 
             <Button ImageSource="iconcancelbutton.png"
                 BackgroundColor="LightSalmon"

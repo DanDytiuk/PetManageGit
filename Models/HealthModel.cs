@@ -12,6 +12,7 @@ namespace PetManage.Models
         public string TypeHealthOperation { get; set; } = string.Empty;
         public string NameOfHealthOperation { get; set; } = string.Empty;
         public DateTime HealthOperationDate { get; set; }
+        public TimeSpan HealthOperationTime { get; set; }
         public string Notes { get; set; } = string.Empty;
     }
 }
